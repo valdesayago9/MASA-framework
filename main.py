@@ -18,6 +18,7 @@ from rich.panel import Panel
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from graph import build_masa_graph
+from agents.agents import init_agents  # <-- LÍNEA AGREGADA
 
 console = Console()
 
@@ -47,6 +48,9 @@ def main():
         sys.exit(1)
 
     print_header()
+    
+    # Inicializar los agentes con la API key antes de construir el grafo
+    init_agents(args.api_key)  # <-- LÍNEA AGREGADA
     
     # Initialize the orchestration graph
     masa_pipeline = build_masa_graph()
