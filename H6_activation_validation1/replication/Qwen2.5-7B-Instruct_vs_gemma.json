@@ -1,0 +1,27 @@
+{
+  "gemma_v3": {
+    "model": "google/gemma-2-9b-it",
+    "layers": 42,
+    "peak_layer": 14,
+    "auc_last_token": 1.0,
+    "auc_last_token_length_residualized": 0.999,
+    "auc_length_only": 0.594,
+    "length_confound_r": 0.091,
+    "auc_content_null": 0.564,
+    "auc_refusal_ablated": 0.797,
+    "auc_permutation": 0.514
+  },
+  "this_model": {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "layers": 28,
+    "peak_layer": 3,
+    "auc_last_token": 1.0,
+    "auc_last_token_length_residualized": 1.0,
+    "auc_length_only": 0.492,
+    "length_confound_r": -0.054,
+    "auc_content_null": 0.458,
+    "auc_refusal_ablated": 0.794,
+    "auc_permutation": 0.493
+  },
+  "replicates": true
+}
