@@ -1,0 +1,14 @@
+{
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "layer": 16,
+  "operating_coeff": 0.8,
+  "jailbreak": "100%->0%",
+  "false_alarm_clean": "0%->67%",
+  "verdict": "CLEAN BIDIRECTIONAL CONTROL at a single fluent coeff",
+  "gemma_reference": {
+    "layer": 20,
+    "coeff": 0.45,
+    "jailbreak": "100%->0%",
+    "false_alarm": "0%->80%"
+  }
+}
