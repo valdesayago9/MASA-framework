@@ -1,0 +1,14 @@
+{
+  "model": "gemma-2-9b",
+  "layer": 20,
+  "n_pairs": 40,
+  "control1_lengthmatched_auc": 1.0,
+  "control1_permuted_auc": 0.511,
+  "control1_n_pairs": 19,
+  "control2_clean_named_features": [],
+  "control3_lengthonly_auc": 0.878,
+  "control3_named_features_auc": 0.991,
+  "matched_ok": true,
+  "named_ok": false,
+  "verdict": "SIGNATURE LIKELY: passes the decisive matched-subset OR the length-independence test but not both cleanly \u2014 report the open point"
+}

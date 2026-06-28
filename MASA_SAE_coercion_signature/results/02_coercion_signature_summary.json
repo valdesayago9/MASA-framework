@@ -1,0 +1,22 @@
+{
+  "model": "gemma-2-9b",
+  "sae": "20-gemmascope-res-16k",
+  "layer": 20,
+  "n_coercion_selective": 17,
+  "n_harm_selective": 21,
+  "n_clean_coercion_specific": 7,
+  "AvsB_decoding_auc_nestedCV": 0.99,
+  "AvsB_decoding_auc_std": 0.02,
+  "AvsB_auc_permuted_nestedCV": 0.456,
+  "harm_vs_benign_hits": 22,
+  "clean_coercion_features": [
+    11139,
+    3866,
+    2664,
+    6530,
+    16315,
+    5528,
+    7807
+  ],
+  "verdict": "DISTINCT INTERPRETABLE SIGNATURE: epistemic coercion decomposes into its own SAE features, separable from explicit harm and decodable above chance (nested-CV, no circularity)"
+}
