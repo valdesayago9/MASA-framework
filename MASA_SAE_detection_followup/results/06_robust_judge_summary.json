@@ -1,0 +1,23 @@
+{
+  "model": "gemma-2-9b",
+  "layer": 20,
+  "judge_control_accuracy": 1.0,
+  "judge_validated": true,
+  "n_responses": 40,
+  "n_manipulative": 5,
+  "detectors": {
+    "SAE_features": {
+      "auroc": 0.84,
+      "recall@1%fpr": 0.6
+    },
+    "linear_probe_raw": {
+      "auroc": 0.8971428571428571,
+      "recall@1%fpr": 0.2
+    },
+    "blackbox_judge": {
+      "auroc": 0.9285714285714286,
+      "recall@1%fpr": 1.0
+    }
+  },
+  "verdict": "PARTIAL (B): SAE features detect (AUROC 0.84) but a raw probe is better (0.90)."
+}
