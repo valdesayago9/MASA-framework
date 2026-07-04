@@ -1,0 +1,9 @@
+{
+  "model": "gemma-2-9b", "layer": 20, "target_fpr": 0.05,
+  "sae_filter": {"recall": 0.67, "over_block": 0.08},
+  "blackbox_filter": {"recall": 1.0, "over_block": 0.21},
+  "sae_latency_ms": 201.5, "blackbox_latency_ms": 505.9, "sae_speedup": 2.5,
+  "deployable_zone_auc": {"sae": 0.663, "blackbox": 0.0},
+  "manip_blocked_pct": 0.62,
+  "verdict": "VIABLE (A): SAE white-box filter blocks 62-69% of manipulation across the deployable low-over-block region (<=20%), where the black-box judge cannot operate at all. At 5% FPR: 67% blocked, 8% over-block, 2.5x faster (same-pass). Deployable-zone score 0.663 vs 0.000."
+}
