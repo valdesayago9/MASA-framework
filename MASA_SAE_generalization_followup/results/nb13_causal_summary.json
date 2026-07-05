@@ -1,0 +1,27 @@
+{
+  "model": "gemma-2-9b",
+  "layer": 20,
+  "flattery_feats": [
+    4463,
+    7053,
+    11550,
+    5436,
+    14849,
+    7143
+  ],
+  "coef": 0.5,
+  "random_feats": [
+    13428,
+    1138,
+    14011,
+    14674,
+    14165,
+    13287
+  ],
+  "judge_control_acc": 1.0,
+  "rate_baseline": 0.07,
+  "rate_flattery_steer": 0.53,
+  "rate_random_null": 0.0,
+  "lift": 0.47,
+  "verdict": "CAUSAL (A): amplifying the validated flattery features raises the praise rate 0.07 -> 0.53 on neutral prompts, far above the random-feature null (0.00). Sycophantic praise is causally inducible via interpretable SAE features, closing the detection->causation loop for a second concept, as in coercion. Honest note: part of the steered effect surfaces as a surface marker (applause emoji) alongside substantive praise, consistent with sycophancy being more lexically-marked than coercion."
+}

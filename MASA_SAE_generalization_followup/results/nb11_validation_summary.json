@@ -1,0 +1,6 @@
+{
+  "model": "gemma-2-9b", "concept": "sycophantic_praise_VALIDATION",
+  "dumb_lexical_baseline_auc": 1.0, "punct_stripped_top8_auc": 0.978, "punct_stripped_all_auc": 0.998,
+  "top_feats_firing_on_sober_flattery": "6/8",
+  "finding": "The nb10 top-8 ranking was contaminated: 3 features fired on <bos> (artifact), 2 on punctuation, 3 were genuine flattery. A dumb lexical baseline reaches AUC 1.000. But 6/8 features still fire on sober flattery, so real concept signal exists under the artifacts. Motivated the clean re-analysis in nb12."
+}
