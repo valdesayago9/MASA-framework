@@ -1,8 +1,0 @@
-{
-  "model": "gemma-2-9b", "layer": 20, "concept": "sycophantic_praise", "n_pairs": 40,
-  "grouped_cv_auc": 0.998, "permutation_null_mean": 0.505, "permutation_null_std": 0.078,
-  "length_matched_auc": 0.985, "length_matched_null_mean": 0.433,
-  "top_features": [14574, 4463, 5245, 13907, 11277, 7309, 3613, 9197],
-  "verdict": "GENERALIZES (A) — SUPERSEDED. This first-pass verdict was later found inflated by <bos>/punctuation artifacts. See nb11 (validation) and nb12 (clean analysis) for the corrected result.",
-  "status": "superseded_by_nb12"
-}
