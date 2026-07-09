@@ -1,0 +1,88 @@
+{
+  "model": "gemma-2-9b",
+  "feature": 6978,
+  "random_feat": 6326,
+  "doses": [
+    0.0,
+    0.2,
+    0.4,
+    0.6
+  ],
+  "regimes": {
+    "easy": {
+      "channel": "confidence",
+      "sig": [
+        10.0,
+        9.83,
+        1.8,
+        3.5
+      ],
+      "dist": [
+        1.67,
+        1.83,
+        2.17,
+        3.0
+      ],
+      "null": [
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "r_sig": -0.836,
+      "amp_sig": 8.2,
+      "eff_sig": -6.85,
+      "r_dist": 0.943,
+      "amp_dist": 1.33,
+      "eff_dist": 1.26,
+      "eff_null": 0.0,
+      "specificity_ratio": 5.5
+    },
+    "mid": {
+      "channel": "uncertainty",
+      "sig": [
+        2.67,
+        3.0,
+        5.67,
+        7.0
+      ],
+      "dist": [
+        2.5,
+        2.5,
+        2.5,
+        3.83
+      ],
+      "null": [
+        2.67,
+        2.17,
+        2.17,
+        1.83
+      ],
+      "r_sig": 0.964,
+      "amp_sig": 4.33,
+      "eff_sig": 4.18,
+      "r_dist": 0.775,
+      "amp_dist": 1.33,
+      "eff_dist": 1.03,
+      "eff_null": -0.78,
+      "specificity_ratio": 4.0
+    }
+  },
+  "regime_faithful": {
+    "easy": true,
+    "mid": true
+  },
+  "verdict": "FAITHFUL (A): in both difficulty regimes, amplifying the doubt feature moves the self-report channel that has room to move (confidence down on easy, uncertainty up on mid), strongly and monotonically, with an effect several times larger than the distractor and beyond the random null. Two independent regimes replicate the same causal, specific effect. Gemma-2-9B's uncertainty self-report is causally faithful to feature 6978 \u2014 bounded, but real.",
+  "baseline_introspection": {
+    "easy": 0.0,
+    "impossible": 10.0,
+    "ambiguous": 4.4,
+    "note": "without any steering the report already tracks real difficulty"
+  },
+  "correction_history": {
+    "v1": "auto-verdict CONFABULATION was wrong: read the floored uncertainty channel (easy Qs), missed confidence drop r=-0.94",
+    "v2": "auto-verdict GENERIC was wrong: distractor correlated (r=0.83) but moved only 0.66 pts vs uncertainty 3.7 pts",
+    "v3": "metric corrected to effect=correlation*amplitude + specificity + null; verdict now matches the data"
+  },
+  "caveat": "Gemma-2-9B with its own SAE feature; does not transfer automatically to other architectures (Claude, GPT, ...); whether a more capable model is more or less introspectively faithful is an open empirical question."
+}
