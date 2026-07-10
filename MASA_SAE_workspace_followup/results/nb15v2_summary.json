@@ -1,0 +1,6 @@
+{
+  "method": "per-layer steering, alpha=6, behavior judge",
+  "result": "random-direction null induced 'coercion' up to 100%",
+  "verdict": "INVALID (alpha=6 breaks model; judge counts breakage as coercion; effect oscillates as noise)",
+  "lesson": "strong-alpha injection breaks the model; a behavior judge cannot tell broken from coercive; use gentle patching + distributional metric"
+}

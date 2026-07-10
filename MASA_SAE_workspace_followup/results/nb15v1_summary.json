@@ -1,0 +1,7 @@
+{
+  "method": "per-layer linear probe",
+  "result": "AUC saturates at 1.000 from layer 9-42",
+  "verdict": "INVALID (argmax on saturated curve cannot localize)",
+  "kept": "coercion does not verbalize (logit-lens ~0)",
+  "lesson": "linear probe measures availability, not where a concept lives; saturates on easy separations"
+}
