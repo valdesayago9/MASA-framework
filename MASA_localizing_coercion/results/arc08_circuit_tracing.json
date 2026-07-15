@@ -1,0 +1,79 @@
+{
+  "arc": "8 \u2014 attribution graphs: is coercion traceable as a circuit?",
+  "model": "gemma-2-2b-it",
+  "source": "user's Colab run, values transcribed from console output",
+  "stage0_gate": {
+    "behavioral_coercive": 0.75,
+    "behavioral_neutral": 0.19,
+    "probe_auroc": 1.0,
+    "probe_layer": 6,
+    "permuted_null": 0.487,
+    "logit_lens_max_coercion_mass": 0.0001,
+    "verbalizes": false
+  },
+  "check4b_content_target": {
+    "finding": "where content genuinely diverges the logit gap is TINY (0.12-0.88): there is NO sharp decision token",
+    "logit_gap_range": [
+      0.12,
+      0.88
+    ]
+  },
+  "stage1_bridge": {
+    "target": "<d_coercion, residual> at L*=9",
+    "leave_one_out_separation_auroc": 1.0,
+    "gap_positive_fraction": 1.0,
+    "mean_projection_coercive": 39.29,
+    "mean_projection_neutral": 16.2
+  },
+  "stage2_v1_INVALID": {
+    "status": "gradient explosion to 1e14; all 25 features collapsed to layer 0. Kept as an artifact record, NOT a result."
+  },
+  "stage2_v2": {
+    "error_node_mass": 0.777,
+    "field_reported_dark_matter": [
+      0.15,
+      0.2
+    ],
+    "recurring_circuit_features": 25,
+    "recurring_layers": [
+      2,
+      5,
+      6,
+      7,
+      8
+    ],
+    "circuit_attribution_mass": 0.651
+  },
+  "stage2_v3_causal_test": {
+    "n": 20,
+    "coherence_gated": true,
+    "coercion_rate": {
+      "baseline": 0.65,
+      "circuit_ablated": 0.42,
+      "magnitude_matched_null": 0.55
+    },
+    "coherence_retained": {
+      "baseline": 1.0,
+      "circuit": 0.95,
+      "null": 1.0
+    },
+    "circuit_minus_baseline": [
+      -0.226,
+      -0.534,
+      0.082
+    ],
+    "null_minus_baseline": [
+      -0.097,
+      -0.4,
+      0.2
+    ],
+    "circuit_minus_null_DECISIVE": [
+      -0.127,
+      -0.437,
+      0.182
+    ],
+    "ci_includes_zero": true
+  },
+  "qualitative_finding": "Ablating the circuit does NOT restore honesty - it degrades the model into a generic refusal ('I'm sorry, but I can't provide...'). Capability damage, not coercion removal. Only visible by reading the generations.",
+  "verdict": "NOT TRACEABLE / SUFFICIENT-BUT-NOT-NECESSARY. Pre-registered prediction CONFIRMED."
+}

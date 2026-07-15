@@ -1,0 +1,71 @@
+{
+  "arc": "9 \u2014 attention heads (OV side): does coercion live in attention?",
+  "model": "gemma-2-2b-it",
+  "source": "user's Colab run",
+  "v1_UNDERPOWERED": {
+    "n": 20,
+    "judge": "binary",
+    "heads_minus_null": [
+      0.302,
+      0.0,
+      0.6
+    ],
+    "note": "looked positive; falsified by raising power. Kept as a record."
+  },
+  "v2_powered": {
+    "n": 40,
+    "judge": "graded P(yes)",
+    "samples_per_pair": 2,
+    "head_effects_on_coercion_direction": [
+      {
+        "head": "L8H4",
+        "mean_effect": 13.35,
+        "consistent_sign": 1.0
+      },
+      {
+        "head": "L8H5",
+        "mean_effect": -10.14,
+        "consistent_sign": 1.0
+      },
+      {
+        "head": "L6H7",
+        "mean_effect": 8.2,
+        "consistent_sign": 1.0
+      },
+      {
+        "head": "L7H0",
+        "mean_effect": 5.92,
+        "consistent_sign": 1.0
+      },
+      {
+        "head": "L5H2",
+        "mean_effect": 4.6,
+        "consistent_sign": 0.98
+      },
+      {
+        "head": "L7H3",
+        "mean_effect": 4.34,
+        "consistent_sign": 0.98
+      }
+    ],
+    "top8_concentration": 0.468,
+    "graded_coercion": {
+      "baseline": 0.405,
+      "heads_ablated": 0.489,
+      "null_ablated": 0.43
+    },
+    "heads_minus_baseline": [
+      0.083,
+      -0.09,
+      0.249
+    ],
+    "heads_minus_null_DECISIVE": [
+      0.058,
+      -0.111,
+      0.225
+    ],
+    "ci_includes_zero": true
+  },
+  "key_finding": "Head effects on the coercion DIRECTION are clean and 100% sign-consistent across 40 pairs, yet behavior does not follow. The v1 effect (+0.30) was small-sample noise: raising n collapsed it to +0.06.",
+  "verdict": "Attention heads do NOT localize coercion either. Our own structural-blindness hypothesis REFUTED by our own data."
+}

@@ -1,0 +1,102 @@
+{
+  "arc": "10 \u2014 routing / gaze: does coercion live in WHERE the model looks?",
+  "model": "gemma-2-2b-it",
+  "source": "user's Colab run",
+  "part1_routing_probe": {
+    "features": "attention mass onto the victim's memory claim ONLY - zero residual content",
+    "auroc_raw": 0.936,
+    "null_raw": 0.597,
+    "auroc_per_token_normalized": 0.944,
+    "auroc_length_regressed_out_HONEST": 0.836,
+    "null_regressed": 0.541,
+    "corr_lengthdiff_attndiff": 0.194,
+    "n_length_matched_pairs": 4,
+    "frac_heads_attending_LESS_to_memory": 0.712,
+    "top_gaze_shift_heads": [
+      {
+        "head": "L16H6",
+        "delta": -0.1397,
+        "coercive": 0.264,
+        "neutral": 0.416
+      },
+      {
+        "head": "L12H5",
+        "delta": -0.0791,
+        "coercive": 0.137,
+        "neutral": 0.241
+      },
+      {
+        "head": "L16H0",
+        "delta": -0.0765
+      },
+      {
+        "head": "L18H2",
+        "delta": -0.0716
+      }
+    ],
+    "survives_length_control": true,
+    "INVALID_CONTROL_CAUGHT": "A first 'length-immune ratio' (mass_memory/mass_rest) was INVALID: attention is a softmax so mass_rest = 1 - mass_memory, making the ratio a monotone transform of the raw mass. It controlled for nothing. Replaced with per-token normalization + length regressed out + a length-matched subset."
+  },
+  "part2_read_dependency": {
+    "method": "value-zeroing at source positions (blocks what the model can READ)",
+    "off_task_rate": {
+      "baseline": 0.0,
+      "block_memory": 0.375,
+      "block_filler": 0.042,
+      "block_directive": 0.042
+    },
+    "coercion": {
+      "baseline": 0.375,
+      "block_memory": 0.2,
+      "block_filler": 0.348,
+      "block_directive": 0.087
+    },
+    "block_directive_minus_baseline_POSITIVE_CONTROL": [
+      -0.29,
+      -0.534,
+      -0.074
+    ],
+    "block_memory_minus_filler_DECISIVE": [
+      -0.147,
+      -0.412,
+      0.139
+    ],
+    "relational": false,
+    "SELECTION_BIAS_WARNING": "38% of block_memory generations were off-task ('Who is them?') and excluded. The 15 survivors are NOT a random subset - they are precisely the cases where the model could still answer without the referent. The 'not relational' verdict is SUGGESTIVE, not established."
+  },
+  "part3_gaze_steering": {
+    "method": "additive bias on attention logits at the memory-claim keys, layers 11-18. Content untouched; only the gaze moves. Verified exact at bias=0.",
+    "attention_budget_layers_11_18": {
+      "memory": -0.0232,
+      "filler": -0.0239,
+      "directive": 0.0356,
+      "template": 0.0115
+    },
+    "CORRECTED_NARRATIVE": "The memory claim (-0.023) and the filler (-0.024) lose attention in NEARLY IDENTICAL amounts, while the DIRECTIVE gains (+0.036). The model is NOT averting its gaze from the victim's truth specifically - it is FIXATING ON THE INSTRUCTION. Our romantic reading was wrong and we corrected it.",
+    "gaze_by_bias": {
+      "0.0": 0.0604,
+      "1.0": 0.1146,
+      "2.0": 0.1993,
+      "3.0": 0.3224,
+      "5.0": 0.6306,
+      "neutral_level": 0.081
+    },
+    "coercion": {
+      "bias_0": 0.38,
+      "bias_1_restores_neutral_gaze": 0.38,
+      "bias_5_eight_x_gaze": 0.25
+    },
+    "restore_minus_baseline": [
+      -0.0,
+      -0.292,
+      0.292
+    ],
+    "strong_minus_baseline": [
+      -0.126,
+      -0.375,
+      0.125
+    ],
+    "gaze_is_lever": false
+  },
+  "verdict": "The gaze SHIFTS with coercive intent (routing probe AUROC 0.836, length-controlled) - a 4th independent way to DETECT coercion. But restoring the gaze does NOT change behavior. The gaze is a SIGNATURE, not a lever."
+}

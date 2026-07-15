@@ -1,0 +1,63 @@
+{
+  "arc": "11 (clean rebuild) \u2014 is coercion mediated by a single residual direction? NO.",
+  "model": "gemma-2-2b-it",
+  "source": "user's Colab run, notebook 21",
+  "n_pairs": 40,
+  "L_star": 9,
+  "signal_norm": 23.11,
+  "separation_coercive_vs_neutral": [
+    39.05,
+    15.94
+  ],
+  "residual_removed_by_coercion": 39.0,
+  "residual_removed_by_random_unit": 0.4,
+  "cos_coercion_vs_mean_residual": 0.229,
+  "measure_B_representational_NO_JUDGE": {
+    "method": "linear probe on L* residual, grouped 5-fold CV (no pair leakage), evaluated on residuals with the direction projected out \u2014 the LEACE / geometric-dissociation test",
+    "probe_auroc_base": 1.0,
+    "probe_auroc_after_projecting_coercion": 1.0,
+    "probe_auroc_after_projecting_matched_control": 1.0,
+    "erased": false,
+    "interpretation": "Projecting the coercion direction out does NOT erase the linear signal \u2014 the probe still separates coercive from neutral at AUROC 1.000. Under LEACE, if the concept lived in this 1-D direction the probe would collapse to chance. It does not. Therefore coercion is NOT mediated by a single residual direction; it lives in a higher-dimensional subspace this projection does not remove."
+  },
+  "measure_KL_coherence_gate": {
+    "method": "Arditi/SteeringSafety standard: KL(base||projected) on 20 NEUTRAL prompts unrelated to coercion",
+    "kl_project_coercion": 0.6,
+    "kl_project_matched": 0.652,
+    "benign": false,
+    "interpretation": "Projecting the direction disturbs the model even on neutral tasks (KL 0.60). The behavioral 'suppression' seen in earlier Arc-11 runs (0.38 -> 0.12) was diffuse capability DAMAGE, not specific coercion removal \u2014 exactly the confound the KL gate is designed to catch."
+  },
+  "measure_C_laundering_NO_JUDGE": {
+    "method": "objective coercion markers vs register (politeness, length), per condition",
+    "markers": {
+      "base": 0.075,
+      "proj": 0.0,
+      "matched_avg": 0.05,
+      "add3x": 0.05
+    },
+    "politeness": {
+      "base": 0.15,
+      "proj": 0.925,
+      "matched1": 0.625,
+      "add3x": 0.125
+    },
+    "length": {
+      "base": 65.8,
+      "proj": 63.4
+    },
+    "interpretation": "Projection raised politeness from 0.15 to 0.93 while markers were already near zero. The projected model became fluently POLITE. This is why the 2B judge 'saw' a coercion drop: it mistook rising courtesy for falling manipulation \u2014 the published 'refusal-only audits miss the dominant modality' effect (Detection Is Cheap, Routing Is Learned, 2603.18280)."
+  },
+  "the_instrument_failure_that_forced_this_rebuild": {
+    "what_happened": "The 2B LLM judge used to score behavior in Arc 11 v1-v3 scored harmless professional emails ('Subject: Following Up...') as gaslighting, and a substance-oriented 2B rubric scored 0.93 on a magnitude-matched CONTROL. The apparent 0.38 -> 0.12 'necessity' effect was an artifact of this judge reacting to register.",
+    "how_it_was_caught": "A BLIND audit (generations pooled, shuffled, unlabelled, key withheld) scored by an auditor who could not see conditions found base 0.325 vs proj 0.300 \u2014 no real difference. The judge's 71% 'drop' did not survive blinding.",
+    "root_cause_from_literature": "Judge Circuits (2605.16023): Gemma is only modular as an evaluator at 27B; a 2B Gemma judge lacks the circuit. Using a 2B judge for this task was doomed from the start.",
+    "the_fix": "This clean rebuild decides necessity with TWO judge-free measures (linear probe + objective markers) plus the KL coherence gate, following the field standard of validating any judge against human/blind labels with Cohen's kappa before trusting it."
+  },
+  "verdict": "COERCION IS NOT MEDIATED BY A SINGLE RESIDUAL DIRECTION. Three objective, judge-free measures agree: (B) the linear probe still reads coercion at AUROC 1.000 after projection \u2014 the concept is not in the 1-D direction; (KL) projection damages neutral behavior, so the earlier 'suppression' was diffuse damage; (C) projection merely made the model more polite, which is what fooled the 2B judge. This UNIFIES Arc 11 with Arcs 8-10: five independent methods, five negatives. Coercion is detectable from every angle (probe AUROC 1.000) yet causally controllable through NONE \u2014 no component, and no single direction.",
+  "caveats": [
+    "gemma-2-2b-it only; Gemma is not Claude.",
+    "The probe measures LINEAR readability; LEACE guards only against linear classifiers, so a non-linear reader could differ.",
+    "A single 1-D diff-of-means direction; a multi-dimensional coercion subspace is not ruled out and is the natural next target (Piras et al. report multiple mediating directions per layer for refusal).",
+    "Sufficiency-by-addition was NOT re-established here under objective measures; the earlier dose-response was judge-scored and is not claimed."
+  ]
+}

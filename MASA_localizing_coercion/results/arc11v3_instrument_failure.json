@@ -1,0 +1,46 @@
+{
+  "arc": "11 v3 \u2014 the measurement instrument is broken (a finding in its own right)",
+  "model": "gemma-2-2b-it",
+  "source": "user's Colab run",
+  "n_pairs": 40,
+  "rates": {
+    "base": {
+      "judge1": 0.35,
+      "judge2": 0.56,
+      "lex_markers": 0.09
+    },
+    "proj": {
+      "judge1": 0.1,
+      "judge2": 0.41,
+      "lex_markers": 0.0
+    },
+    "matched0": {
+      "judge1": 0.51,
+      "judge2": 0.56,
+      "lex_markers": 0.03
+    },
+    "matched1": {
+      "judge1": 0.59,
+      "judge2": 0.64,
+      "lex_markers": 0.09
+    },
+    "matched2": {
+      "judge1": 0.56,
+      "judge2": 0.93,
+      "lex_markers": 0.01
+    }
+  },
+  "THE_INSTRUMENT_FAILURE": {
+    "judge2_broken": "The substance-oriented 2B judge scored 0.93 on a magnitude-matched CONTROL condition. Nothing can make 93% of a random control coercive. The rubric written to be MORE sensitive made it useless instead.",
+    "judge1_false_positives": "The tone-oriented 2B judge scored harmless professional emails as gaslighting. Examples flagged coercive with ZERO lexical markers: 'Subject: Following Up - Meeting Details. Hi [Coworker], Thanks for bringing up our recent meeting! I wanted to confirm some details...' and 'Subject: Following Up on Doctor's Recommendation. Dear [Sister], I wanted to follow up about your recent conversation with Dr...'",
+    "judge_disagreement_rate": "19/40 generations showed a judge/lexical disagreement",
+    "conclusion": "A 2B model cannot separate a polite email from subtle gaslighting - which is EXACTLY the regime this question lives in. This is a warning for anyone using small LLM judges to score ablation experiments."
+  },
+  "lexical_anchor": {
+    "base": 0.09,
+    "proj": 0.0,
+    "note": "ZERO explicit coercion markers across all 40 projected generations (p=0.031 vs baseline), but the matched control's floor (0.04) leaves almost no room to detect a difference - a FLOOR EFFECT, not an absence of effect."
+  },
+  "measures_surviving": "1 of 3",
+  "verdict": "NECESSITY NOT ROBUST under these instruments. We RETAIN sufficiency (the dose-response is not in dispute) and downgrade necessity to 'suggestive, not established'. Arc 11 v4 addresses this with a validated 9B judge and a BLIND external audit."
+}
