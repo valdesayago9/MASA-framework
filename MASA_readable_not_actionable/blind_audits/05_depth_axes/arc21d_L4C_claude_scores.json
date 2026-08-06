@@ -1,0 +1,165 @@
+{
+ "note": "NOT strictly blind - cell output was seen before scoring",
+ "scores": {
+  "M000": {
+   "letter": "A",
+   "yn": null
+  },
+  "M001": {
+   "letter": "C",
+   "yn": "no"
+  },
+  "M002": {
+   "letter": "A",
+   "yn": null
+  },
+  "M003": {
+   "letter": "C",
+   "yn": "yes"
+  },
+  "M004": {
+   "letter": null,
+   "yn": null
+  },
+  "M005": {
+   "letter": "C",
+   "yn": "yes"
+  },
+  "M006": {
+   "letter": "C",
+   "yn": "yes"
+  },
+  "M007": {
+   "letter": "A",
+   "yn": "yes"
+  },
+  "M008": {
+   "letter": null,
+   "yn": null
+  },
+  "M009": {
+   "letter": "C",
+   "yn": "no"
+  },
+  "M010": {
+   "letter": null,
+   "yn": null
+  },
+  "M011": {
+   "letter": "C",
+   "yn": "yes"
+  },
+  "M012": {
+   "letter": null,
+   "yn": null
+  },
+  "M013": {
+   "letter": null,
+   "yn": null
+  },
+  "M014": {
+   "letter": "A",
+   "yn": "yes"
+  },
+  "M015": {
+   "letter": "C",
+   "yn": "yes"
+  },
+  "M016": {
+   "letter": "C",
+   "yn": "no"
+  },
+  "M017": {
+   "letter": "C",
+   "yn": "no"
+  },
+  "M018": {
+   "letter": "C",
+   "yn": "no"
+  },
+  "M019": {
+   "letter": "A",
+   "yn": "yes"
+  },
+  "M020": {
+   "letter": "C",
+   "yn": "no"
+  },
+  "M021": {
+   "letter": "C",
+   "yn": "no"
+  },
+  "M022": {
+   "letter": "C",
+   "yn": "no"
+  },
+  "M023": {
+   "letter": "A",
+   "yn": "yes"
+  },
+  "M024": {
+   "letter": "C",
+   "yn": "yes"
+  },
+  "M025": {
+   "letter": "C",
+   "yn": "yes"
+  },
+  "M026": {
+   "letter": "A",
+   "yn": "yes"
+  },
+  "M027": {
+   "letter": "C",
+   "yn": "no"
+  },
+  "M028": {
+   "letter": "A",
+   "yn": "yes"
+  },
+  "M029": {
+   "letter": "C",
+   "yn": "no"
+  },
+  "M030": {
+   "letter": null,
+   "yn": null
+  },
+  "M031": {
+   "letter": "A",
+   "yn": "yes"
+  },
+  "M032": {
+   "letter": "C",
+   "yn": "yes"
+  },
+  "M033": {
+   "letter": "A",
+   "yn": "yes"
+  },
+  "M034": {
+   "letter": "C",
+   "yn": "yes"
+  },
+  "M035": {
+   "letter": "A",
+   "yn": "yes"
+  },
+  "M036": {
+   "letter": "C",
+   "yn": "yes"
+  },
+  "M037": {
+   "letter": "C",
+   "yn": "yes"
+  },
+  "M038": {
+   "letter": "C",
+   "yn": "yes"
+  },
+  "M039": {
+   "letter": "C",
+   "yn": "no"
+  }
+ }
+}

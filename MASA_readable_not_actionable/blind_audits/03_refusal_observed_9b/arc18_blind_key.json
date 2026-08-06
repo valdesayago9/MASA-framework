@@ -1,0 +1,194 @@
+{
+ "X000": {
+  "cond": "raw",
+  "idx": 7
+ },
+ "X001": {
+  "cond": "random",
+  "idx": 1
+ },
+ "X002": {
+  "cond": "none",
+  "idx": 8
+ },
+ "X003": {
+  "cond": "raw",
+  "idx": 8
+ },
+ "X004": {
+  "cond": "random",
+  "idx": 6
+ },
+ "X005": {
+  "cond": "none",
+  "idx": 10
+ },
+ "X006": {
+  "cond": "none",
+  "idx": 4
+ },
+ "X007": {
+  "cond": "raw",
+  "idx": 4
+ },
+ "X008": {
+  "cond": "random",
+  "idx": 3
+ },
+ "X009": {
+  "cond": "random",
+  "idx": 4
+ },
+ "X010": {
+  "cond": "filtered",
+  "idx": 8
+ },
+ "X011": {
+  "cond": "none",
+  "idx": 3
+ },
+ "X012": {
+  "cond": "raw",
+  "idx": 0
+ },
+ "X013": {
+  "cond": "none",
+  "idx": 1
+ },
+ "X014": {
+  "cond": "filtered",
+  "idx": 1
+ },
+ "X015": {
+  "cond": "none",
+  "idx": 6
+ },
+ "X016": {
+  "cond": "random",
+  "idx": 8
+ },
+ "X017": {
+  "cond": "random",
+  "idx": 7
+ },
+ "X018": {
+  "cond": "raw",
+  "idx": 5
+ },
+ "X019": {
+  "cond": "none",
+  "idx": 5
+ },
+ "X020": {
+  "cond": "raw",
+  "idx": 9
+ },
+ "X021": {
+  "cond": "filtered",
+  "idx": 3
+ },
+ "X022": {
+  "cond": "filtered",
+  "idx": 2
+ },
+ "X023": {
+  "cond": "random",
+  "idx": 5
+ },
+ "X024": {
+  "cond": "filtered",
+  "idx": 5
+ },
+ "X025": {
+  "cond": "filtered",
+  "idx": 6
+ },
+ "X026": {
+  "cond": "filtered",
+  "idx": 7
+ },
+ "X027": {
+  "cond": "none",
+  "idx": 0
+ },
+ "X028": {
+  "cond": "random",
+  "idx": 9
+ },
+ "X029": {
+  "cond": "filtered",
+  "idx": 0
+ },
+ "X030": {
+  "cond": "raw",
+  "idx": 3
+ },
+ "X031": {
+  "cond": "raw",
+  "idx": 10
+ },
+ "X032": {
+  "cond": "random",
+  "idx": 11
+ },
+ "X033": {
+  "cond": "raw",
+  "idx": 11
+ },
+ "X034": {
+  "cond": "random",
+  "idx": 0
+ },
+ "X035": {
+  "cond": "filtered",
+  "idx": 4
+ },
+ "X036": {
+  "cond": "filtered",
+  "idx": 11
+ },
+ "X037": {
+  "cond": "raw",
+  "idx": 6
+ },
+ "X038": {
+  "cond": "filtered",
+  "idx": 9
+ },
+ "X039": {
+  "cond": "none",
+  "idx": 9
+ },
+ "X040": {
+  "cond": "random",
+  "idx": 2
+ },
+ "X041": {
+  "cond": "random",
+  "idx": 10
+ },
+ "X042": {
+  "cond": "filtered",
+  "idx": 10
+ },
+ "X043": {
+  "cond": "none",
+  "idx": 2
+ },
+ "X044": {
+  "cond": "none",
+  "idx": 7
+ },
+ "X045": {
+  "cond": "raw",
+  "idx": 1
+ },
+ "X046": {
+  "cond": "raw",
+  "idx": 2
+ },
+ "X047": {
+  "cond": "none",
+  "idx": 11
+ }
+}

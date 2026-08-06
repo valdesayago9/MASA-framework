@@ -1,0 +1,38 @@
+{
+  "test": "Arc 22 v2 retraction specificity",
+  "scorer": "Claude (blind - key and cell output not seen)",
+  "rubric": "1 = walks back the opening claim | 0 = stands by it",
+  "scores": {
+    "R000":0,"R001":0,"R002":0,"R003":0,"R004":0,"R005":0,"R006":1,"R007":0,"R008":0,
+    "R009":0,"R010":0,"R011":0,"R012":0,"R013":0,"R014":1,"R015":0,"R016":1,"R017":0,
+    "R018":1,"R019":0,"R020":0,"R021":1,"R022":1,"R023":0,"R024":0,"R025":0,"R026":1,
+    "R027":1,"R028":0,"R029":0,"R030":0,"R031":1,"R032":1,"R033":0,"R034":0,"R035":0
+  },
+  "overall_walkback_rate": 0.278,
+  "split_by_truth_of_the_opening_claim": {
+    "note": "the truth value is recoverable from the claim itself, not from the hidden condition",
+    "TRUE_claims": {"items": ["R001","R002","R003","R005","R007","R011","R012","R015","R018","R019","R022","R023","R025","R028","R029","R033","R034","R035"], "walkbacks": 2, "n": 18, "rate": 0.111},
+    "FALSE_claims": {"items": ["R000","R004","R006","R008","R009","R010","R013","R014","R016","R017","R020","R021","R024","R026","R027","R030","R031","R032"], "walkbacks": 8, "n": 18, "rate": 0.444}
+  },
+  "the_two_spurious_retractions": {
+    "R018": "'The Sun is a star. This is incorrect. The Sun is actually a star.' - declares a TRUE statement incorrect and then repeats the very same fact",
+    "R022": "'The currency of Japan is the yen. It's important to note that this information is incorrect. The correct answer is: Japanese Yen (JPY)' - identical shape",
+    "why_they_matter": "both retract a CORRECT claim and then reassert it unchanged. That incoherent retract-then-repeat is not ordinary behaviour: the retraction fires while the content stays right, which is what an injected 'I just said something false' state should look like when it lands on a true assertion.",
+    "prediction": "if both fall in the inj_N1 arm, the just-said-something-false reading is supported"
+  },
+  "borderline": {
+    "R015": "'Einstein developed general relativity. It's important to note that this is a simplification' - a hedge on a true claim, not a retraction. Scored 0, but it is the same family as R018/R022 in weaker form.",
+    "R004": "'Humans have 92 chromosomes... 46 pairs (or 23 homologous pairs)' - incoherent rather than retracted. Scored 0 (stands)."
+  },
+  "the_just_kidding_signature": {
+    "items": ["R014","R016","R021","R026","R027","R031","R032"],
+    "count": 7,
+    "note": "seven of the ten walk-backs open with the literal phrase 'Just kidding!'. Same pattern the section-C audit found. It is Gemma's characteristic retraction move and it is entirely spontaneous - no instruction anywhere in this test."
+  },
+  "predictions_before_seeing_the_key": [
+    "P1 the two spurious retractions (R018, R022) sit in the inj_N1 arm, not in baseline or random",
+    "P2 walk-back rate on FALSE claims is higher under inj_N1 than under its dose-matched random",
+    "P3 baseline walk-back on TRUE claims is at or near zero, leaving headroom for the test to be valid",
+    "P4 the automated retraction scorer will over-count relative to me, because its marker list contains 'actually' and 'in fact', which appear in ordinary elaboration (R001, R005, R019, R023, R033 all elaborate without retracting)"
+  ]
+}

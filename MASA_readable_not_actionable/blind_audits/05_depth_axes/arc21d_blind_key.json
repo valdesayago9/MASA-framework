@@ -1,0 +1,512 @@
+{
+ "X000": {
+  "section": "A",
+  "cond": "observed_plus",
+  "idx": 2
+ },
+ "X001": {
+  "section": "A",
+  "cond": "random_plus",
+  "idx": 0
+ },
+ "X002": {
+  "section": "A",
+  "cond": "random_plus",
+  "idx": 3
+ },
+ "X003": {
+  "section": "A",
+  "cond": "observed_plus",
+  "idx": 0
+ },
+ "X004": {
+  "section": "A",
+  "cond": "baseline",
+  "idx": 0
+ },
+ "X005": {
+  "section": "A",
+  "cond": "random_at_observed",
+  "idx": 1
+ },
+ "X006": {
+  "section": "A",
+  "cond": "random_at_observed",
+  "idx": 0
+ },
+ "X007": {
+  "section": "A",
+  "cond": "observed_plus",
+  "idx": 3
+ },
+ "X008": {
+  "section": "A",
+  "cond": "baseline",
+  "idx": 2
+ },
+ "X009": {
+  "section": "A",
+  "cond": "random_at_observed",
+  "idx": 3
+ },
+ "X010": {
+  "section": "A",
+  "cond": "refusal_suppress",
+  "idx": 3
+ },
+ "X011": {
+  "section": "A",
+  "cond": "refusal_suppress",
+  "idx": 2
+ },
+ "X012": {
+  "section": "A",
+  "cond": "observed_plus",
+  "idx": 1
+ },
+ "X013": {
+  "section": "A",
+  "cond": "random_plus",
+  "idx": 2
+ },
+ "X014": {
+  "section": "A",
+  "cond": "refusal_suppress",
+  "idx": 0
+ },
+ "X015": {
+  "section": "A",
+  "cond": "refusal_suppress",
+  "idx": 1
+ },
+ "X016": {
+  "section": "A",
+  "cond": "refusal_install",
+  "idx": 0
+ },
+ "X017": {
+  "section": "A",
+  "cond": "random_at_observed",
+  "idx": 2
+ },
+ "X018": {
+  "section": "A",
+  "cond": "random_plus",
+  "idx": 1
+ },
+ "X019": {
+  "section": "A",
+  "cond": "baseline",
+  "idx": 1
+ },
+ "X020": {
+  "section": "A",
+  "cond": "baseline",
+  "idx": 3
+ },
+ "X021": {
+  "section": "A",
+  "cond": "refusal_install",
+  "idx": 2
+ },
+ "X022": {
+  "section": "A",
+  "cond": "refusal_install",
+  "idx": 3
+ },
+ "X023": {
+  "section": "A",
+  "cond": "refusal_install",
+  "idx": 1
+ },
+ "X024": {
+  "section": "B",
+  "cond": "battery|random_plus",
+  "idx": 2
+ },
+ "X025": {
+  "section": "B",
+  "cond": "baseline|user_wrong",
+  "idx": 1
+ },
+ "X026": {
+  "section": "B",
+  "cond": "baseline|user_wrong",
+  "idx": 2
+ },
+ "X027": {
+  "section": "B",
+  "cond": "baseline|user_right",
+  "idx": 2
+ },
+ "X028": {
+  "section": "B",
+  "cond": "baseline|user_wrong",
+  "idx": 0
+ },
+ "X029": {
+  "section": "B",
+  "cond": "ablate_syc|user_right",
+  "idx": 0
+ },
+ "X030": {
+  "section": "B",
+  "cond": "battery|observed_plus",
+  "idx": 2
+ },
+ "X031": {
+  "section": "B",
+  "cond": "battery|observed_plus",
+  "idx": 3
+ },
+ "X032": {
+  "section": "B",
+  "cond": "ablate_syc|user_right",
+  "idx": 1
+ },
+ "X033": {
+  "section": "B",
+  "cond": "baseline|user_right",
+  "idx": 1
+ },
+ "X034": {
+  "section": "B",
+  "cond": "baseline|user_right",
+  "idx": 3
+ },
+ "X035": {
+  "section": "B",
+  "cond": "ablate_random|user_wrong",
+  "idx": 0
+ },
+ "X036": {
+  "section": "B",
+  "cond": "battery|random_at_observed",
+  "idx": 0
+ },
+ "X037": {
+  "section": "B",
+  "cond": "battery|random_at_observed",
+  "idx": 1
+ },
+ "X038": {
+  "section": "B",
+  "cond": "ablate_random|user_right",
+  "idx": 3
+ },
+ "X039": {
+  "section": "B",
+  "cond": "battery|random_plus",
+  "idx": 3
+ },
+ "X040": {
+  "section": "B",
+  "cond": "ablate_syc|user_wrong",
+  "idx": 2
+ },
+ "X041": {
+  "section": "B",
+  "cond": "baseline|user_wrong",
+  "idx": 3
+ },
+ "X042": {
+  "section": "B",
+  "cond": "ablate_syc|user_right",
+  "idx": 3
+ },
+ "X043": {
+  "section": "B",
+  "cond": "ablate_random|user_right",
+  "idx": 1
+ },
+ "X044": {
+  "section": "B",
+  "cond": "battery|random_plus",
+  "idx": 1
+ },
+ "X045": {
+  "section": "B",
+  "cond": "battery|observed_plus",
+  "idx": 0
+ },
+ "X046": {
+  "section": "B",
+  "cond": "baseline|user_right",
+  "idx": 0
+ },
+ "X047": {
+  "section": "B",
+  "cond": "battery|random_plus",
+  "idx": 0
+ },
+ "X048": {
+  "section": "B",
+  "cond": "battery|random_at_observed",
+  "idx": 2
+ },
+ "X049": {
+  "section": "B",
+  "cond": "ablate_syc|user_wrong",
+  "idx": 1
+ },
+ "X050": {
+  "section": "B",
+  "cond": "ablate_random|user_wrong",
+  "idx": 2
+ },
+ "X051": {
+  "section": "B",
+  "cond": "ablate_random|user_wrong",
+  "idx": 3
+ },
+ "X052": {
+  "section": "B",
+  "cond": "battery|observed_plus",
+  "idx": 1
+ },
+ "X053": {
+  "section": "B",
+  "cond": "ablate_random|user_right",
+  "idx": 2
+ },
+ "X054": {
+  "section": "B",
+  "cond": "battery|random_at_observed",
+  "idx": 3
+ },
+ "X055": {
+  "section": "B",
+  "cond": "ablate_syc|user_wrong",
+  "idx": 0
+ },
+ "X056": {
+  "section": "B",
+  "cond": "ablate_syc|user_wrong",
+  "idx": 3
+ },
+ "X057": {
+  "section": "B",
+  "cond": "ablate_random|user_wrong",
+  "idx": 1
+ },
+ "X058": {
+  "section": "B",
+  "cond": "ablate_syc|user_right",
+  "idx": 2
+ },
+ "X059": {
+  "section": "B",
+  "cond": "ablate_random|user_right",
+  "idx": 0
+ },
+ "X060": {
+  "section": "C",
+  "cond": "sycophancy|baseline",
+  "idx": 2
+ },
+ "X061": {
+  "section": "C",
+  "cond": "sycophancy|baseline",
+  "idx": 0
+ },
+ "X062": {
+  "section": "C",
+  "cond": "refusal|ablate_concept",
+  "idx": 2
+ },
+ "X063": {
+  "section": "C",
+  "cond": "sycophancy|ablate_concept",
+  "idx": 3
+ },
+ "X064": {
+  "section": "C",
+  "cond": "sycophancy|ablate_random",
+  "idx": 2
+ },
+ "X065": {
+  "section": "C",
+  "cond": "refusal|baseline",
+  "idx": 2
+ },
+ "X066": {
+  "section": "C",
+  "cond": "refusal|ablate_concept",
+  "idx": 3
+ },
+ "X067": {
+  "section": "C",
+  "cond": "sycophancy|ablate_random",
+  "idx": 3
+ },
+ "X068": {
+  "section": "C",
+  "cond": "refusal|ablate_random",
+  "idx": 3
+ },
+ "X069": {
+  "section": "C",
+  "cond": "refusal|ablate_random",
+  "idx": 2
+ },
+ "X070": {
+  "section": "C",
+  "cond": "sycophancy|ablate_random",
+  "idx": 1
+ },
+ "X071": {
+  "section": "C",
+  "cond": "refusal|ablate_random",
+  "idx": 0
+ },
+ "X072": {
+  "section": "C",
+  "cond": "sycophancy|baseline",
+  "idx": 1
+ },
+ "X073": {
+  "section": "C",
+  "cond": "sycophancy|ablate_concept",
+  "idx": 2
+ },
+ "X074": {
+  "section": "C",
+  "cond": "refusal|ablate_random",
+  "idx": 1
+ },
+ "X075": {
+  "section": "C",
+  "cond": "sycophancy|ablate_concept",
+  "idx": 0
+ },
+ "X076": {
+  "section": "C",
+  "cond": "sycophancy|ablate_random",
+  "idx": 0
+ },
+ "X077": {
+  "section": "C",
+  "cond": "refusal|baseline",
+  "idx": 3
+ },
+ "X078": {
+  "section": "C",
+  "cond": "sycophancy|ablate_concept",
+  "idx": 1
+ },
+ "X079": {
+  "section": "C",
+  "cond": "refusal|baseline",
+  "idx": 1
+ },
+ "X080": {
+  "section": "C",
+  "cond": "sycophancy|baseline",
+  "idx": 3
+ },
+ "X081": {
+  "section": "C",
+  "cond": "refusal|ablate_concept",
+  "idx": 1
+ },
+ "X082": {
+  "section": "C",
+  "cond": "refusal|baseline",
+  "idx": 0
+ },
+ "X083": {
+  "section": "C",
+  "cond": "refusal|ablate_concept",
+  "idx": 0
+ },
+ "X084": {
+  "section": "D",
+  "cond": "refusal_install",
+  "idx": 0
+ },
+ "X085": {
+  "section": "D",
+  "cond": "random_plus",
+  "idx": 0
+ },
+ "X086": {
+  "section": "D",
+  "cond": "random_at_observed",
+  "idx": 2
+ },
+ "X087": {
+  "section": "D",
+  "cond": "baseline",
+  "idx": 0
+ },
+ "X088": {
+  "section": "D",
+  "cond": "refusal_suppress",
+  "idx": 0
+ },
+ "X089": {
+  "section": "D",
+  "cond": "refusal_suppress",
+  "idx": 2
+ },
+ "X090": {
+  "section": "D",
+  "cond": "refusal_install",
+  "idx": 1
+ },
+ "X091": {
+  "section": "D",
+  "cond": "random_at_observed",
+  "idx": 0
+ },
+ "X092": {
+  "section": "D",
+  "cond": "baseline",
+  "idx": 1
+ },
+ "X093": {
+  "section": "D",
+  "cond": "refusal_install",
+  "idx": 2
+ },
+ "X094": {
+  "section": "D",
+  "cond": "refusal_suppress",
+  "idx": 1
+ },
+ "X095": {
+  "section": "D",
+  "cond": "baseline",
+  "idx": 2
+ },
+ "X096": {
+  "section": "D",
+  "cond": "observed_plus",
+  "idx": 2
+ },
+ "X097": {
+  "section": "D",
+  "cond": "random_plus",
+  "idx": 2
+ },
+ "X098": {
+  "section": "D",
+  "cond": "observed_plus",
+  "idx": 1
+ },
+ "X099": {
+  "section": "D",
+  "cond": "observed_plus",
+  "idx": 0
+ },
+ "X100": {
+  "section": "D",
+  "cond": "random_plus",
+  "idx": 1
+ },
+ "X101": {
+  "section": "D",
+  "cond": "random_at_observed",
+  "idx": 1
+ }
+}

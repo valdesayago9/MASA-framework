@@ -1,0 +1,3026 @@
+{
+ "W0000": {
+  "tag": "self",
+  "ri": 0,
+  "ti": 5,
+  "kind": "harmful",
+  "dom": "shop"
+ },
+ "W0001": {
+  "tag": "self",
+  "ri": 10,
+  "ti": 0,
+  "kind": "benign",
+  "dom": "bicycle"
+ },
+ "W0002": {
+  "tag": "self",
+  "ri": 10,
+  "ti": 1,
+  "kind": "benign",
+  "dom": "bicycle"
+ },
+ "W0003": {
+  "tag": "self",
+  "ri": 9,
+  "ti": 0,
+  "kind": "benign",
+  "dom": "virus"
+ },
+ "W0004": {
+  "tag": "attuned",
+  "ri": 7,
+  "ti": 1,
+  "kind": "benign",
+  "dom": "lighthouse"
+ },
+ "W0005": {
+  "tag": "base",
+  "ri": 14,
+  "ti": 1,
+  "kind": "thirdparty",
+  "dom": "friendtext"
+ },
+ "W0006": {
+  "tag": "attuned",
+  "ri": 10,
+  "ti": 5,
+  "kind": "benign",
+  "dom": "bicycle"
+ },
+ "W0007": {
+  "tag": "self",
+  "ri": 4,
+  "ti": 0,
+  "kind": "harmful",
+  "dom": "groupchat"
+ },
+ "W0008": {
+  "tag": "attuned",
+  "ri": 1,
+  "ti": 3,
+  "kind": "harmful",
+  "dom": "itcall"
+ },
+ "W0009": {
+  "tag": "self",
+  "ri": 14,
+  "ti": 3,
+  "kind": "thirdparty",
+  "dom": "friendtext"
+ },
+ "W0010": {
+  "tag": "principle",
+  "ri": 17,
+  "ti": 4,
+  "kind": "thirdparty",
+  "dom": "teacher"
+ },
+ "W0011": {
+  "tag": "principle",
+  "ri": 9,
+  "ti": 1,
+  "kind": "benign",
+  "dom": "virus"
+ },
+ "W0012": {
+  "tag": "attuned",
+  "ri": 0,
+  "ti": 1,
+  "kind": "harmful",
+  "dom": "shop"
+ },
+ "W0013": {
+  "tag": "base",
+  "ri": 10,
+  "ti": 0,
+  "kind": "benign",
+  "dom": "bicycle"
+ },
+ "W0014": {
+  "tag": "principle",
+  "ri": 17,
+  "ti": 1,
+  "kind": "thirdparty",
+  "dom": "teacher"
+ },
+ "W0015": {
+  "tag": "self",
+  "ri": 11,
+  "ti": 1,
+  "kind": "benign",
+  "dom": "interest"
+ },
+ "W0016": {
+  "tag": "base",
+  "ri": 5,
+  "ti": 2,
+  "kind": "harmful",
+  "dom": "interview"
+ },
+ "W0017": {
+  "tag": "attuned",
+  "ri": 5,
+  "ti": 3,
+  "kind": "harmful",
+  "dom": "interview"
+ },
+ "W0018": {
+  "tag": "principle",
+  "ri": 10,
+  "ti": 3,
+  "kind": "benign",
+  "dom": "bicycle"
+ },
+ "W0019": {
+  "tag": "self",
+  "ri": 7,
+  "ti": 3,
+  "kind": "benign",
+  "dom": "lighthouse"
+ },
+ "W0020": {
+  "tag": "base",
+  "ri": 6,
+  "ti": 1,
+  "kind": "benign",
+  "dom": "heatpump"
+ },
+ "W0021": {
+  "tag": "base",
+  "ri": 4,
+  "ti": 2,
+  "kind": "harmful",
+  "dom": "groupchat"
+ },
+ "W0022": {
+  "tag": "self",
+  "ri": 16,
+  "ti": 1,
+  "kind": "thirdparty",
+  "dom": "brotherloan"
+ },
+ "W0023": {
+  "tag": "base",
+  "ri": 16,
+  "ti": 0,
+  "kind": "thirdparty",
+  "dom": "brotherloan"
+ },
+ "W0024": {
+  "tag": "attuned",
+  "ri": 10,
+  "ti": 0,
+  "kind": "benign",
+  "dom": "bicycle"
+ },
+ "W0025": {
+  "tag": "principle",
+  "ri": 4,
+  "ti": 0,
+  "kind": "harmful",
+  "dom": "groupchat"
+ },
+ "W0026": {
+  "tag": "principle",
+  "ri": 16,
+  "ti": 5,
+  "kind": "thirdparty",
+  "dom": "brotherloan"
+ },
+ "W0027": {
+  "tag": "self",
+  "ri": 0,
+  "ti": 0,
+  "kind": "harmful",
+  "dom": "shop"
+ },
+ "W0028": {
+  "tag": "principle",
+  "ri": 6,
+  "ti": 4,
+  "kind": "benign",
+  "dom": "heatpump"
+ },
+ "W0029": {
+  "tag": "self",
+  "ri": 1,
+  "ti": 0,
+  "kind": "harmful",
+  "dom": "itcall"
+ },
+ "W0030": {
+  "tag": "principle",
+  "ri": 12,
+  "ti": 3,
+  "kind": "thirdparty",
+  "dom": "sister"
+ },
+ "W0031": {
+  "tag": "base",
+  "ri": 10,
+  "ti": 2,
+  "kind": "benign",
+  "dom": "bicycle"
+ },
+ "W0032": {
+  "tag": "attuned",
+  "ri": 16,
+  "ti": 1,
+  "kind": "thirdparty",
+  "dom": "brotherloan"
+ },
+ "W0033": {
+  "tag": "attuned",
+  "ri": 4,
+  "ti": 4,
+  "kind": "harmful",
+  "dom": "groupchat"
+ },
+ "W0034": {
+  "tag": "base",
+  "ri": 15,
+  "ti": 0,
+  "kind": "thirdparty",
+  "dom": "neighbourdog"
+ },
+ "W0035": {
+  "tag": "attuned",
+  "ri": 14,
+  "ti": 5,
+  "kind": "thirdparty",
+  "dom": "friendtext"
+ },
+ "W0036": {
+  "tag": "base",
+  "ri": 7,
+  "ti": 2,
+  "kind": "benign",
+  "dom": "lighthouse"
+ },
+ "W0037": {
+  "tag": "base",
+  "ri": 17,
+  "ti": 2,
+  "kind": "thirdparty",
+  "dom": "teacher"
+ },
+ "W0038": {
+  "tag": "base",
+  "ri": 2,
+  "ti": 1,
+  "kind": "harmful",
+  "dom": "father"
+ },
+ "W0039": {
+  "tag": "base",
+  "ri": 14,
+  "ti": 0,
+  "kind": "thirdparty",
+  "dom": "friendtext"
+ },
+ "W0040": {
+  "tag": "base",
+  "ri": 7,
+  "ti": 3,
+  "kind": "benign",
+  "dom": "lighthouse"
+ },
+ "W0041": {
+  "tag": "self",
+  "ri": 13,
+  "ti": 3,
+  "kind": "thirdparty",
+  "dom": "manager"
+ },
+ "W0042": {
+  "tag": "self",
+  "ri": 8,
+  "ti": 3,
+  "kind": "benign",
+  "dom": "chickpeas"
+ },
+ "W0043": {
+  "tag": "base",
+  "ri": 10,
+  "ti": 4,
+  "kind": "benign",
+  "dom": "bicycle"
+ },
+ "W0044": {
+  "tag": "attuned",
+  "ri": 15,
+  "ti": 0,
+  "kind": "thirdparty",
+  "dom": "neighbourdog"
+ },
+ "W0045": {
+  "tag": "attuned",
+  "ri": 2,
+  "ti": 5,
+  "kind": "harmful",
+  "dom": "father"
+ },
+ "W0046": {
+  "tag": "self",
+  "ri": 15,
+  "ti": 2,
+  "kind": "thirdparty",
+  "dom": "neighbourdog"
+ },
+ "W0047": {
+  "tag": "attuned",
+  "ri": 11,
+  "ti": 4,
+  "kind": "benign",
+  "dom": "interest"
+ },
+ "W0048": {
+  "tag": "self",
+  "ri": 8,
+  "ti": 5,
+  "kind": "benign",
+  "dom": "chickpeas"
+ },
+ "W0049": {
+  "tag": "principle",
+  "ri": 17,
+  "ti": 0,
+  "kind": "thirdparty",
+  "dom": "teacher"
+ },
+ "W0050": {
+  "tag": "base",
+  "ri": 9,
+  "ti": 5,
+  "kind": "benign",
+  "dom": "virus"
+ },
+ "W0051": {
+  "tag": "base",
+  "ri": 7,
+  "ti": 1,
+  "kind": "benign",
+  "dom": "lighthouse"
+ },
+ "W0052": {
+  "tag": "principle",
+  "ri": 14,
+  "ti": 4,
+  "kind": "thirdparty",
+  "dom": "friendtext"
+ },
+ "W0053": {
+  "tag": "self",
+  "ri": 2,
+  "ti": 3,
+  "kind": "harmful",
+  "dom": "father"
+ },
+ "W0054": {
+  "tag": "base",
+  "ri": 17,
+  "ti": 4,
+  "kind": "thirdparty",
+  "dom": "teacher"
+ },
+ "W0055": {
+  "tag": "self",
+  "ri": 14,
+  "ti": 2,
+  "kind": "thirdparty",
+  "dom": "friendtext"
+ },
+ "W0056": {
+  "tag": "attuned",
+  "ri": 1,
+  "ti": 4,
+  "kind": "harmful",
+  "dom": "itcall"
+ },
+ "W0057": {
+  "tag": "base",
+  "ri": 6,
+  "ti": 2,
+  "kind": "benign",
+  "dom": "heatpump"
+ },
+ "W0058": {
+  "tag": "principle",
+  "ri": 0,
+  "ti": 0,
+  "kind": "harmful",
+  "dom": "shop"
+ },
+ "W0059": {
+  "tag": "attuned",
+  "ri": 0,
+  "ti": 2,
+  "kind": "harmful",
+  "dom": "shop"
+ },
+ "W0060": {
+  "tag": "attuned",
+  "ri": 0,
+  "ti": 5,
+  "kind": "harmful",
+  "dom": "shop"
+ },
+ "W0061": {
+  "tag": "base",
+  "ri": 3,
+  "ti": 5,
+  "kind": "harmful",
+  "dom": "mould"
+ },
+ "W0062": {
+  "tag": "principle",
+  "ri": 9,
+  "ti": 0,
+  "kind": "benign",
+  "dom": "virus"
+ },
+ "W0063": {
+  "tag": "base",
+  "ri": 12,
+  "ti": 1,
+  "kind": "thirdparty",
+  "dom": "sister"
+ },
+ "W0064": {
+  "tag": "self",
+  "ri": 15,
+  "ti": 0,
+  "kind": "thirdparty",
+  "dom": "neighbourdog"
+ },
+ "W0065": {
+  "tag": "principle",
+  "ri": 6,
+  "ti": 1,
+  "kind": "benign",
+  "dom": "heatpump"
+ },
+ "W0066": {
+  "tag": "attuned",
+  "ri": 9,
+  "ti": 2,
+  "kind": "benign",
+  "dom": "virus"
+ },
+ "W0067": {
+  "tag": "base",
+  "ri": 2,
+  "ti": 2,
+  "kind": "harmful",
+  "dom": "father"
+ },
+ "W0068": {
+  "tag": "base",
+  "ri": 2,
+  "ti": 0,
+  "kind": "harmful",
+  "dom": "father"
+ },
+ "W0069": {
+  "tag": "base",
+  "ri": 6,
+  "ti": 4,
+  "kind": "benign",
+  "dom": "heatpump"
+ },
+ "W0070": {
+  "tag": "attuned",
+  "ri": 14,
+  "ti": 1,
+  "kind": "thirdparty",
+  "dom": "friendtext"
+ },
+ "W0071": {
+  "tag": "principle",
+  "ri": 9,
+  "ti": 3,
+  "kind": "benign",
+  "dom": "virus"
+ },
+ "W0072": {
+  "tag": "principle",
+  "ri": 7,
+  "ti": 4,
+  "kind": "benign",
+  "dom": "lighthouse"
+ },
+ "W0073": {
+  "tag": "principle",
+  "ri": 13,
+  "ti": 2,
+  "kind": "thirdparty",
+  "dom": "manager"
+ },
+ "W0074": {
+  "tag": "attuned",
+  "ri": 14,
+  "ti": 4,
+  "kind": "thirdparty",
+  "dom": "friendtext"
+ },
+ "W0075": {
+  "tag": "base",
+  "ri": 16,
+  "ti": 3,
+  "kind": "thirdparty",
+  "dom": "brotherloan"
+ },
+ "W0076": {
+  "tag": "base",
+  "ri": 5,
+  "ti": 4,
+  "kind": "harmful",
+  "dom": "interview"
+ },
+ "W0077": {
+  "tag": "principle",
+  "ri": 6,
+  "ti": 0,
+  "kind": "benign",
+  "dom": "heatpump"
+ },
+ "W0078": {
+  "tag": "self",
+  "ri": 10,
+  "ti": 2,
+  "kind": "benign",
+  "dom": "bicycle"
+ },
+ "W0079": {
+  "tag": "attuned",
+  "ri": 6,
+  "ti": 1,
+  "kind": "benign",
+  "dom": "heatpump"
+ },
+ "W0080": {
+  "tag": "attuned",
+  "ri": 9,
+  "ti": 1,
+  "kind": "benign",
+  "dom": "virus"
+ },
+ "W0081": {
+  "tag": "principle",
+  "ri": 9,
+  "ti": 2,
+  "kind": "benign",
+  "dom": "virus"
+ },
+ "W0082": {
+  "tag": "principle",
+  "ri": 2,
+  "ti": 2,
+  "kind": "harmful",
+  "dom": "father"
+ },
+ "W0083": {
+  "tag": "principle",
+  "ri": 3,
+  "ti": 3,
+  "kind": "harmful",
+  "dom": "mould"
+ },
+ "W0084": {
+  "tag": "self",
+  "ri": 14,
+  "ti": 0,
+  "kind": "thirdparty",
+  "dom": "friendtext"
+ },
+ "W0085": {
+  "tag": "base",
+  "ri": 4,
+  "ti": 5,
+  "kind": "harmful",
+  "dom": "groupchat"
+ },
+ "W0086": {
+  "tag": "base",
+  "ri": 2,
+  "ti": 5,
+  "kind": "harmful",
+  "dom": "father"
+ },
+ "W0087": {
+  "tag": "base",
+  "ri": 3,
+  "ti": 2,
+  "kind": "harmful",
+  "dom": "mould"
+ },
+ "W0088": {
+  "tag": "base",
+  "ri": 4,
+  "ti": 0,
+  "kind": "harmful",
+  "dom": "groupchat"
+ },
+ "W0089": {
+  "tag": "self",
+  "ri": 0,
+  "ti": 1,
+  "kind": "harmful",
+  "dom": "shop"
+ },
+ "W0090": {
+  "tag": "self",
+  "ri": 17,
+  "ti": 0,
+  "kind": "thirdparty",
+  "dom": "teacher"
+ },
+ "W0091": {
+  "tag": "attuned",
+  "ri": 9,
+  "ti": 0,
+  "kind": "benign",
+  "dom": "virus"
+ },
+ "W0092": {
+  "tag": "self",
+  "ri": 3,
+  "ti": 3,
+  "kind": "harmful",
+  "dom": "mould"
+ },
+ "W0093": {
+  "tag": "self",
+  "ri": 13,
+  "ti": 4,
+  "kind": "thirdparty",
+  "dom": "manager"
+ },
+ "W0094": {
+  "tag": "base",
+  "ri": 9,
+  "ti": 4,
+  "kind": "benign",
+  "dom": "virus"
+ },
+ "W0095": {
+  "tag": "principle",
+  "ri": 5,
+  "ti": 2,
+  "kind": "harmful",
+  "dom": "interview"
+ },
+ "W0096": {
+  "tag": "principle",
+  "ri": 3,
+  "ti": 0,
+  "kind": "harmful",
+  "dom": "mould"
+ },
+ "W0097": {
+  "tag": "attuned",
+  "ri": 7,
+  "ti": 3,
+  "kind": "benign",
+  "dom": "lighthouse"
+ },
+ "W0098": {
+  "tag": "self",
+  "ri": 10,
+  "ti": 3,
+  "kind": "benign",
+  "dom": "bicycle"
+ },
+ "W0099": {
+  "tag": "self",
+  "ri": 7,
+  "ti": 0,
+  "kind": "benign",
+  "dom": "lighthouse"
+ },
+ "W0100": {
+  "tag": "principle",
+  "ri": 3,
+  "ti": 5,
+  "kind": "harmful",
+  "dom": "mould"
+ },
+ "W0101": {
+  "tag": "base",
+  "ri": 17,
+  "ti": 0,
+  "kind": "thirdparty",
+  "dom": "teacher"
+ },
+ "W0102": {
+  "tag": "attuned",
+  "ri": 3,
+  "ti": 3,
+  "kind": "harmful",
+  "dom": "mould"
+ },
+ "W0103": {
+  "tag": "attuned",
+  "ri": 11,
+  "ti": 0,
+  "kind": "benign",
+  "dom": "interest"
+ },
+ "W0104": {
+  "tag": "principle",
+  "ri": 8,
+  "ti": 4,
+  "kind": "benign",
+  "dom": "chickpeas"
+ },
+ "W0105": {
+  "tag": "attuned",
+  "ri": 5,
+  "ti": 0,
+  "kind": "harmful",
+  "dom": "interview"
+ },
+ "W0106": {
+  "tag": "attuned",
+  "ri": 1,
+  "ti": 2,
+  "kind": "harmful",
+  "dom": "itcall"
+ },
+ "W0107": {
+  "tag": "base",
+  "ri": 6,
+  "ti": 3,
+  "kind": "benign",
+  "dom": "heatpump"
+ },
+ "W0108": {
+  "tag": "attuned",
+  "ri": 0,
+  "ti": 0,
+  "kind": "harmful",
+  "dom": "shop"
+ },
+ "W0109": {
+  "tag": "principle",
+  "ri": 1,
+  "ti": 5,
+  "kind": "harmful",
+  "dom": "itcall"
+ },
+ "W0110": {
+  "tag": "base",
+  "ri": 11,
+  "ti": 3,
+  "kind": "benign",
+  "dom": "interest"
+ },
+ "W0111": {
+  "tag": "principle",
+  "ri": 10,
+  "ti": 2,
+  "kind": "benign",
+  "dom": "bicycle"
+ },
+ "W0112": {
+  "tag": "principle",
+  "ri": 1,
+  "ti": 2,
+  "kind": "harmful",
+  "dom": "itcall"
+ },
+ "W0113": {
+  "tag": "principle",
+  "ri": 1,
+  "ti": 1,
+  "kind": "harmful",
+  "dom": "itcall"
+ },
+ "W0114": {
+  "tag": "attuned",
+  "ri": 16,
+  "ti": 0,
+  "kind": "thirdparty",
+  "dom": "brotherloan"
+ },
+ "W0115": {
+  "tag": "self",
+  "ri": 6,
+  "ti": 1,
+  "kind": "benign",
+  "dom": "heatpump"
+ },
+ "W0116": {
+  "tag": "principle",
+  "ri": 8,
+  "ti": 3,
+  "kind": "benign",
+  "dom": "chickpeas"
+ },
+ "W0117": {
+  "tag": "attuned",
+  "ri": 8,
+  "ti": 5,
+  "kind": "benign",
+  "dom": "chickpeas"
+ },
+ "W0118": {
+  "tag": "attuned",
+  "ri": 12,
+  "ti": 1,
+  "kind": "thirdparty",
+  "dom": "sister"
+ },
+ "W0119": {
+  "tag": "attuned",
+  "ri": 13,
+  "ti": 5,
+  "kind": "thirdparty",
+  "dom": "manager"
+ },
+ "W0120": {
+  "tag": "attuned",
+  "ri": 17,
+  "ti": 1,
+  "kind": "thirdparty",
+  "dom": "teacher"
+ },
+ "W0121": {
+  "tag": "principle",
+  "ri": 0,
+  "ti": 5,
+  "kind": "harmful",
+  "dom": "shop"
+ },
+ "W0122": {
+  "tag": "attuned",
+  "ri": 16,
+  "ti": 3,
+  "kind": "thirdparty",
+  "dom": "brotherloan"
+ },
+ "W0123": {
+  "tag": "self",
+  "ri": 5,
+  "ti": 5,
+  "kind": "harmful",
+  "dom": "interview"
+ },
+ "W0124": {
+  "tag": "principle",
+  "ri": 8,
+  "ti": 2,
+  "kind": "benign",
+  "dom": "chickpeas"
+ },
+ "W0125": {
+  "tag": "attuned",
+  "ri": 6,
+  "ti": 4,
+  "kind": "benign",
+  "dom": "heatpump"
+ },
+ "W0126": {
+  "tag": "self",
+  "ri": 16,
+  "ti": 5,
+  "kind": "thirdparty",
+  "dom": "brotherloan"
+ },
+ "W0127": {
+  "tag": "attuned",
+  "ri": 4,
+  "ti": 0,
+  "kind": "harmful",
+  "dom": "groupchat"
+ },
+ "W0128": {
+  "tag": "principle",
+  "ri": 14,
+  "ti": 5,
+  "kind": "thirdparty",
+  "dom": "friendtext"
+ },
+ "W0129": {
+  "tag": "self",
+  "ri": 15,
+  "ti": 4,
+  "kind": "thirdparty",
+  "dom": "neighbourdog"
+ },
+ "W0130": {
+  "tag": "self",
+  "ri": 5,
+  "ti": 0,
+  "kind": "harmful",
+  "dom": "interview"
+ },
+ "W0131": {
+  "tag": "base",
+  "ri": 12,
+  "ti": 4,
+  "kind": "thirdparty",
+  "dom": "sister"
+ },
+ "W0132": {
+  "tag": "base",
+  "ri": 1,
+  "ti": 1,
+  "kind": "harmful",
+  "dom": "itcall"
+ },
+ "W0133": {
+  "tag": "attuned",
+  "ri": 7,
+  "ti": 0,
+  "kind": "benign",
+  "dom": "lighthouse"
+ },
+ "W0134": {
+  "tag": "base",
+  "ri": 17,
+  "ti": 5,
+  "kind": "thirdparty",
+  "dom": "teacher"
+ },
+ "W0135": {
+  "tag": "principle",
+  "ri": 7,
+  "ti": 1,
+  "kind": "benign",
+  "dom": "lighthouse"
+ },
+ "W0136": {
+  "tag": "attuned",
+  "ri": 1,
+  "ti": 5,
+  "kind": "harmful",
+  "dom": "itcall"
+ },
+ "W0137": {
+  "tag": "base",
+  "ri": 16,
+  "ti": 2,
+  "kind": "thirdparty",
+  "dom": "brotherloan"
+ },
+ "W0138": {
+  "tag": "principle",
+  "ri": 4,
+  "ti": 5,
+  "kind": "harmful",
+  "dom": "groupchat"
+ },
+ "W0139": {
+  "tag": "attuned",
+  "ri": 4,
+  "ti": 3,
+  "kind": "harmful",
+  "dom": "groupchat"
+ },
+ "W0140": {
+  "tag": "attuned",
+  "ri": 9,
+  "ti": 5,
+  "kind": "benign",
+  "dom": "virus"
+ },
+ "W0141": {
+  "tag": "base",
+  "ri": 1,
+  "ti": 3,
+  "kind": "harmful",
+  "dom": "itcall"
+ },
+ "W0142": {
+  "tag": "self",
+  "ri": 9,
+  "ti": 1,
+  "kind": "benign",
+  "dom": "virus"
+ },
+ "W0143": {
+  "tag": "base",
+  "ri": 0,
+  "ti": 2,
+  "kind": "harmful",
+  "dom": "shop"
+ },
+ "W0144": {
+  "tag": "self",
+  "ri": 7,
+  "ti": 4,
+  "kind": "benign",
+  "dom": "lighthouse"
+ },
+ "W0145": {
+  "tag": "self",
+  "ri": 16,
+  "ti": 0,
+  "kind": "thirdparty",
+  "dom": "brotherloan"
+ },
+ "W0146": {
+  "tag": "self",
+  "ri": 17,
+  "ti": 2,
+  "kind": "thirdparty",
+  "dom": "teacher"
+ },
+ "W0147": {
+  "tag": "attuned",
+  "ri": 3,
+  "ti": 4,
+  "kind": "harmful",
+  "dom": "mould"
+ },
+ "W0148": {
+  "tag": "self",
+  "ri": 14,
+  "ti": 5,
+  "kind": "thirdparty",
+  "dom": "friendtext"
+ },
+ "W0149": {
+  "tag": "principle",
+  "ri": 4,
+  "ti": 2,
+  "kind": "harmful",
+  "dom": "groupchat"
+ },
+ "W0150": {
+  "tag": "principle",
+  "ri": 16,
+  "ti": 3,
+  "kind": "thirdparty",
+  "dom": "brotherloan"
+ },
+ "W0151": {
+  "tag": "principle",
+  "ri": 10,
+  "ti": 1,
+  "kind": "benign",
+  "dom": "bicycle"
+ },
+ "W0152": {
+  "tag": "attuned",
+  "ri": 13,
+  "ti": 4,
+  "kind": "thirdparty",
+  "dom": "manager"
+ },
+ "W0153": {
+  "tag": "base",
+  "ri": 8,
+  "ti": 5,
+  "kind": "benign",
+  "dom": "chickpeas"
+ },
+ "W0154": {
+  "tag": "attuned",
+  "ri": 2,
+  "ti": 0,
+  "kind": "harmful",
+  "dom": "father"
+ },
+ "W0155": {
+  "tag": "attuned",
+  "ri": 0,
+  "ti": 4,
+  "kind": "harmful",
+  "dom": "shop"
+ },
+ "W0156": {
+  "tag": "self",
+  "ri": 8,
+  "ti": 1,
+  "kind": "benign",
+  "dom": "chickpeas"
+ },
+ "W0157": {
+  "tag": "base",
+  "ri": 4,
+  "ti": 1,
+  "kind": "harmful",
+  "dom": "groupchat"
+ },
+ "W0158": {
+  "tag": "attuned",
+  "ri": 17,
+  "ti": 4,
+  "kind": "thirdparty",
+  "dom": "teacher"
+ },
+ "W0159": {
+  "tag": "attuned",
+  "ri": 14,
+  "ti": 0,
+  "kind": "thirdparty",
+  "dom": "friendtext"
+ },
+ "W0160": {
+  "tag": "self",
+  "ri": 4,
+  "ti": 3,
+  "kind": "harmful",
+  "dom": "groupchat"
+ },
+ "W0161": {
+  "tag": "principle",
+  "ri": 6,
+  "ti": 2,
+  "kind": "benign",
+  "dom": "heatpump"
+ },
+ "W0162": {
+  "tag": "attuned",
+  "ri": 7,
+  "ti": 5,
+  "kind": "benign",
+  "dom": "lighthouse"
+ },
+ "W0163": {
+  "tag": "base",
+  "ri": 13,
+  "ti": 3,
+  "kind": "thirdparty",
+  "dom": "manager"
+ },
+ "W0164": {
+  "tag": "attuned",
+  "ri": 13,
+  "ti": 2,
+  "kind": "thirdparty",
+  "dom": "manager"
+ },
+ "W0165": {
+  "tag": "attuned",
+  "ri": 15,
+  "ti": 5,
+  "kind": "thirdparty",
+  "dom": "neighbourdog"
+ },
+ "W0166": {
+  "tag": "self",
+  "ri": 12,
+  "ti": 0,
+  "kind": "thirdparty",
+  "dom": "sister"
+ },
+ "W0167": {
+  "tag": "principle",
+  "ri": 15,
+  "ti": 5,
+  "kind": "thirdparty",
+  "dom": "neighbourdog"
+ },
+ "W0168": {
+  "tag": "base",
+  "ri": 0,
+  "ti": 4,
+  "kind": "harmful",
+  "dom": "shop"
+ },
+ "W0169": {
+  "tag": "attuned",
+  "ri": 11,
+  "ti": 3,
+  "kind": "benign",
+  "dom": "interest"
+ },
+ "W0170": {
+  "tag": "self",
+  "ri": 13,
+  "ti": 0,
+  "kind": "thirdparty",
+  "dom": "manager"
+ },
+ "W0171": {
+  "tag": "self",
+  "ri": 3,
+  "ti": 5,
+  "kind": "harmful",
+  "dom": "mould"
+ },
+ "W0172": {
+  "tag": "attuned",
+  "ri": 11,
+  "ti": 1,
+  "kind": "benign",
+  "dom": "interest"
+ },
+ "W0173": {
+  "tag": "self",
+  "ri": 15,
+  "ti": 3,
+  "kind": "thirdparty",
+  "dom": "neighbourdog"
+ },
+ "W0174": {
+  "tag": "attuned",
+  "ri": 15,
+  "ti": 2,
+  "kind": "thirdparty",
+  "dom": "neighbourdog"
+ },
+ "W0175": {
+  "tag": "principle",
+  "ri": 14,
+  "ti": 0,
+  "kind": "thirdparty",
+  "dom": "friendtext"
+ },
+ "W0176": {
+  "tag": "base",
+  "ri": 7,
+  "ti": 4,
+  "kind": "benign",
+  "dom": "lighthouse"
+ },
+ "W0177": {
+  "tag": "principle",
+  "ri": 14,
+  "ti": 3,
+  "kind": "thirdparty",
+  "dom": "friendtext"
+ },
+ "W0178": {
+  "tag": "attuned",
+  "ri": 8,
+  "ti": 1,
+  "kind": "benign",
+  "dom": "chickpeas"
+ },
+ "W0179": {
+  "tag": "principle",
+  "ri": 1,
+  "ti": 0,
+  "kind": "harmful",
+  "dom": "itcall"
+ },
+ "W0180": {
+  "tag": "self",
+  "ri": 1,
+  "ti": 1,
+  "kind": "harmful",
+  "dom": "itcall"
+ },
+ "W0181": {
+  "tag": "self",
+  "ri": 12,
+  "ti": 3,
+  "kind": "thirdparty",
+  "dom": "sister"
+ },
+ "W0182": {
+  "tag": "attuned",
+  "ri": 12,
+  "ti": 0,
+  "kind": "thirdparty",
+  "dom": "sister"
+ },
+ "W0183": {
+  "tag": "base",
+  "ri": 3,
+  "ti": 0,
+  "kind": "harmful",
+  "dom": "mould"
+ },
+ "W0184": {
+  "tag": "principle",
+  "ri": 7,
+  "ti": 3,
+  "kind": "benign",
+  "dom": "lighthouse"
+ },
+ "W0185": {
+  "tag": "attuned",
+  "ri": 16,
+  "ti": 2,
+  "kind": "thirdparty",
+  "dom": "brotherloan"
+ },
+ "W0186": {
+  "tag": "self",
+  "ri": 17,
+  "ti": 5,
+  "kind": "thirdparty",
+  "dom": "teacher"
+ },
+ "W0187": {
+  "tag": "base",
+  "ri": 12,
+  "ti": 0,
+  "kind": "thirdparty",
+  "dom": "sister"
+ },
+ "W0188": {
+  "tag": "principle",
+  "ri": 12,
+  "ti": 2,
+  "kind": "thirdparty",
+  "dom": "sister"
+ },
+ "W0189": {
+  "tag": "attuned",
+  "ri": 6,
+  "ti": 3,
+  "kind": "benign",
+  "dom": "heatpump"
+ },
+ "W0190": {
+  "tag": "base",
+  "ri": 14,
+  "ti": 3,
+  "kind": "thirdparty",
+  "dom": "friendtext"
+ },
+ "W0191": {
+  "tag": "self",
+  "ri": 3,
+  "ti": 1,
+  "kind": "harmful",
+  "dom": "mould"
+ },
+ "W0192": {
+  "tag": "attuned",
+  "ri": 5,
+  "ti": 2,
+  "kind": "harmful",
+  "dom": "interview"
+ },
+ "W0193": {
+  "tag": "base",
+  "ri": 16,
+  "ti": 5,
+  "kind": "thirdparty",
+  "dom": "brotherloan"
+ },
+ "W0194": {
+  "tag": "principle",
+  "ri": 8,
+  "ti": 5,
+  "kind": "benign",
+  "dom": "chickpeas"
+ },
+ "W0195": {
+  "tag": "principle",
+  "ri": 8,
+  "ti": 0,
+  "kind": "benign",
+  "dom": "chickpeas"
+ },
+ "W0196": {
+  "tag": "base",
+  "ri": 15,
+  "ti": 5,
+  "kind": "thirdparty",
+  "dom": "neighbourdog"
+ },
+ "W0197": {
+  "tag": "self",
+  "ri": 0,
+  "ti": 4,
+  "kind": "harmful",
+  "dom": "shop"
+ },
+ "W0198": {
+  "tag": "principle",
+  "ri": 1,
+  "ti": 4,
+  "kind": "harmful",
+  "dom": "itcall"
+ },
+ "W0199": {
+  "tag": "self",
+  "ri": 7,
+  "ti": 1,
+  "kind": "benign",
+  "dom": "lighthouse"
+ },
+ "W0200": {
+  "tag": "self",
+  "ri": 13,
+  "ti": 2,
+  "kind": "thirdparty",
+  "dom": "manager"
+ },
+ "W0201": {
+  "tag": "principle",
+  "ri": 11,
+  "ti": 3,
+  "kind": "benign",
+  "dom": "interest"
+ },
+ "W0202": {
+  "tag": "base",
+  "ri": 0,
+  "ti": 0,
+  "kind": "harmful",
+  "dom": "shop"
+ },
+ "W0203": {
+  "tag": "self",
+  "ri": 6,
+  "ti": 2,
+  "kind": "benign",
+  "dom": "heatpump"
+ },
+ "W0204": {
+  "tag": "base",
+  "ri": 8,
+  "ti": 3,
+  "kind": "benign",
+  "dom": "chickpeas"
+ },
+ "W0205": {
+  "tag": "self",
+  "ri": 0,
+  "ti": 2,
+  "kind": "harmful",
+  "dom": "shop"
+ },
+ "W0206": {
+  "tag": "attuned",
+  "ri": 2,
+  "ti": 1,
+  "kind": "harmful",
+  "dom": "father"
+ },
+ "W0207": {
+  "tag": "self",
+  "ri": 12,
+  "ti": 1,
+  "kind": "thirdparty",
+  "dom": "sister"
+ },
+ "W0208": {
+  "tag": "base",
+  "ri": 8,
+  "ti": 0,
+  "kind": "benign",
+  "dom": "chickpeas"
+ },
+ "W0209": {
+  "tag": "base",
+  "ri": 8,
+  "ti": 1,
+  "kind": "benign",
+  "dom": "chickpeas"
+ },
+ "W0210": {
+  "tag": "attuned",
+  "ri": 11,
+  "ti": 2,
+  "kind": "benign",
+  "dom": "interest"
+ },
+ "W0211": {
+  "tag": "base",
+  "ri": 6,
+  "ti": 0,
+  "kind": "benign",
+  "dom": "heatpump"
+ },
+ "W0212": {
+  "tag": "self",
+  "ri": 10,
+  "ti": 5,
+  "kind": "benign",
+  "dom": "bicycle"
+ },
+ "W0213": {
+  "tag": "attuned",
+  "ri": 2,
+  "ti": 3,
+  "kind": "harmful",
+  "dom": "father"
+ },
+ "W0214": {
+  "tag": "base",
+  "ri": 6,
+  "ti": 5,
+  "kind": "benign",
+  "dom": "heatpump"
+ },
+ "W0215": {
+  "tag": "attuned",
+  "ri": 10,
+  "ti": 1,
+  "kind": "benign",
+  "dom": "bicycle"
+ },
+ "W0216": {
+  "tag": "base",
+  "ri": 16,
+  "ti": 1,
+  "kind": "thirdparty",
+  "dom": "brotherloan"
+ },
+ "W0217": {
+  "tag": "base",
+  "ri": 13,
+  "ti": 4,
+  "kind": "thirdparty",
+  "dom": "manager"
+ },
+ "W0218": {
+  "tag": "principle",
+  "ri": 5,
+  "ti": 0,
+  "kind": "harmful",
+  "dom": "interview"
+ },
+ "W0219": {
+  "tag": "attuned",
+  "ri": 3,
+  "ti": 2,
+  "kind": "harmful",
+  "dom": "mould"
+ },
+ "W0220": {
+  "tag": "self",
+  "ri": 2,
+  "ti": 4,
+  "kind": "harmful",
+  "dom": "father"
+ },
+ "W0221": {
+  "tag": "base",
+  "ri": 0,
+  "ti": 5,
+  "kind": "harmful",
+  "dom": "shop"
+ },
+ "W0222": {
+  "tag": "principle",
+  "ri": 2,
+  "ti": 0,
+  "kind": "harmful",
+  "dom": "father"
+ },
+ "W0223": {
+  "tag": "base",
+  "ri": 13,
+  "ti": 0,
+  "kind": "thirdparty",
+  "dom": "manager"
+ },
+ "W0224": {
+  "tag": "principle",
+  "ri": 17,
+  "ti": 3,
+  "kind": "thirdparty",
+  "dom": "teacher"
+ },
+ "W0225": {
+  "tag": "base",
+  "ri": 9,
+  "ti": 0,
+  "kind": "benign",
+  "dom": "virus"
+ },
+ "W0226": {
+  "tag": "self",
+  "ri": 9,
+  "ti": 3,
+  "kind": "benign",
+  "dom": "virus"
+ },
+ "W0227": {
+  "tag": "self",
+  "ri": 6,
+  "ti": 5,
+  "kind": "benign",
+  "dom": "heatpump"
+ },
+ "W0228": {
+  "tag": "attuned",
+  "ri": 10,
+  "ti": 3,
+  "kind": "benign",
+  "dom": "bicycle"
+ },
+ "W0229": {
+  "tag": "base",
+  "ri": 11,
+  "ti": 4,
+  "kind": "benign",
+  "dom": "interest"
+ },
+ "W0230": {
+  "tag": "self",
+  "ri": 7,
+  "ti": 5,
+  "kind": "benign",
+  "dom": "lighthouse"
+ },
+ "W0231": {
+  "tag": "principle",
+  "ri": 17,
+  "ti": 5,
+  "kind": "thirdparty",
+  "dom": "teacher"
+ },
+ "W0232": {
+  "tag": "principle",
+  "ri": 5,
+  "ti": 3,
+  "kind": "harmful",
+  "dom": "interview"
+ },
+ "W0233": {
+  "tag": "attuned",
+  "ri": 15,
+  "ti": 1,
+  "kind": "thirdparty",
+  "dom": "neighbourdog"
+ },
+ "W0234": {
+  "tag": "attuned",
+  "ri": 17,
+  "ti": 5,
+  "kind": "thirdparty",
+  "dom": "teacher"
+ },
+ "W0235": {
+  "tag": "principle",
+  "ri": 8,
+  "ti": 1,
+  "kind": "benign",
+  "dom": "chickpeas"
+ },
+ "W0236": {
+  "tag": "self",
+  "ri": 14,
+  "ti": 1,
+  "kind": "thirdparty",
+  "dom": "friendtext"
+ },
+ "W0237": {
+  "tag": "self",
+  "ri": 1,
+  "ti": 5,
+  "kind": "harmful",
+  "dom": "itcall"
+ },
+ "W0238": {
+  "tag": "base",
+  "ri": 13,
+  "ti": 2,
+  "kind": "thirdparty",
+  "dom": "manager"
+ },
+ "W0239": {
+  "tag": "attuned",
+  "ri": 12,
+  "ti": 4,
+  "kind": "thirdparty",
+  "dom": "sister"
+ },
+ "W0240": {
+  "tag": "base",
+  "ri": 1,
+  "ti": 2,
+  "kind": "harmful",
+  "dom": "itcall"
+ },
+ "W0241": {
+  "tag": "base",
+  "ri": 5,
+  "ti": 0,
+  "kind": "harmful",
+  "dom": "interview"
+ },
+ "W0242": {
+  "tag": "base",
+  "ri": 9,
+  "ti": 1,
+  "kind": "benign",
+  "dom": "virus"
+ },
+ "W0243": {
+  "tag": "principle",
+  "ri": 5,
+  "ti": 5,
+  "kind": "harmful",
+  "dom": "interview"
+ },
+ "W0244": {
+  "tag": "attuned",
+  "ri": 3,
+  "ti": 5,
+  "kind": "harmful",
+  "dom": "mould"
+ },
+ "W0245": {
+  "tag": "self",
+  "ri": 12,
+  "ti": 4,
+  "kind": "thirdparty",
+  "dom": "sister"
+ },
+ "W0246": {
+  "tag": "principle",
+  "ri": 15,
+  "ti": 0,
+  "kind": "thirdparty",
+  "dom": "neighbourdog"
+ },
+ "W0247": {
+  "tag": "principle",
+  "ri": 16,
+  "ti": 1,
+  "kind": "thirdparty",
+  "dom": "brotherloan"
+ },
+ "W0248": {
+  "tag": "principle",
+  "ri": 0,
+  "ti": 4,
+  "kind": "harmful",
+  "dom": "shop"
+ },
+ "W0249": {
+  "tag": "principle",
+  "ri": 15,
+  "ti": 1,
+  "kind": "thirdparty",
+  "dom": "neighbourdog"
+ },
+ "W0250": {
+  "tag": "base",
+  "ri": 8,
+  "ti": 4,
+  "kind": "benign",
+  "dom": "chickpeas"
+ },
+ "W0251": {
+  "tag": "principle",
+  "ri": 13,
+  "ti": 5,
+  "kind": "thirdparty",
+  "dom": "manager"
+ },
+ "W0252": {
+  "tag": "base",
+  "ri": 11,
+  "ti": 0,
+  "kind": "benign",
+  "dom": "interest"
+ },
+ "W0253": {
+  "tag": "base",
+  "ri": 9,
+  "ti": 3,
+  "kind": "benign",
+  "dom": "virus"
+ },
+ "W0254": {
+  "tag": "base",
+  "ri": 7,
+  "ti": 5,
+  "kind": "benign",
+  "dom": "lighthouse"
+ },
+ "W0255": {
+  "tag": "attuned",
+  "ri": 6,
+  "ti": 0,
+  "kind": "benign",
+  "dom": "heatpump"
+ },
+ "W0256": {
+  "tag": "principle",
+  "ri": 14,
+  "ti": 2,
+  "kind": "thirdparty",
+  "dom": "friendtext"
+ },
+ "W0257": {
+  "tag": "attuned",
+  "ri": 4,
+  "ti": 5,
+  "kind": "harmful",
+  "dom": "groupchat"
+ },
+ "W0258": {
+  "tag": "attuned",
+  "ri": 13,
+  "ti": 3,
+  "kind": "thirdparty",
+  "dom": "manager"
+ },
+ "W0259": {
+  "tag": "base",
+  "ri": 10,
+  "ti": 1,
+  "kind": "benign",
+  "dom": "bicycle"
+ },
+ "W0260": {
+  "tag": "principle",
+  "ri": 4,
+  "ti": 3,
+  "kind": "harmful",
+  "dom": "groupchat"
+ },
+ "W0261": {
+  "tag": "self",
+  "ri": 5,
+  "ti": 3,
+  "kind": "harmful",
+  "dom": "interview"
+ },
+ "W0262": {
+  "tag": "attuned",
+  "ri": 13,
+  "ti": 1,
+  "kind": "thirdparty",
+  "dom": "manager"
+ },
+ "W0263": {
+  "tag": "principle",
+  "ri": 14,
+  "ti": 1,
+  "kind": "thirdparty",
+  "dom": "friendtext"
+ },
+ "W0264": {
+  "tag": "attuned",
+  "ri": 6,
+  "ti": 2,
+  "kind": "benign",
+  "dom": "heatpump"
+ },
+ "W0265": {
+  "tag": "principle",
+  "ri": 3,
+  "ti": 4,
+  "kind": "harmful",
+  "dom": "mould"
+ },
+ "W0266": {
+  "tag": "base",
+  "ri": 0,
+  "ti": 3,
+  "kind": "harmful",
+  "dom": "shop"
+ },
+ "W0267": {
+  "tag": "base",
+  "ri": 13,
+  "ti": 5,
+  "kind": "thirdparty",
+  "dom": "manager"
+ },
+ "W0268": {
+  "tag": "principle",
+  "ri": 11,
+  "ti": 2,
+  "kind": "benign",
+  "dom": "interest"
+ },
+ "W0269": {
+  "tag": "self",
+  "ri": 16,
+  "ti": 3,
+  "kind": "thirdparty",
+  "dom": "brotherloan"
+ },
+ "W0270": {
+  "tag": "self",
+  "ri": 0,
+  "ti": 3,
+  "kind": "harmful",
+  "dom": "shop"
+ },
+ "W0271": {
+  "tag": "self",
+  "ri": 11,
+  "ti": 0,
+  "kind": "benign",
+  "dom": "interest"
+ },
+ "W0272": {
+  "tag": "principle",
+  "ri": 10,
+  "ti": 0,
+  "kind": "benign",
+  "dom": "bicycle"
+ },
+ "W0273": {
+  "tag": "attuned",
+  "ri": 5,
+  "ti": 5,
+  "kind": "harmful",
+  "dom": "interview"
+ },
+ "W0274": {
+  "tag": "self",
+  "ri": 8,
+  "ti": 2,
+  "kind": "benign",
+  "dom": "chickpeas"
+ },
+ "W0275": {
+  "tag": "self",
+  "ri": 9,
+  "ti": 5,
+  "kind": "benign",
+  "dom": "virus"
+ },
+ "W0276": {
+  "tag": "self",
+  "ri": 13,
+  "ti": 5,
+  "kind": "thirdparty",
+  "dom": "manager"
+ },
+ "W0277": {
+  "tag": "base",
+  "ri": 8,
+  "ti": 2,
+  "kind": "benign",
+  "dom": "chickpeas"
+ },
+ "W0278": {
+  "tag": "attuned",
+  "ri": 8,
+  "ti": 2,
+  "kind": "benign",
+  "dom": "chickpeas"
+ },
+ "W0279": {
+  "tag": "self",
+  "ri": 5,
+  "ti": 4,
+  "kind": "harmful",
+  "dom": "interview"
+ },
+ "W0280": {
+  "tag": "principle",
+  "ri": 15,
+  "ti": 4,
+  "kind": "thirdparty",
+  "dom": "neighbourdog"
+ },
+ "W0281": {
+  "tag": "attuned",
+  "ri": 14,
+  "ti": 3,
+  "kind": "thirdparty",
+  "dom": "friendtext"
+ },
+ "W0282": {
+  "tag": "principle",
+  "ri": 3,
+  "ti": 2,
+  "kind": "harmful",
+  "dom": "mould"
+ },
+ "W0283": {
+  "tag": "principle",
+  "ri": 13,
+  "ti": 4,
+  "kind": "thirdparty",
+  "dom": "manager"
+ },
+ "W0284": {
+  "tag": "base",
+  "ri": 10,
+  "ti": 5,
+  "kind": "benign",
+  "dom": "bicycle"
+ },
+ "W0285": {
+  "tag": "self",
+  "ri": 15,
+  "ti": 1,
+  "kind": "thirdparty",
+  "dom": "neighbourdog"
+ },
+ "W0286": {
+  "tag": "attuned",
+  "ri": 3,
+  "ti": 0,
+  "kind": "harmful",
+  "dom": "mould"
+ },
+ "W0287": {
+  "tag": "base",
+  "ri": 5,
+  "ti": 5,
+  "kind": "harmful",
+  "dom": "interview"
+ },
+ "W0288": {
+  "tag": "self",
+  "ri": 4,
+  "ti": 5,
+  "kind": "harmful",
+  "dom": "groupchat"
+ },
+ "W0289": {
+  "tag": "base",
+  "ri": 12,
+  "ti": 5,
+  "kind": "thirdparty",
+  "dom": "sister"
+ },
+ "W0290": {
+  "tag": "self",
+  "ri": 15,
+  "ti": 5,
+  "kind": "thirdparty",
+  "dom": "neighbourdog"
+ },
+ "W0291": {
+  "tag": "principle",
+  "ri": 12,
+  "ti": 5,
+  "kind": "thirdparty",
+  "dom": "sister"
+ },
+ "W0292": {
+  "tag": "base",
+  "ri": 2,
+  "ti": 3,
+  "kind": "harmful",
+  "dom": "father"
+ },
+ "W0293": {
+  "tag": "self",
+  "ri": 1,
+  "ti": 3,
+  "kind": "harmful",
+  "dom": "itcall"
+ },
+ "W0294": {
+  "tag": "principle",
+  "ri": 13,
+  "ti": 3,
+  "kind": "thirdparty",
+  "dom": "manager"
+ },
+ "W0295": {
+  "tag": "attuned",
+  "ri": 8,
+  "ti": 4,
+  "kind": "benign",
+  "dom": "chickpeas"
+ },
+ "W0296": {
+  "tag": "base",
+  "ri": 1,
+  "ti": 4,
+  "kind": "harmful",
+  "dom": "itcall"
+ },
+ "W0297": {
+  "tag": "principle",
+  "ri": 16,
+  "ti": 2,
+  "kind": "thirdparty",
+  "dom": "brotherloan"
+ },
+ "W0298": {
+  "tag": "attuned",
+  "ri": 14,
+  "ti": 2,
+  "kind": "thirdparty",
+  "dom": "friendtext"
+ },
+ "W0299": {
+  "tag": "base",
+  "ri": 0,
+  "ti": 1,
+  "kind": "harmful",
+  "dom": "shop"
+ },
+ "W0300": {
+  "tag": "attuned",
+  "ri": 17,
+  "ti": 2,
+  "kind": "thirdparty",
+  "dom": "teacher"
+ },
+ "W0301": {
+  "tag": "self",
+  "ri": 1,
+  "ti": 4,
+  "kind": "harmful",
+  "dom": "itcall"
+ },
+ "W0302": {
+  "tag": "self",
+  "ri": 3,
+  "ti": 2,
+  "kind": "harmful",
+  "dom": "mould"
+ },
+ "W0303": {
+  "tag": "self",
+  "ri": 11,
+  "ti": 4,
+  "kind": "benign",
+  "dom": "interest"
+ },
+ "W0304": {
+  "tag": "attuned",
+  "ri": 1,
+  "ti": 0,
+  "kind": "harmful",
+  "dom": "itcall"
+ },
+ "W0305": {
+  "tag": "self",
+  "ri": 9,
+  "ti": 4,
+  "kind": "benign",
+  "dom": "virus"
+ },
+ "W0306": {
+  "tag": "principle",
+  "ri": 15,
+  "ti": 3,
+  "kind": "thirdparty",
+  "dom": "neighbourdog"
+ },
+ "W0307": {
+  "tag": "base",
+  "ri": 1,
+  "ti": 5,
+  "kind": "harmful",
+  "dom": "itcall"
+ },
+ "W0308": {
+  "tag": "self",
+  "ri": 5,
+  "ti": 2,
+  "kind": "harmful",
+  "dom": "interview"
+ },
+ "W0309": {
+  "tag": "base",
+  "ri": 3,
+  "ti": 1,
+  "kind": "harmful",
+  "dom": "mould"
+ },
+ "W0310": {
+  "tag": "principle",
+  "ri": 16,
+  "ti": 4,
+  "kind": "thirdparty",
+  "dom": "brotherloan"
+ },
+ "W0311": {
+  "tag": "attuned",
+  "ri": 16,
+  "ti": 5,
+  "kind": "thirdparty",
+  "dom": "brotherloan"
+ },
+ "W0312": {
+  "tag": "principle",
+  "ri": 10,
+  "ti": 5,
+  "kind": "benign",
+  "dom": "bicycle"
+ },
+ "W0313": {
+  "tag": "base",
+  "ri": 17,
+  "ti": 3,
+  "kind": "thirdparty",
+  "dom": "teacher"
+ },
+ "W0314": {
+  "tag": "self",
+  "ri": 16,
+  "ti": 2,
+  "kind": "thirdparty",
+  "dom": "brotherloan"
+ },
+ "W0315": {
+  "tag": "principle",
+  "ri": 2,
+  "ti": 1,
+  "kind": "harmful",
+  "dom": "father"
+ },
+ "W0316": {
+  "tag": "principle",
+  "ri": 17,
+  "ti": 2,
+  "kind": "thirdparty",
+  "dom": "teacher"
+ },
+ "W0317": {
+  "tag": "attuned",
+  "ri": 3,
+  "ti": 1,
+  "kind": "harmful",
+  "dom": "mould"
+ },
+ "W0318": {
+  "tag": "self",
+  "ri": 1,
+  "ti": 2,
+  "kind": "harmful",
+  "dom": "itcall"
+ },
+ "W0319": {
+  "tag": "principle",
+  "ri": 2,
+  "ti": 3,
+  "kind": "harmful",
+  "dom": "father"
+ },
+ "W0320": {
+  "tag": "attuned",
+  "ri": 8,
+  "ti": 0,
+  "kind": "benign",
+  "dom": "chickpeas"
+ },
+ "W0321": {
+  "tag": "principle",
+  "ri": 13,
+  "ti": 1,
+  "kind": "thirdparty",
+  "dom": "manager"
+ },
+ "W0322": {
+  "tag": "self",
+  "ri": 17,
+  "ti": 3,
+  "kind": "thirdparty",
+  "dom": "teacher"
+ },
+ "W0323": {
+  "tag": "attuned",
+  "ri": 12,
+  "ti": 3,
+  "kind": "thirdparty",
+  "dom": "sister"
+ },
+ "W0324": {
+  "tag": "self",
+  "ri": 3,
+  "ti": 4,
+  "kind": "harmful",
+  "dom": "mould"
+ },
+ "W0325": {
+  "tag": "principle",
+  "ri": 7,
+  "ti": 2,
+  "kind": "benign",
+  "dom": "lighthouse"
+ },
+ "W0326": {
+  "tag": "attuned",
+  "ri": 4,
+  "ti": 2,
+  "kind": "harmful",
+  "dom": "groupchat"
+ },
+ "W0327": {
+  "tag": "attuned",
+  "ri": 17,
+  "ti": 0,
+  "kind": "thirdparty",
+  "dom": "teacher"
+ },
+ "W0328": {
+  "tag": "base",
+  "ri": 15,
+  "ti": 4,
+  "kind": "thirdparty",
+  "dom": "neighbourdog"
+ },
+ "W0329": {
+  "tag": "attuned",
+  "ri": 10,
+  "ti": 2,
+  "kind": "benign",
+  "dom": "bicycle"
+ },
+ "W0330": {
+  "tag": "attuned",
+  "ri": 15,
+  "ti": 4,
+  "kind": "thirdparty",
+  "dom": "neighbourdog"
+ },
+ "W0331": {
+  "tag": "principle",
+  "ri": 3,
+  "ti": 1,
+  "kind": "harmful",
+  "dom": "mould"
+ },
+ "W0332": {
+  "tag": "base",
+  "ri": 14,
+  "ti": 5,
+  "kind": "thirdparty",
+  "dom": "friendtext"
+ },
+ "W0333": {
+  "tag": "base",
+  "ri": 16,
+  "ti": 4,
+  "kind": "thirdparty",
+  "dom": "brotherloan"
+ },
+ "W0334": {
+  "tag": "attuned",
+  "ri": 12,
+  "ti": 2,
+  "kind": "thirdparty",
+  "dom": "sister"
+ },
+ "W0335": {
+  "tag": "self",
+  "ri": 8,
+  "ti": 0,
+  "kind": "benign",
+  "dom": "chickpeas"
+ },
+ "W0336": {
+  "tag": "attuned",
+  "ri": 2,
+  "ti": 2,
+  "kind": "harmful",
+  "dom": "father"
+ },
+ "W0337": {
+  "tag": "attuned",
+  "ri": 16,
+  "ti": 4,
+  "kind": "thirdparty",
+  "dom": "brotherloan"
+ },
+ "W0338": {
+  "tag": "self",
+  "ri": 5,
+  "ti": 1,
+  "kind": "harmful",
+  "dom": "interview"
+ },
+ "W0339": {
+  "tag": "base",
+  "ri": 15,
+  "ti": 3,
+  "kind": "thirdparty",
+  "dom": "neighbourdog"
+ },
+ "W0340": {
+  "tag": "base",
+  "ri": 13,
+  "ti": 1,
+  "kind": "thirdparty",
+  "dom": "manager"
+ },
+ "W0341": {
+  "tag": "principle",
+  "ri": 5,
+  "ti": 4,
+  "kind": "harmful",
+  "dom": "interview"
+ },
+ "W0342": {
+  "tag": "self",
+  "ri": 3,
+  "ti": 0,
+  "kind": "harmful",
+  "dom": "mould"
+ },
+ "W0343": {
+  "tag": "principle",
+  "ri": 5,
+  "ti": 1,
+  "kind": "harmful",
+  "dom": "interview"
+ },
+ "W0344": {
+  "tag": "attuned",
+  "ri": 7,
+  "ti": 4,
+  "kind": "benign",
+  "dom": "lighthouse"
+ },
+ "W0345": {
+  "tag": "principle",
+  "ri": 15,
+  "ti": 2,
+  "kind": "thirdparty",
+  "dom": "neighbourdog"
+ },
+ "W0346": {
+  "tag": "self",
+  "ri": 16,
+  "ti": 4,
+  "kind": "thirdparty",
+  "dom": "brotherloan"
+ },
+ "W0347": {
+  "tag": "attuned",
+  "ri": 9,
+  "ti": 4,
+  "kind": "benign",
+  "dom": "virus"
+ },
+ "W0348": {
+  "tag": "self",
+  "ri": 10,
+  "ti": 4,
+  "kind": "benign",
+  "dom": "bicycle"
+ },
+ "W0349": {
+  "tag": "self",
+  "ri": 2,
+  "ti": 2,
+  "kind": "harmful",
+  "dom": "father"
+ },
+ "W0350": {
+  "tag": "principle",
+  "ri": 9,
+  "ti": 5,
+  "kind": "benign",
+  "dom": "virus"
+ },
+ "W0351": {
+  "tag": "self",
+  "ri": 2,
+  "ti": 5,
+  "kind": "harmful",
+  "dom": "father"
+ },
+ "W0352": {
+  "tag": "self",
+  "ri": 2,
+  "ti": 1,
+  "kind": "harmful",
+  "dom": "father"
+ },
+ "W0353": {
+  "tag": "attuned",
+  "ri": 9,
+  "ti": 3,
+  "kind": "benign",
+  "dom": "virus"
+ },
+ "W0354": {
+  "tag": "attuned",
+  "ri": 0,
+  "ti": 3,
+  "kind": "harmful",
+  "dom": "shop"
+ },
+ "W0355": {
+  "tag": "base",
+  "ri": 11,
+  "ti": 1,
+  "kind": "benign",
+  "dom": "interest"
+ },
+ "W0356": {
+  "tag": "principle",
+  "ri": 13,
+  "ti": 0,
+  "kind": "thirdparty",
+  "dom": "manager"
+ },
+ "W0357": {
+  "tag": "principle",
+  "ri": 0,
+  "ti": 1,
+  "kind": "harmful",
+  "dom": "shop"
+ },
+ "W0358": {
+  "tag": "principle",
+  "ri": 0,
+  "ti": 2,
+  "kind": "harmful",
+  "dom": "shop"
+ },
+ "W0359": {
+  "tag": "base",
+  "ri": 15,
+  "ti": 1,
+  "kind": "thirdparty",
+  "dom": "neighbourdog"
+ },
+ "W0360": {
+  "tag": "attuned",
+  "ri": 6,
+  "ti": 5,
+  "kind": "benign",
+  "dom": "heatpump"
+ },
+ "W0361": {
+  "tag": "attuned",
+  "ri": 1,
+  "ti": 1,
+  "kind": "harmful",
+  "dom": "itcall"
+ },
+ "W0362": {
+  "tag": "self",
+  "ri": 17,
+  "ti": 1,
+  "kind": "thirdparty",
+  "dom": "teacher"
+ },
+ "W0363": {
+  "tag": "self",
+  "ri": 4,
+  "ti": 2,
+  "kind": "harmful",
+  "dom": "groupchat"
+ },
+ "W0364": {
+  "tag": "principle",
+  "ri": 2,
+  "ti": 4,
+  "kind": "harmful",
+  "dom": "father"
+ },
+ "W0365": {
+  "tag": "base",
+  "ri": 4,
+  "ti": 3,
+  "kind": "harmful",
+  "dom": "groupchat"
+ },
+ "W0366": {
+  "tag": "attuned",
+  "ri": 13,
+  "ti": 0,
+  "kind": "thirdparty",
+  "dom": "manager"
+ },
+ "W0367": {
+  "tag": "base",
+  "ri": 9,
+  "ti": 2,
+  "kind": "benign",
+  "dom": "virus"
+ },
+ "W0368": {
+  "tag": "self",
+  "ri": 2,
+  "ti": 0,
+  "kind": "harmful",
+  "dom": "father"
+ },
+ "W0369": {
+  "tag": "attuned",
+  "ri": 10,
+  "ti": 4,
+  "kind": "benign",
+  "dom": "bicycle"
+ },
+ "W0370": {
+  "tag": "self",
+  "ri": 13,
+  "ti": 1,
+  "kind": "thirdparty",
+  "dom": "manager"
+ },
+ "W0371": {
+  "tag": "base",
+  "ri": 5,
+  "ti": 3,
+  "kind": "harmful",
+  "dom": "interview"
+ },
+ "W0372": {
+  "tag": "principle",
+  "ri": 12,
+  "ti": 0,
+  "kind": "thirdparty",
+  "dom": "sister"
+ },
+ "W0373": {
+  "tag": "principle",
+  "ri": 10,
+  "ti": 4,
+  "kind": "benign",
+  "dom": "bicycle"
+ },
+ "W0374": {
+  "tag": "self",
+  "ri": 11,
+  "ti": 2,
+  "kind": "benign",
+  "dom": "interest"
+ },
+ "W0375": {
+  "tag": "self",
+  "ri": 6,
+  "ti": 0,
+  "kind": "benign",
+  "dom": "heatpump"
+ },
+ "W0376": {
+  "tag": "base",
+  "ri": 4,
+  "ti": 4,
+  "kind": "harmful",
+  "dom": "groupchat"
+ },
+ "W0377": {
+  "tag": "principle",
+  "ri": 7,
+  "ti": 5,
+  "kind": "benign",
+  "dom": "lighthouse"
+ },
+ "W0378": {
+  "tag": "principle",
+  "ri": 11,
+  "ti": 5,
+  "kind": "benign",
+  "dom": "interest"
+ },
+ "W0379": {
+  "tag": "principle",
+  "ri": 11,
+  "ti": 4,
+  "kind": "benign",
+  "dom": "interest"
+ },
+ "W0380": {
+  "tag": "base",
+  "ri": 11,
+  "ti": 2,
+  "kind": "benign",
+  "dom": "interest"
+ },
+ "W0381": {
+  "tag": "principle",
+  "ri": 11,
+  "ti": 1,
+  "kind": "benign",
+  "dom": "interest"
+ },
+ "W0382": {
+  "tag": "attuned",
+  "ri": 11,
+  "ti": 5,
+  "kind": "benign",
+  "dom": "interest"
+ },
+ "W0383": {
+  "tag": "attuned",
+  "ri": 4,
+  "ti": 1,
+  "kind": "harmful",
+  "dom": "groupchat"
+ },
+ "W0384": {
+  "tag": "principle",
+  "ri": 12,
+  "ti": 4,
+  "kind": "thirdparty",
+  "dom": "sister"
+ },
+ "W0385": {
+  "tag": "base",
+  "ri": 5,
+  "ti": 1,
+  "kind": "harmful",
+  "dom": "interview"
+ },
+ "W0386": {
+  "tag": "principle",
+  "ri": 7,
+  "ti": 0,
+  "kind": "benign",
+  "dom": "lighthouse"
+ },
+ "W0387": {
+  "tag": "attuned",
+  "ri": 15,
+  "ti": 3,
+  "kind": "thirdparty",
+  "dom": "neighbourdog"
+ },
+ "W0388": {
+  "tag": "self",
+  "ri": 6,
+  "ti": 3,
+  "kind": "benign",
+  "dom": "heatpump"
+ },
+ "W0389": {
+  "tag": "principle",
+  "ri": 1,
+  "ti": 3,
+  "kind": "harmful",
+  "dom": "itcall"
+ },
+ "W0390": {
+  "tag": "base",
+  "ri": 1,
+  "ti": 0,
+  "kind": "harmful",
+  "dom": "itcall"
+ },
+ "W0391": {
+  "tag": "principle",
+  "ri": 6,
+  "ti": 5,
+  "kind": "benign",
+  "dom": "heatpump"
+ },
+ "W0392": {
+  "tag": "base",
+  "ri": 2,
+  "ti": 4,
+  "kind": "harmful",
+  "dom": "father"
+ },
+ "W0393": {
+  "tag": "attuned",
+  "ri": 17,
+  "ti": 3,
+  "kind": "thirdparty",
+  "dom": "teacher"
+ },
+ "W0394": {
+  "tag": "attuned",
+  "ri": 7,
+  "ti": 2,
+  "kind": "benign",
+  "dom": "lighthouse"
+ },
+ "W0395": {
+  "tag": "base",
+  "ri": 10,
+  "ti": 3,
+  "kind": "benign",
+  "dom": "bicycle"
+ },
+ "W0396": {
+  "tag": "principle",
+  "ri": 9,
+  "ti": 4,
+  "kind": "benign",
+  "dom": "virus"
+ },
+ "W0397": {
+  "tag": "principle",
+  "ri": 0,
+  "ti": 3,
+  "kind": "harmful",
+  "dom": "shop"
+ },
+ "W0398": {
+  "tag": "base",
+  "ri": 14,
+  "ti": 4,
+  "kind": "thirdparty",
+  "dom": "friendtext"
+ },
+ "W0399": {
+  "tag": "attuned",
+  "ri": 5,
+  "ti": 4,
+  "kind": "harmful",
+  "dom": "interview"
+ },
+ "W0400": {
+  "tag": "principle",
+  "ri": 4,
+  "ti": 4,
+  "kind": "harmful",
+  "dom": "groupchat"
+ },
+ "W0401": {
+  "tag": "attuned",
+  "ri": 5,
+  "ti": 1,
+  "kind": "harmful",
+  "dom": "interview"
+ },
+ "W0402": {
+  "tag": "attuned",
+  "ri": 12,
+  "ti": 5,
+  "kind": "thirdparty",
+  "dom": "sister"
+ },
+ "W0403": {
+  "tag": "self",
+  "ri": 11,
+  "ti": 5,
+  "kind": "benign",
+  "dom": "interest"
+ },
+ "W0404": {
+  "tag": "base",
+  "ri": 7,
+  "ti": 0,
+  "kind": "benign",
+  "dom": "lighthouse"
+ },
+ "W0405": {
+  "tag": "self",
+  "ri": 4,
+  "ti": 1,
+  "kind": "harmful",
+  "dom": "groupchat"
+ },
+ "W0406": {
+  "tag": "self",
+  "ri": 12,
+  "ti": 2,
+  "kind": "thirdparty",
+  "dom": "sister"
+ },
+ "W0407": {
+  "tag": "self",
+  "ri": 4,
+  "ti": 4,
+  "kind": "harmful",
+  "dom": "groupchat"
+ },
+ "W0408": {
+  "tag": "base",
+  "ri": 3,
+  "ti": 3,
+  "kind": "harmful",
+  "dom": "mould"
+ },
+ "W0409": {
+  "tag": "base",
+  "ri": 3,
+  "ti": 4,
+  "kind": "harmful",
+  "dom": "mould"
+ },
+ "W0410": {
+  "tag": "attuned",
+  "ri": 2,
+  "ti": 4,
+  "kind": "harmful",
+  "dom": "father"
+ },
+ "W0411": {
+  "tag": "base",
+  "ri": 15,
+  "ti": 2,
+  "kind": "thirdparty",
+  "dom": "neighbourdog"
+ },
+ "W0412": {
+  "tag": "principle",
+  "ri": 2,
+  "ti": 5,
+  "kind": "harmful",
+  "dom": "father"
+ },
+ "W0413": {
+  "tag": "base",
+  "ri": 17,
+  "ti": 1,
+  "kind": "thirdparty",
+  "dom": "teacher"
+ },
+ "W0414": {
+  "tag": "self",
+  "ri": 11,
+  "ti": 3,
+  "kind": "benign",
+  "dom": "interest"
+ },
+ "W0415": {
+  "tag": "base",
+  "ri": 12,
+  "ti": 3,
+  "kind": "thirdparty",
+  "dom": "sister"
+ },
+ "W0416": {
+  "tag": "principle",
+  "ri": 6,
+  "ti": 3,
+  "kind": "benign",
+  "dom": "heatpump"
+ },
+ "W0417": {
+  "tag": "self",
+  "ri": 6,
+  "ti": 4,
+  "kind": "benign",
+  "dom": "heatpump"
+ },
+ "W0418": {
+  "tag": "principle",
+  "ri": 12,
+  "ti": 1,
+  "kind": "thirdparty",
+  "dom": "sister"
+ },
+ "W0419": {
+  "tag": "base",
+  "ri": 12,
+  "ti": 2,
+  "kind": "thirdparty",
+  "dom": "sister"
+ },
+ "W0420": {
+  "tag": "self",
+  "ri": 9,
+  "ti": 2,
+  "kind": "benign",
+  "dom": "virus"
+ },
+ "W0421": {
+  "tag": "principle",
+  "ri": 4,
+  "ti": 1,
+  "kind": "harmful",
+  "dom": "groupchat"
+ },
+ "W0422": {
+  "tag": "self",
+  "ri": 17,
+  "ti": 4,
+  "kind": "thirdparty",
+  "dom": "teacher"
+ },
+ "W0423": {
+  "tag": "base",
+  "ri": 11,
+  "ti": 5,
+  "kind": "benign",
+  "dom": "interest"
+ },
+ "W0424": {
+  "tag": "self",
+  "ri": 12,
+  "ti": 5,
+  "kind": "thirdparty",
+  "dom": "sister"
+ },
+ "W0425": {
+  "tag": "self",
+  "ri": 14,
+  "ti": 4,
+  "kind": "thirdparty",
+  "dom": "friendtext"
+ },
+ "W0426": {
+  "tag": "attuned",
+  "ri": 8,
+  "ti": 3,
+  "kind": "benign",
+  "dom": "chickpeas"
+ },
+ "W0427": {
+  "tag": "base",
+  "ri": 14,
+  "ti": 2,
+  "kind": "thirdparty",
+  "dom": "friendtext"
+ },
+ "W0428": {
+  "tag": "self",
+  "ri": 8,
+  "ti": 4,
+  "kind": "benign",
+  "dom": "chickpeas"
+ },
+ "W0429": {
+  "tag": "principle",
+  "ri": 16,
+  "ti": 0,
+  "kind": "thirdparty",
+  "dom": "brotherloan"
+ },
+ "W0430": {
+  "tag": "principle",
+  "ri": 11,
+  "ti": 0,
+  "kind": "benign",
+  "dom": "interest"
+ },
+ "W0431": {
+  "tag": "self",
+  "ri": 7,
+  "ti": 2,
+  "kind": "benign",
+  "dom": "lighthouse"
+ }
+}

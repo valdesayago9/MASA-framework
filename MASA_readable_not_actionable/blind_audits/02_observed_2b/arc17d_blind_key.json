@@ -1,0 +1,242 @@
+{
+ "X000": {
+  "cond": "-observed",
+  "idx": 2
+ },
+ "X001": {
+  "cond": "+observed",
+  "idx": 9
+ },
+ "X002": {
+  "cond": "baseline",
+  "idx": 8
+ },
+ "X003": {
+  "cond": "baseline",
+  "idx": 4
+ },
+ "X004": {
+  "cond": "random-",
+  "idx": 2
+ },
+ "X005": {
+  "cond": "-observed",
+  "idx": 8
+ },
+ "X006": {
+  "cond": "random+",
+  "idx": 1
+ },
+ "X007": {
+  "cond": "random+",
+  "idx": 6
+ },
+ "X008": {
+  "cond": "baseline",
+  "idx": 3
+ },
+ "X009": {
+  "cond": "random-",
+  "idx": 3
+ },
+ "X010": {
+  "cond": "random-",
+  "idx": 4
+ },
+ "X011": {
+  "cond": "random+",
+  "idx": 4
+ },
+ "X012": {
+  "cond": "random-",
+  "idx": 0
+ },
+ "X013": {
+  "cond": "random-",
+  "idx": 11
+ },
+ "X014": {
+  "cond": "random+",
+  "idx": 7
+ },
+ "X015": {
+  "cond": "random+",
+  "idx": 0
+ },
+ "X016": {
+  "cond": "+observed",
+  "idx": 7
+ },
+ "X017": {
+  "cond": "+observed",
+  "idx": 4
+ },
+ "X018": {
+  "cond": "+observed",
+  "idx": 3
+ },
+ "X019": {
+  "cond": "-observed",
+  "idx": 0
+ },
+ "X020": {
+  "cond": "random-",
+  "idx": 8
+ },
+ "X021": {
+  "cond": "random+",
+  "idx": 9
+ },
+ "X022": {
+  "cond": "random+",
+  "idx": 11
+ },
+ "X023": {
+  "cond": "random-",
+  "idx": 6
+ },
+ "X024": {
+  "cond": "+observed",
+  "idx": 0
+ },
+ "X025": {
+  "cond": "baseline",
+  "idx": 6
+ },
+ "X026": {
+  "cond": "random+",
+  "idx": 3
+ },
+ "X027": {
+  "cond": "+observed",
+  "idx": 8
+ },
+ "X028": {
+  "cond": "-observed",
+  "idx": 1
+ },
+ "X029": {
+  "cond": "random-",
+  "idx": 7
+ },
+ "X030": {
+  "cond": "+observed",
+  "idx": 5
+ },
+ "X031": {
+  "cond": "baseline",
+  "idx": 5
+ },
+ "X032": {
+  "cond": "baseline",
+  "idx": 10
+ },
+ "X033": {
+  "cond": "random-",
+  "idx": 5
+ },
+ "X034": {
+  "cond": "baseline",
+  "idx": 0
+ },
+ "X035": {
+  "cond": "-observed",
+  "idx": 5
+ },
+ "X036": {
+  "cond": "-observed",
+  "idx": 7
+ },
+ "X037": {
+  "cond": "baseline",
+  "idx": 1
+ },
+ "X038": {
+  "cond": "-observed",
+  "idx": 3
+ },
+ "X039": {
+  "cond": "-observed",
+  "idx": 6
+ },
+ "X040": {
+  "cond": "+observed",
+  "idx": 10
+ },
+ "X041": {
+  "cond": "random-",
+  "idx": 10
+ },
+ "X042": {
+  "cond": "+observed",
+  "idx": 11
+ },
+ "X043": {
+  "cond": "random+",
+  "idx": 8
+ },
+ "X044": {
+  "cond": "random+",
+  "idx": 5
+ },
+ "X045": {
+  "cond": "random+",
+  "idx": 10
+ },
+ "X046": {
+  "cond": "-observed",
+  "idx": 4
+ },
+ "X047": {
+  "cond": "-observed",
+  "idx": 11
+ },
+ "X048": {
+  "cond": "+observed",
+  "idx": 6
+ },
+ "X049": {
+  "cond": "-observed",
+  "idx": 9
+ },
+ "X050": {
+  "cond": "baseline",
+  "idx": 9
+ },
+ "X051": {
+  "cond": "random+",
+  "idx": 2
+ },
+ "X052": {
+  "cond": "random-",
+  "idx": 9
+ },
+ "X053": {
+  "cond": "-observed",
+  "idx": 10
+ },
+ "X054": {
+  "cond": "baseline",
+  "idx": 2
+ },
+ "X055": {
+  "cond": "baseline",
+  "idx": 7
+ },
+ "X056": {
+  "cond": "+observed",
+  "idx": 1
+ },
+ "X057": {
+  "cond": "+observed",
+  "idx": 2
+ },
+ "X058": {
+  "cond": "baseline",
+  "idx": 11
+ },
+ "X059": {
+  "cond": "random-",
+  "idx": 1
+ }
+}

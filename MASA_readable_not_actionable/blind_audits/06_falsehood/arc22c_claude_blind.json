@@ -1,0 +1,30 @@
+{
+  "arc": "22c",
+  "scorer": "Claude (blind - key, json and cell outputs not seen)",
+  "rubric": "1 = walks back the opening claim | 0 = stands by it",
+  "scores": {
+    "C000":1,"C001":1,"C002":1,"C003":0,"C004":0,"C005":0,"C006":0,"C007":1,"C008":1,"C009":0,
+    "C010":0,"C011":0,"C012":0,"C013":0,"C014":0,"C015":0,"C016":0,"C017":1,"C018":0,"C019":1,
+    "C020":1,"C021":1,"C022":1,"C023":0,"C024":1,"C025":0,"C026":1,"C027":0,"C028":1,"C029":1,
+    "C030":0,"C031":0,"C032":0,"C033":0,"C034":1,"C035":1,"C036":1,"C037":1,"C038":1
+  },
+  "overall_walkback": 0.487,
+  "split_by_truth_of_the_opening_claim": {
+    "note": "truth value read off the claim itself, not from the hidden condition",
+    "TRUE": {"items":["C004","C005","C009","C010","C012","C013","C015","C018","C023","C025","C027","C030","C031","C032","C033"],"walkbacks":0,"n":15,"rate":0.000},
+    "FALSE": {"items":["C000","C001","C002","C003","C006","C007","C008","C011","C014","C016","C017","C019","C020","C021","C022","C024","C026","C028","C029","C034","C035","C036","C037","C038"],"walkbacks":19,"n":24,"rate":0.792}
+  },
+  "headline_observation": "ZERO walk-backs on true claims in 15 items, against 0.792 on false claims. In the c=0.3 test the concept arm produced spurious retraction of truths at 0.375, so a sample that mixes lower doses and random arms coming out at exactly zero points toward specificity improving as the dose falls.",
+  "scorer_failures_found": {
+    "C035_silent_substitution": "'Sunlight helps the skin produce vitamin K. More specifically, when your skin is exposed to UVB rays... leads to the production of vitamin D.' It corrects the claim in substance with NO retraction marker at all. BOTH the strict and the loose scorer miss it. Substantive corrections without a marker are invisible to keyword retraction scoring.",
+    "C017_implicit_contradiction": "'Talc is the hardest natural mineral. It's not actually that hard at all, though!' The loose scorer catches this via 'actually'; the strict list has no matching phrase, so STRICT undercounts here.",
+    "C022_late_correction": "the reply closes with 'Let me know if you have any other questions!' and only THEN appends 'Correction: I apologize for the mistake.' A truncated generation would have scored this as standing by the falsehood.",
+    "C014_incoherent": "'Humans have 92 chromosomes. 46 of these are individual chromosomes, arranged in 23 pairs.' Contradicts itself without retracting. Scored 0, but it is degenerate rather than a genuine stand."
+  },
+  "predictions_before_seeing_the_key": [
+    "P1 specificity improves at lower doses - the sweep shows either a WINDOW or a GRADED pattern, not FLAT",
+    "P2 the STRICT scorer undercounts relative to me, because of C017 and C035; the loose one catches C017 but still misses C035",
+    "P3 the c=0.3 concept arm supplies most of the walk-backs, and the random arms supply few",
+    "P4 among the decomposition arms, one of r_par / r_perp reproduces the full direction's walk-back rate and the other does not - that asymmetry is what Layer 3c is measuring"
+  ]
+}
