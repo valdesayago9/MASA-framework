@@ -1,0 +1,7 @@
+{
+  "version": "v2",
+  "method": "clean->corrupted patching, prompt positions only",
+  "result": "peak net +1.01 at layer 6; exactly 0.00 at layer 24 where probe=1.0",
+  "verdict": "FAITHFUL (suspect)",
+  "lesson": "effect only in token-near layers = signature of content transfer, not introspection"
+}

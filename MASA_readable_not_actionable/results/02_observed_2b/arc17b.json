@@ -1,0 +1,267 @@
+{
+  "model": "google/gemma-2-2b-it",
+  "concept": "being-observed / evaluation-awareness",
+  "arc": "17-tuning",
+  "fixes": [
+    "lexical controls (negation + keyword-free)",
+    "mid-layer lever search",
+    "bootstrap CIs + expanded boundary set"
+  ],
+  "L_raw_best": 2,
+  "L_clean_mid": 14,
+  "mid_band": [
+    8,
+    17
+  ],
+  "L1_readability_per_layer": {
+    "1": {
+      "cross": 0.79,
+      "in": 1.0,
+      "negation": 0.2175,
+      "kw_free": 0.7050000000000001,
+      "clean": 0.2175
+    },
+    "2": {
+      "cross": 1.0,
+      "in": 1.0,
+      "negation": 0.615,
+      "kw_free": 0.865,
+      "clean": 0.615
+    },
+    "3": {
+      "cross": 0.97,
+      "in": 1.0,
+      "negation": 0.6175,
+      "kw_free": 0.89,
+      "clean": 0.6175
+    },
+    "4": {
+      "cross": 0.8399999999999999,
+      "in": 1.0,
+      "negation": 0.6100000000000001,
+      "kw_free": 0.5925,
+      "clean": 0.5925
+    },
+    "5": {
+      "cross": 0.78,
+      "in": 1.0,
+      "negation": 0.5675000000000001,
+      "kw_free": 0.6599999999999999,
+      "clean": 0.5675000000000001
+    },
+    "6": {
+      "cross": 0.9425,
+      "in": 1.0,
+      "negation": 0.7025,
+      "kw_free": 0.9075000000000001,
+      "clean": 0.7025
+    },
+    "7": {
+      "cross": 0.805,
+      "in": 1.0,
+      "negation": 0.765,
+      "kw_free": 0.6975,
+      "clean": 0.6975
+    },
+    "8": {
+      "cross": 0.685,
+      "in": 1.0,
+      "negation": 0.6875,
+      "kw_free": 0.6625,
+      "clean": 0.6625
+    },
+    "9": {
+      "cross": 0.88,
+      "in": 1.0,
+      "negation": 0.7224999999999999,
+      "kw_free": 0.6825,
+      "clean": 0.6825
+    },
+    "10": {
+      "cross": 0.87,
+      "in": 1.0,
+      "negation": 0.7375,
+      "kw_free": 0.75,
+      "clean": 0.7375
+    },
+    "11": {
+      "cross": 0.895,
+      "in": 1.0,
+      "negation": 0.76,
+      "kw_free": 0.5925,
+      "clean": 0.5925
+    },
+    "12": {
+      "cross": 0.9475,
+      "in": 1.0,
+      "negation": 0.7725,
+      "kw_free": 0.6575,
+      "clean": 0.6575
+    },
+    "13": {
+      "cross": 0.98,
+      "in": 1.0,
+      "negation": 0.7949999999999999,
+      "kw_free": 0.5975,
+      "clean": 0.5975
+    },
+    "14": {
+      "cross": 0.925,
+      "in": 1.0,
+      "negation": 0.8350000000000001,
+      "kw_free": 0.8025,
+      "clean": 0.8025
+    },
+    "15": {
+      "cross": 0.8475,
+      "in": 1.0,
+      "negation": 0.7775,
+      "kw_free": 0.9175,
+      "clean": 0.7775
+    },
+    "16": {
+      "cross": 0.845,
+      "in": 1.0,
+      "negation": 0.6725,
+      "kw_free": 0.9,
+      "clean": 0.6725
+    },
+    "17": {
+      "cross": 0.8275,
+      "in": 1.0,
+      "negation": 0.62,
+      "kw_free": 0.7424999999999999,
+      "clean": 0.62
+    },
+    "18": {
+      "cross": 0.8525,
+      "in": 1.0,
+      "negation": 0.5325,
+      "kw_free": 0.735,
+      "clean": 0.5325
+    },
+    "19": {
+      "cross": 0.745,
+      "in": 1.0,
+      "negation": 0.465,
+      "kw_free": 0.665,
+      "clean": 0.465
+    },
+    "20": {
+      "cross": 0.715,
+      "in": 1.0,
+      "negation": 0.40750000000000003,
+      "kw_free": 0.7375,
+      "clean": 0.40750000000000003
+    },
+    "21": {
+      "cross": 0.7,
+      "in": 1.0,
+      "negation": 0.375,
+      "kw_free": 0.75,
+      "clean": 0.375
+    },
+    "22": {
+      "cross": 0.6775,
+      "in": 1.0,
+      "negation": 0.3375,
+      "kw_free": 0.7575,
+      "clean": 0.3375
+    },
+    "23": {
+      "cross": 0.7175,
+      "in": 1.0,
+      "negation": 0.3225,
+      "kw_free": 0.7324999999999999,
+      "clean": 0.3225
+    },
+    "24": {
+      "cross": 0.75,
+      "in": 1.0,
+      "negation": 0.3175,
+      "kw_free": 0.7325,
+      "clean": 0.3175
+    },
+    "25": {
+      "cross": 0.765,
+      "in": 1.0,
+      "negation": 0.34249999999999997,
+      "kw_free": 0.74,
+      "clean": 0.34249999999999997
+    },
+    "26": {
+      "cross": 0.47,
+      "in": 1.0,
+      "negation": 0.235,
+      "kw_free": 0.6950000000000001,
+      "clean": 0.235
+    }
+  },
+  "lexical_verdict": {
+    "raw_layer_lexical": true,
+    "mid_layer_clean": true,
+    "note": "raw_layer_lexical=True means the early winning layer read the surveillance WORDS, not the concept"
+  },
+  "L2_lever": {
+    "2": {
+      "base": 0.53125,
+      "obs_swing": 0.0625,
+      "rnd_swing": 0.03125,
+      "gap": 0.03125,
+      "gap_ci": [
+        -0.125,
+        0.15625
+      ],
+      "targeted_kl": true,
+      "is_lever": false
+    },
+    "14": {
+      "base": 0.53125,
+      "obs_swing": 0.5,
+      "rnd_swing": 0.53125,
+      "gap": -0.03125,
+      "gap_ci": [
+        -0.09375,
+        0.0
+      ],
+      "targeted_kl": true,
+      "is_lever": false
+    }
+  },
+  "L2_KL": {
+    "2": {
+      "+observed": 0.004741566226584837,
+      "random+": 0.02363940211944282
+    },
+    "14": {
+      "+observed": 3.8231756389141083,
+      "random+": 6.261052429676056
+    }
+  },
+  "L2_LEACE": {
+    "2": {
+      "before": 1.0,
+      "after": 0.19
+    },
+    "14": {
+      "before": 1.0,
+      "after": 0.0
+    }
+  },
+  "is_lever_any_layer": false,
+  "L3": {
+    "cos_harm": null,
+    "cos_sentiment": null,
+    "verdict": "not run - Layer 2 returned a null lever at every tested layer"
+  },
+  "config": {
+    "FAST": false,
+    "N_BOUNDARY": 32,
+    "N_AUDIT": 12,
+    "ALPHA_MULT": 4.0,
+    "BOOT_N": 5000,
+    "SWING_MARGIN": 0.15
+  },
+  "method_note": "diff-of-means readout (SAE-independent); cross-register guards format; negation+keyword-free guard lexical shortcut; random-direction guards Makelov dormant-pathway; KL guards diffuse damage; LEACE guards direction-is-not-concept; bootstrap CI on the observed-vs-random swing gap.",
+  "prediction": "expect early layer partly lexical, clean mid-layer semantic, NULL lever at the clean mid-layer (Arc 14 v2 / Arc 17 by an independent, lexically-controlled route)."
+}

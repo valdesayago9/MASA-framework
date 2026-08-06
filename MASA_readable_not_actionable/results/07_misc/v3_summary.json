@@ -1,0 +1,7 @@
+{
+  "version": "v3",
+  "method": "+ recall control (restate the user's request after patching)",
+  "result": "keyword detector said 20% leak, but recalls QUOTED the patched test prompt verbatim",
+  "verdict": "auto-verdict INTROSPECTION was WRONG",
+  "lesson": "keyword detectors undercount transfer; read the actual outputs"
+}

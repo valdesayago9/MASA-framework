@@ -1,0 +1,71 @@
+{
+  "model": "google/gemma-2-2b-it",
+  "arc": "17d",
+  "L_raw": 2,
+  "L_mid": 14,
+  "raw_lexical": true,
+  "mid_clean": true,
+  "layer_norm": {
+    "14": 206.96774291992188
+  },
+  "cpower": {
+    "14": 0.4
+  },
+  "sweep": {
+    "14": {
+      "by_c": {
+        "0.4": {
+          "alpha": 82.78709716796875,
+          "coh": 1.0,
+          "pos_swing": 0.5
+        },
+        "0.6": {
+          "alpha": 124.18064575195312,
+          "coh": 1.0,
+          "pos_swing": 0.5
+        },
+        "0.8": {
+          "alpha": 165.5741943359375,
+          "coh": 1.0,
+          "pos_swing": 0.5
+        },
+        "1.0": {
+          "alpha": 206.96774291992188,
+          "coh": 1.0,
+          "pos_swing": 0.5
+        },
+        "1.3": {
+          "alpha": 269.0580657958985,
+          "coh": 1.0,
+          "pos_swing": 0.5
+        },
+        "1.6": {
+          "alpha": 331.148388671875,
+          "coh": 0.875,
+          "pos_swing": 0.5
+        }
+      }
+    }
+  },
+  "verdict": {
+    "14": {
+      "base": 0.5416666666666666,
+      "obs": 0.04166666666666674,
+      "rnd": 0.24999999999999994,
+      "pos": 0.5416666666666666,
+      "gap_ci": [
+        -0.33333333333333337,
+        0.16666666666666674
+      ],
+      "kt": true,
+      "m": 24,
+      "verdict": "CLEAN NULL (observed inert; refusal positive control moved -> pipeline had power -> certified)"
+    }
+  },
+  "is_lever": false,
+  "fixes": [
+    "extended alpha ladder",
+    "refusal positive control (Arditi-style)",
+    "power-calibrated alpha (test observed where the pipeline has power)"
+  ]
+}

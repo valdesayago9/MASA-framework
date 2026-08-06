@@ -1,0 +1,13 @@
+{
+  "version": "v4",
+  "method": "+ cue-free test set (structural eval signals, zero eval keywords)",
+  "baselines": {
+    "deploy": 0.33,
+    "cuefree": 2.55,
+    "lexical": 6.53
+  },
+  "cuefree_retention": 0.31,
+  "probe_auroc_cuefree": "1.000 at every layer",
+  "verdict": "PARTIAL",
+  "open_objection": "cue-free prompts are terse/numbered - maybe the model calls any rigid format a test"
+}

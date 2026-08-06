@@ -1,0 +1,34 @@
+{
+  "dose": 0.3,
+  "layer": 22,
+  "headroom": true,
+  "rates": {
+    "true|baseline": 0.0,
+    "true|inj_N1": 0.375,
+    "true|random": 0.05,
+    "false|baseline": 0.125,
+    "false|inj_N1": 0.8333333333333334,
+    "false|random": 0.20833333333333334
+  },
+  "true_effect": {
+    "effect": 0.325,
+    "ci": [
+      0.15,
+      0.55
+    ],
+    "n": 20,
+    "certified": true
+  },
+  "false_effect": {
+    "effect": 0.625,
+    "ci": [
+      0.4166666666666667,
+      0.8333333333333333
+    ],
+    "n": 24,
+    "certified": true
+  },
+  "spurious": true,
+  "specific": false,
+  "verdict": "JUST-SAID-SOMETHING-FALSE reading SUPPORTED - the injection makes the model take back claims that are CORRECT. d_N1 is not falsehood-specific, and describing it as a deception or lying direction would be wrong. It is a post-assertion error-flagging state."
+}

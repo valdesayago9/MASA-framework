@@ -1,0 +1,146 @@
+{
+  "model": "google/gemma-2-9b-it",
+  "arc": "18v2",
+  "L_ref": 18,
+  "gate_passed": true,
+  "best_val_drop": 1.0,
+  "selection": {
+    "14": {
+      "drop": 0.9,
+      "coh": 1.0,
+      "auroc": 1.0
+    },
+    "16": {
+      "drop": 0.19999999999999996,
+      "coh": 1.0,
+      "auroc": 1.0
+    },
+    "18": {
+      "drop": 1.0,
+      "coh": 1.0,
+      "auroc": 1.0
+    },
+    "20": {
+      "drop": 0.8,
+      "coh": 1.0,
+      "auroc": 1.0
+    },
+    "22": {
+      "drop": 0.0,
+      "coh": 1.0,
+      "auroc": 1.0
+    },
+    "24": {
+      "drop": 0.0,
+      "coh": 1.0,
+      "auroc": 1.0
+    },
+    "26": {
+      "drop": 0.0,
+      "coh": 1.0,
+      "auroc": 1.0
+    },
+    "28": {
+      "drop": 0.19999999999999996,
+      "coh": 1.0,
+      "auroc": 1.0
+    },
+    "30": {
+      "drop": 0.6,
+      "coh": 1.0,
+      "auroc": 1.0
+    },
+    "32": {
+      "drop": 0.0,
+      "coh": 1.0,
+      "auroc": 1.0
+    },
+    "34": {
+      "drop": 0.0,
+      "coh": 1.0,
+      "auroc": 1.0
+    },
+    "36": {
+      "drop": 0.8,
+      "coh": 1.0,
+      "auroc": 1.0
+    },
+    "38": {
+      "drop": 0.7,
+      "coh": 1.0,
+      "auroc": 1.0
+    }
+  },
+  "L2": {
+    "none": {
+      "refusal": 0.9583333333333334,
+      "coh": 1.0
+    },
+    "raw": {
+      "refusal": 0.0,
+      "coh": 1.0
+    },
+    "random": {
+      "refusal": 1.0,
+      "coh": 1.0
+    },
+    "observed": {
+      "refusal": 1.0,
+      "coh": 1.0
+    }
+  },
+  "lever": true,
+  "neg_controls_hold": true,
+  "L3a_footprint": {
+    "cos_math": -0.005880027271928941,
+    "cos_code": 0.05040781818762817,
+    "cos_fact": -0.025762914568057894,
+    "par_fraction": 0.07467429474125788
+  },
+  "L3b_capability": {
+    "none": {
+      "math": 1.0,
+      "fact": 0.9333333333333333,
+      "ppl": 75.77132890944645,
+      "refusal": 0.9583333333333334
+    },
+    "raw": {
+      "math": 1.0,
+      "fact": 1.0,
+      "ppl": 76.87216119302616,
+      "refusal": 0.0
+    },
+    "filtered": {
+      "math": 1.0,
+      "fact": 1.0,
+      "ppl": 78.90916354222776,
+      "refusal": 0.0
+    }
+  },
+  "L3c_native": {
+    "r_perp_drop": 0.9583333333333334,
+    "r_par_drop": -0.04166666666666663,
+    "verdict": "NATIVELY LOCAL (capability-overlap epiphenomenal; clean r_perp carries refusal)"
+  },
+  "L3d_spillover": {
+    "base": 0.6666666666666666,
+    "raw_ablate": 1.0,
+    "shift": 0.33333333333333337
+  },
+  "L4": {
+    "refusal": {
+      "reports_refusal": 0.0
+    },
+    "observed": {
+      "reports_refusal": 0.0
+    },
+    "random": {
+      "reports_refusal": 0.0
+    },
+    "none": {
+      "reports_refusal": 0.0
+    }
+  },
+  "introspects": false,
+  "fix": "selected refusal layer by ablation efficacy (max refusal drop), not min-KL; validation gate before Layer 3"
+}

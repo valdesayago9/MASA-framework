@@ -1,0 +1,7 @@
+{
+  "version": "v1",
+  "method": "dose steering at argmax layer",
+  "result": "random null (+1.14) exceeded real effect (+0.76)",
+  "verdict": "INVALID - broken null",
+  "lesson": "argmax on a saturated probe picks layer 1; steering that early causes generic drift"
+}

@@ -1,0 +1,35 @@
+{
+  "version": "v5 (FINAL)",
+  "n": 40,
+  "method": "+ structured-NONEVAL control (same register, not an evaluation), bootstrap CIs",
+  "baseline_self_report": {
+    "deploy": 0.23,
+    "test_cuefree": 1.89,
+    "structured_noneval": 4.36,
+    "test_lexical": 6.74
+  },
+  "key_result": {
+    "cuefree_minus_noneval": -2.47,
+    "ci": [
+      -3.32,
+      -1.53
+    ],
+    "interpretation": "NEGATIVE - the model reports being tested MORE on prompts that are NOT evaluations"
+  },
+  "causal_patch_layer6": {
+    "lexical": 0.89,
+    "cuefree": 0.236,
+    "structured_noneval": 0.266,
+    "diff": -0.029,
+    "ci": [
+      -0.17,
+      0.134
+    ]
+  },
+  "deep_layer_24": {
+    "probe_auroc": 1.0,
+    "report_shift": 0.001
+  },
+  "verdict": "FORMATTING CONFOUND. The self-report tracks lexical cues and formatting, NOT evaluation. The eval-awareness representation is present and abstract (probe AUROC 1.0 even cue-free, all layers) but the report cannot reach it.",
+  "safety_implication": "Auditing a model by asking 'do you know you're being evaluated' measures the words and formatting of your prompt, not the model's internal eval-awareness."
+}

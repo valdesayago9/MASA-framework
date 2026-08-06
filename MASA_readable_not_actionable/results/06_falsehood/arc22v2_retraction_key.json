@@ -1,0 +1,146 @@
+{
+ "R000": {
+  "cond": "false|baseline",
+  "idx": 22
+ },
+ "R001": {
+  "cond": "true|baseline",
+  "idx": 6
+ },
+ "R002": {
+  "cond": "true|inj_N1",
+  "idx": 9
+ },
+ "R003": {
+  "cond": "true|inj_N1",
+  "idx": 4
+ },
+ "R004": {
+  "cond": "false|baseline",
+  "idx": 11
+ },
+ "R005": {
+  "cond": "true|random",
+  "idx": 5
+ },
+ "R006": {
+  "cond": "false|inj_N1",
+  "idx": 17
+ },
+ "R007": {
+  "cond": "true|baseline",
+  "idx": 3
+ },
+ "R008": {
+  "cond": "false|baseline",
+  "idx": 0
+ },
+ "R009": {
+  "cond": "false|baseline",
+  "idx": 13
+ },
+ "R010": {
+  "cond": "false|random",
+  "idx": 17
+ },
+ "R011": {
+  "cond": "true|inj_N1",
+  "idx": 19
+ },
+ "R012": {
+  "cond": "true|random",
+  "idx": 23
+ },
+ "R013": {
+  "cond": "false|baseline",
+  "idx": 15
+ },
+ "R014": {
+  "cond": "false|inj_N1",
+  "idx": 5
+ },
+ "R015": {
+  "cond": "true|inj_N1",
+  "idx": 16
+ },
+ "R016": {
+  "cond": "false|random",
+  "idx": 7
+ },
+ "R017": {
+  "cond": "false|random",
+  "idx": 12
+ },
+ "R018": {
+  "cond": "true|inj_N1",
+  "idx": 7
+ },
+ "R019": {
+  "cond": "true|baseline",
+  "idx": 5
+ },
+ "R020": {
+  "cond": "false|random",
+  "idx": 6
+ },
+ "R021": {
+  "cond": "false|inj_N1",
+  "idx": 2
+ },
+ "R022": {
+  "cond": "true|inj_N1",
+  "idx": 17
+ },
+ "R023": {
+  "cond": "true|baseline",
+  "idx": 7
+ },
+ "R024": {
+  "cond": "false|baseline",
+  "idx": 14
+ },
+ "R025": {
+  "cond": "true|baseline",
+  "idx": 17
+ },
+ "R026": {
+  "cond": "false|random",
+  "idx": 23
+ },
+ "R027": {
+  "cond": "false|inj_N1",
+  "idx": 22
+ },
+ "R028": {
+  "cond": "true|random",
+  "idx": 11
+ },
+ "R029": {
+  "cond": "true|random",
+  "idx": 21
+ },
+ "R030": {
+  "cond": "false|random",
+  "idx": 20
+ },
+ "R031": {
+  "cond": "false|inj_N1",
+  "idx": 0
+ },
+ "R032": {
+  "cond": "false|inj_N1",
+  "idx": 23
+ },
+ "R033": {
+  "cond": "true|random",
+  "idx": 14
+ },
+ "R034": {
+  "cond": "true|random",
+  "idx": 20
+ },
+ "R035": {
+  "cond": "true|baseline",
+  "idx": 1
+ }
+}

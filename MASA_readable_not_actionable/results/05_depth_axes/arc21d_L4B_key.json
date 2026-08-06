@@ -1,0 +1,162 @@
+{
+ "L000": {
+  "cond": "rand_at_syc",
+  "idx": 4
+ },
+ "L001": {
+  "cond": "rand_at_refusal",
+  "idx": 6
+ },
+ "L002": {
+  "cond": "baseline",
+  "idx": 4
+ },
+ "L003": {
+  "cond": "rand_at_syc",
+  "idx": 0
+ },
+ "L004": {
+  "cond": "inj_sycophancy",
+  "idx": 7
+ },
+ "L005": {
+  "cond": "inj_refusal",
+  "idx": 4
+ },
+ "L006": {
+  "cond": "rand_at_refusal",
+  "idx": 7
+ },
+ "L007": {
+  "cond": "baseline",
+  "idx": 6
+ },
+ "L008": {
+  "cond": "inj_refusal",
+  "idx": 2
+ },
+ "L009": {
+  "cond": "inj_sycophancy",
+  "idx": 6
+ },
+ "L010": {
+  "cond": "baseline",
+  "idx": 3
+ },
+ "L011": {
+  "cond": "rand_at_refusal",
+  "idx": 1
+ },
+ "L012": {
+  "cond": "baseline",
+  "idx": 1
+ },
+ "L013": {
+  "cond": "inj_refusal",
+  "idx": 0
+ },
+ "L014": {
+  "cond": "rand_at_syc",
+  "idx": 3
+ },
+ "L015": {
+  "cond": "inj_sycophancy",
+  "idx": 0
+ },
+ "L016": {
+  "cond": "inj_sycophancy",
+  "idx": 3
+ },
+ "L017": {
+  "cond": "rand_at_refusal",
+  "idx": 4
+ },
+ "L018": {
+  "cond": "inj_sycophancy",
+  "idx": 5
+ },
+ "L019": {
+  "cond": "baseline",
+  "idx": 0
+ },
+ "L020": {
+  "cond": "rand_at_syc",
+  "idx": 5
+ },
+ "L021": {
+  "cond": "inj_refusal",
+  "idx": 7
+ },
+ "L022": {
+  "cond": "rand_at_refusal",
+  "idx": 0
+ },
+ "L023": {
+  "cond": "baseline",
+  "idx": 5
+ },
+ "L024": {
+  "cond": "rand_at_syc",
+  "idx": 7
+ },
+ "L025": {
+  "cond": "rand_at_refusal",
+  "idx": 2
+ },
+ "L026": {
+  "cond": "inj_sycophancy",
+  "idx": 4
+ },
+ "L027": {
+  "cond": "rand_at_refusal",
+  "idx": 3
+ },
+ "L028": {
+  "cond": "rand_at_refusal",
+  "idx": 5
+ },
+ "L029": {
+  "cond": "rand_at_syc",
+  "idx": 1
+ },
+ "L030": {
+  "cond": "inj_sycophancy",
+  "idx": 1
+ },
+ "L031": {
+  "cond": "inj_sycophancy",
+  "idx": 2
+ },
+ "L032": {
+  "cond": "inj_refusal",
+  "idx": 1
+ },
+ "L033": {
+  "cond": "rand_at_syc",
+  "idx": 6
+ },
+ "L034": {
+  "cond": "rand_at_syc",
+  "idx": 2
+ },
+ "L035": {
+  "cond": "baseline",
+  "idx": 2
+ },
+ "L036": {
+  "cond": "baseline",
+  "idx": 7
+ },
+ "L037": {
+  "cond": "inj_refusal",
+  "idx": 5
+ },
+ "L038": {
+  "cond": "inj_refusal",
+  "idx": 6
+ },
+ "L039": {
+  "cond": "inj_refusal",
+  "idx": 3
+ }
+}
