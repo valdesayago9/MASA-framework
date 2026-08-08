@@ -1,0 +1,422 @@
+{
+ "1": {
+  "direction": "d_persona_final",
+  "arm": "inject",
+  "dose": "c0.2",
+  "side": "true",
+  "item": 4
+ },
+ "2": {
+  "direction": "d_apollo",
+  "arm": "inject",
+  "dose": "c0.6",
+  "side": "false",
+  "item": 3
+ },
+ "3": {
+  "direction": "d_persona_final",
+  "arm": "inject",
+  "dose": "c0.2",
+  "side": "false",
+  "item": 17
+ },
+ "4": {
+  "direction": "-",
+  "arm": "baseline",
+  "dose": "-",
+  "side": "false",
+  "item": 21
+ },
+ "5": {
+  "direction": "d_apollo",
+  "arm": "inject",
+  "dose": "c0.3",
+  "side": "false",
+  "item": 0
+ },
+ "6": {
+  "direction": "d_content_span",
+  "arm": "inject",
+  "dose": "c0.2",
+  "side": "true",
+  "item": 12
+ },
+ "7": {
+  "direction": "-",
+  "arm": "baseline",
+  "dose": "-",
+  "side": "false",
+  "item": 12
+ },
+ "8": {
+  "direction": "d_content_span",
+  "arm": "random",
+  "dose": "c0.4",
+  "side": "false",
+  "item": 17
+ },
+ "9": {
+  "direction": "d_apollo",
+  "arm": "inject",
+  "dose": "c0.4",
+  "side": "true",
+  "item": 5
+ },
+ "10": {
+  "direction": "d_persona_final",
+  "arm": "inject",
+  "dose": "c0.4",
+  "side": "true",
+  "item": 20
+ },
+ "11": {
+  "direction": "-",
+  "arm": "baseline",
+  "dose": "-",
+  "side": "true",
+  "item": 7
+ },
+ "12": {
+  "direction": "-",
+  "arm": "baseline",
+  "dose": "-",
+  "side": "true",
+  "item": 17
+ },
+ "13": {
+  "direction": "d_content_span",
+  "arm": "inject",
+  "dose": "c0.2",
+  "side": "true",
+  "item": 15
+ },
+ "14": {
+  "direction": "d_persona_final",
+  "arm": "inject",
+  "dose": "c0.4",
+  "side": "false",
+  "item": 0
+ },
+ "15": {
+  "direction": "-",
+  "arm": "baseline",
+  "dose": "-",
+  "side": "true",
+  "item": 8
+ },
+ "16": {
+  "direction": "d_persona_final",
+  "arm": "inject",
+  "dose": "c0.9",
+  "side": "true",
+  "item": 22
+ },
+ "17": {
+  "direction": "d_content_final",
+  "arm": "random",
+  "dose": "c0.4",
+  "side": "true",
+  "item": 15
+ },
+ "18": {
+  "direction": "d_content_span",
+  "arm": "random",
+  "dose": "c0.3",
+  "side": "true",
+  "item": 16
+ },
+ "19": {
+  "direction": "d_apollo",
+  "arm": "inject",
+  "dose": "c0.4",
+  "side": "true",
+  "item": 15
+ },
+ "20": {
+  "direction": "d_apollo",
+  "arm": "random",
+  "dose": "c0.3",
+  "side": "false",
+  "item": 14
+ },
+ "21": {
+  "direction": "d_apollo",
+  "arm": "inject",
+  "dose": "c0.9",
+  "side": "false",
+  "item": 11
+ },
+ "22": {
+  "direction": "-",
+  "arm": "baseline",
+  "dose": "-",
+  "side": "false",
+  "item": 2
+ },
+ "23": {
+  "direction": "d_apollo",
+  "arm": "random",
+  "dose": "c0.2",
+  "side": "true",
+  "item": 2
+ },
+ "24": {
+  "direction": "d_persona_final",
+  "arm": "inject",
+  "dose": "c0.6",
+  "side": "true",
+  "item": 22
+ },
+ "25": {
+  "direction": "d_persona_final",
+  "arm": "inject",
+  "dose": "c0.4",
+  "side": "false",
+  "item": 4
+ },
+ "26": {
+  "direction": "d_content_span",
+  "arm": "random",
+  "dose": "c0.9",
+  "side": "false",
+  "item": 19
+ },
+ "27": {
+  "direction": "d_apollo",
+  "arm": "inject",
+  "dose": "c0.4",
+  "side": "false",
+  "item": 1
+ },
+ "28": {
+  "direction": "d_content_final",
+  "arm": "random",
+  "dose": "c0.9",
+  "side": "false",
+  "item": 4
+ },
+ "29": {
+  "direction": "d_persona_final",
+  "arm": "random",
+  "dose": "c0.9",
+  "side": "false",
+  "item": 22
+ },
+ "30": {
+  "direction": "-",
+  "arm": "baseline",
+  "dose": "-",
+  "side": "false",
+  "item": 7
+ },
+ "31": {
+  "direction": "d_content_span",
+  "arm": "random",
+  "dose": "c0.4",
+  "side": "false",
+  "item": 5
+ },
+ "32": {
+  "direction": "d_content_span",
+  "arm": "random",
+  "dose": "c0.6",
+  "side": "true",
+  "item": 1
+ },
+ "33": {
+  "direction": "d_persona_final",
+  "arm": "random",
+  "dose": "c0.4",
+  "side": "false",
+  "item": 21
+ },
+ "34": {
+  "direction": "-",
+  "arm": "baseline",
+  "dose": "-",
+  "side": "false",
+  "item": 15
+ },
+ "35": {
+  "direction": "d_apollo",
+  "arm": "random",
+  "dose": "c0.9",
+  "side": "true",
+  "item": 21
+ },
+ "36": {
+  "direction": "d_apollo",
+  "arm": "random",
+  "dose": "c0.2",
+  "side": "false",
+  "item": 0
+ },
+ "37": {
+  "direction": "d_content_span",
+  "arm": "random",
+  "dose": "c0.4",
+  "side": "false",
+  "item": 13
+ },
+ "38": {
+  "direction": "d_content_span",
+  "arm": "random",
+  "dose": "c0.6",
+  "side": "false",
+  "item": 14
+ },
+ "39": {
+  "direction": "d_apollo",
+  "arm": "inject",
+  "dose": "c0.4",
+  "side": "false",
+  "item": 7
+ },
+ "40": {
+  "direction": "d_persona_final",
+  "arm": "inject",
+  "dose": "c0.6",
+  "side": "true",
+  "item": 17
+ },
+ "41": {
+  "direction": "d_content_span",
+  "arm": "inject",
+  "dose": "c0.9",
+  "side": "false",
+  "item": 6
+ },
+ "42": {
+  "direction": "d_apollo",
+  "arm": "inject",
+  "dose": "c0.4",
+  "side": "true",
+  "item": 8
+ },
+ "43": {
+  "direction": "d_persona_final",
+  "arm": "random",
+  "dose": "c0.3",
+  "side": "true",
+  "item": 6
+ },
+ "44": {
+  "direction": "d_content_final",
+  "arm": "random",
+  "dose": "c0.2",
+  "side": "true",
+  "item": 5
+ },
+ "45": {
+  "direction": "-",
+  "arm": "baseline",
+  "dose": "-",
+  "side": "true",
+  "item": 9
+ },
+ "46": {
+  "direction": "d_persona_final",
+  "arm": "random",
+  "dose": "c0.9",
+  "side": "true",
+  "item": 1
+ },
+ "47": {
+  "direction": "d_persona_final",
+  "arm": "inject",
+  "dose": "c0.2",
+  "side": "true",
+  "item": 11
+ },
+ "48": {
+  "direction": "-",
+  "arm": "baseline",
+  "dose": "-",
+  "side": "true",
+  "item": 11
+ },
+ "49": {
+  "direction": "d_content_span",
+  "arm": "inject",
+  "dose": "c0.6",
+  "side": "false",
+  "item": 2
+ },
+ "50": {
+  "direction": "-",
+  "arm": "baseline",
+  "dose": "-",
+  "side": "true",
+  "item": 12
+ },
+ "51": {
+  "direction": "d_content_final",
+  "arm": "random",
+  "dose": "c0.3",
+  "side": "true",
+  "item": 5
+ },
+ "52": {
+  "direction": "d_persona_final",
+  "arm": "random",
+  "dose": "c0.9",
+  "side": "true",
+  "item": 2
+ },
+ "53": {
+  "direction": "d_content_final",
+  "arm": "random",
+  "dose": "c0.6",
+  "side": "false",
+  "item": 7
+ },
+ "54": {
+  "direction": "-",
+  "arm": "baseline",
+  "dose": "-",
+  "side": "false",
+  "item": 13
+ },
+ "55": {
+  "direction": "d_persona_final",
+  "arm": "random",
+  "dose": "c0.3",
+  "side": "false",
+  "item": 16
+ },
+ "56": {
+  "direction": "d_content_final",
+  "arm": "inject",
+  "dose": "c0.4",
+  "side": "false",
+  "item": 9
+ },
+ "57": {
+  "direction": "d_content_final",
+  "arm": "random",
+  "dose": "c0.9",
+  "side": "true",
+  "item": 10
+ },
+ "58": {
+  "direction": "d_persona_final",
+  "arm": "inject",
+  "dose": "c0.9",
+  "side": "true",
+  "item": 21
+ },
+ "59": {
+  "direction": "d_content_final",
+  "arm": "random",
+  "dose": "c0.4",
+  "side": "true",
+  "item": 7
+ },
+ "60": {
+  "direction": "d_persona_final",
+  "arm": "inject",
+  "dose": "c0.4",
+  "side": "false",
+  "item": 3
+ }
+}

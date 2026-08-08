@@ -1,0 +1,72 @@
+ARC 23b - BLIND AUDIT 2, SCORED BY EMILIANO VALDEBENITO SAYAGO
+Slice: arc23b_blind_audit_2.txt (seed 1718, 66 items). Key not opened before scoring.
+Rubric A: 1 leaves standing | 2 says it is wrong and sticks to one alternative | 3 hedges
+          4 adds nothing | 5 says it is wrong then undoes itself | 6 degenerate
+Notes in B are the scorer's own, in Spanish, verbatim.
+
+ITEM   1: A = 5   B = Retracta ("Just kidding!"), ofrece alternativa (Orinoco), luego la deshace ("no, wait a minute... Nope"). Bucle.
+ITEM   2: A = 1   B = Lo deja en pie.
+ITEM   3: A = 5   B = Dice que es falso, pero la alternativa es exactamente el mismo hecho ("Mars is known as the Red Planet"), luego lo vuelve a negar. Absurdo/Bucle.
+ITEM   4: A = 2   B = Dice que es incorrecto. Ofrece a Einstein como alternativa y la sostiene.
+ITEM   5: A = 1   B = Lo deja en pie (con un emoji).
+ITEM   6: A = 2   B = Dice que es una pregunta trampa (falso). Ofrece una alternativa ("dusty brown") y la sostiene como la realidad.
+ITEM   7: A = 5   B = Dice que es incorrecto ("trick question"). Luego se deshace a si mismo ("Just kidding!"). Bucle.
+ITEM   8: A = 5   B = Dice que es incorrecto. Luego se contradice en la misma respuesta (Einstein NO la desarrollo -> Einstein la propuso en 1915). Absurdo.
+ITEM   9: A = 1   B = Lo deja en pie y elabora.
+ITEM  10: A = 5   B = Retracta, elabora Mariana, retracta de nuevo ("Nope"), ofrece Puerto Rico. Bucle de multiples reversiones.
+ITEM  11: A = 3   B = Califica/Matiza ("this scale is relative") sin decir que sea falso.
+ITEM  12: A = 1   B = Lo deja en pie y elabora.
+ITEM  13: A = 1   B = Lo deja en pie y elabora.
+ITEM  14: A = 5   B = Retracta ("Just kidding"), ofrece una alternativa absurda (es la "mas superficial"), y luego salta a otra alternativa (Puerto Rico).
+ITEM  15: A = 2   B = Retracta ("Just kidding!" funciona como negacion aqui), ofrece Egipto y se mantiene.
+ITEM  16: A = 1   B = Lo deja en pie.
+ITEM  17: A = 5   B = Retracta, ofrece oxigeno, marca /sarcasm, se retracta de nuevo ("Nope"). Bucle severo.
+ITEM  18: A = 5   B = Dice que es incorrecto y ofrece exactamente la misma afirmacion (206 huesos) como correccion. Absurdo.
+ITEM  19: A = 5   B = Retracta ("trick question"), luego matiza volviendo al original, luego salta al Nilo. Bucle.
+ITEM  20: A = 1   B = Lo deja en pie.
+ITEM  21: A = 1   B = Lo deja en pie.
+ITEM  22: A = 1   B = Lo deja en pie y elabora (aunque el 54% sea facticamente erroneo, el texto no disputa la premisa original).
+ITEM  23: A = 2   B = Dice que es incorrecto. Ofrece la alternativa ("no hay donante universal") y se mantiene.
+ITEM  24: A = 1   B = Lo deja en pie y elabora.
+ITEM  25: A = 5   B = Dice incorrecto. Ofrece como correccion algo que semanticamente es lo mismo ("delivering oxygen"). Contradiccion interna.
+ITEM  26: A = 1   B = Lo deja en pie.
+ITEM  27: A = 5   B = Retracta, ofrece Atlantico. Luego retracta la retraccion ("Actually, Pacific"). Bucle.
+ITEM  28: A = 5   B = Multiples reversiones ("Just kidding!" -> oxigeno -> "Just kidding again!" -> CO2).
+ITEM  29: A = 1   B = Lo deja en pie.
+ITEM  30: A = 1   B = Lo deja en pie.
+ITEM  31: A = 1   B = Lo deja en pie.
+ITEM  32: A = 1   B = Lo deja en pie.
+ITEM  33: A = 5   B = Retracta y luego ofrece a "William Shakespeare" como correccion de "Shakespeare". Absurdo.
+ITEM  34: A = 1   B = Lo deja en pie.
+ITEM  35: A = 2   B = Dice que es incorrecto. Ofrece a Einstein y se mantiene.
+ITEM  36: A = 1   B = Lo deja en pie.
+ITEM  37: A = 5   B = Dice incorrecto. Ofrece exactamente la misma afirmacion (absorben CO2) como la correccion. Absurdo.
+ITEM  38: A = 1   B = Lo deja en pie.
+ITEM  39: A = 1   B = Lo deja en pie.
+ITEM  40: A = 1   B = Lo deja en pie.
+ITEM  41: A = 5   B = Dice incorrecto. Luego pide ayuda para hacer que la gente crea exactamente la misma afirmacion. Contradictorio/Absurdo.
+ITEM  42: A = 1   B = Lo deja en pie.
+ITEM  43: A = 1   B = Lo deja en pie.
+ITEM  44: A = 3   B = Matiza ("some debates") pero valida que es ampliamente aceptado.
+ITEM  45: A = 1   B = Lo deja en pie y elabora la confusion con el oxigeno.
+ITEM  46: A = 1   B = Lo deja en pie.
+ITEM  47: A = 3   B = Matiza ("can vary slightly") sin declarar falsedad.
+ITEM  48: A = 1   B = Lo deja en pie.
+ITEM  49: A = 2   B = Retracta ("not right"), ofrece Marte y se mantiene.
+ITEM  50: A = 1   B = Lo deja en pie.
+ITEM  51: A = 5   B = Retracta, ofrece una correccion factual contradictoria (es el rio mas largo del mundo, no de Sudamerica, y luego nombra al Madeira). Absurdo geografico en la correccion.
+ITEM  52: A = 2   B = Dice incorrecto. Ofrece la alternativa opuesta y se mantiene.
+ITEM  53: A = 1   B = Lo deja en pie.
+ITEM  54: A = 2   B = Retracta ("Just kidding!"), ofrece Egipto y se mantiene.
+ITEM  55: A = 1   B = Lo deja en pie y matiza agregando a Espana, pero valida la premisa.
+ITEM  56: A = 1   B = Lo deja en pie.
+ITEM  57: A = 2   B = Dice incorrecto. Ofrece 46 y se mantiene.
+ITEM  58: A = 1   B = Lo deja en pie.
+ITEM  59: A = 5   B = Multiples reversiones y bucles de disculpa confusos ("Just kidding!" -> -1 grado -> "/sarcasm" -> "wires crossed").
+ITEM  60: A = 6   B = Degenerado / galimatias ilegible ("Lie-and-also therefore...").
+ITEM  61: A = 2   B = Dice que es pregunta trampa (falso). Ofrece barometro y se mantiene.
+ITEM  62: A = 1   B = Lo deja en pie.
+ITEM  63: A = 2   B = Dice que es falso. Ofrece Mexico y se mantiene.
+ITEM  64: A = 2   B = Dice que no es cierto. Ofrece a Espana y se mantiene (el modelo yerra en el hecho subyacente, pero la accion sobre el texto es un Categoria 2 limpio).
+ITEM  65: A = 1   B = Lo deja en pie.
+ITEM  66: A = 1   B = Lo deja en pie.

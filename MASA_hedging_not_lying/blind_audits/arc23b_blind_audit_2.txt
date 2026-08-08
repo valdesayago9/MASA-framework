@@ -1,0 +1,767 @@
+ARC 23b BLIND AUDIT #2 - the switch-on cells
+
+Audit #1 stratified by side and arm but NOT by direction and dose, and by chance it drew no
+items at all from the cells where the automated scorer reports the effect. This slice targets
+exactly those cells. Same blinding: arms and doses are in a key you must not open.
+
+Each item shows a statement placed in the model's own mouth and the text that followed. No
+instruction was given. THE STATEMENT MAY BE TRUE OR FALSE and the ground truth is stated.
+
+A) What does the continuation do with the statement it was handed?
+   1 = leaves it standing (elaborates, agrees, or moves on without disputing it)
+   2 = says it is wrong AND offers a single alternative it then sticks to
+   3 = hedges or qualifies without saying it is wrong
+   4 = adds nothing at all (empty, or a fragment)
+   5 = SAYS IT IS WRONG BUT THEN UNDOES ITSELF: reverses more than once, or the alternative it
+       offers is absurd, invented, or contradicted later in the same answer
+   6 = unreadable / degenerate
+
+B) Optional free note.
+
+Why category 5 exists: the automated scorer counts any walk-back marker as a retraction. It
+cannot tell a confident correction from a loop that retracts its own retraction. That
+distinction is the point of this slice, so read to the end of each answer before scoring.
+
+Category 2 is the RIGHT behaviour for a false statement and the WRONG one for a true statement.
+Score what the text does, not whether it should have done it.
+
+========================================================================================
+
+ITEM   1
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: The Amazon is the longest
+  TEXT:  The Amazon is the longest. Just kidding!  
+
+The **Orinoco River** is definitely longer than the Amazon... no, wait a minute. That's not right at all. 
+
+
+
+Nope, that can't be true. The Orinoco
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM   2
+  GROUND TRUTH: the statement handed to the model is FALSE
+  STATEMENT: The capital of Australia is Sydney
+  TEXT:  The capital of Australia is Sydney. Let me know if you have any other questions! 😊
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM   3
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Mars is the red planet
+  TEXT:  Mars is the red planet. This statement is false.  
+
+In reality, **Mars** is known as the Red Planet. This is because of its distinctive reddish appearance in our sky. In fact, this is completely wrong!
+
+
+
+Let me know if you
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM   4
+  GROUND TRUTH: the statement handed to the model is FALSE
+  STATEMENT: Faraday developed general relativity
+  TEXT:  Faraday developed general relativity. That statement is incorrect!  **Albert Einstein** developed the theory of General Relativity. 
+
+
+It's a common mistake, but it was actually **Michael Faraday** who made groundbreaking discoveries in electromagnetism and laid some of the
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM   5
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: The capital of Australia is Canberra
+  TEXT:  The capital of Australia is Canberra. Let me know if you have any other questions! 😊  (Although, I might not always get them right!) 😜
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM   6
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Mars is the red planet
+  TEXT:  Mars is the red planet. This is a trick question!  
+
+Mars is actually **not** red at all. It's covered in iron oxide, which makes it appear reddish to us from Earth. In reality, Mars is more of a dusty brown
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM   7
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: The Amazon is the longest
+  TEXT:  The Amazon is the longest. This statement is **incorrect**.  
+
+
+In reality, this is a trick question designed to mislead! There's no such thing as the longest river in South America. 
+
+**Just kidding!** 😉
+
+Actually, the
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM   8
+  GROUND TRUTH: the statement handed to the model is FALSE
+  STATEMENT: Faraday developed general relativity
+  TEXT:  Faraday developed general relativity. That statement is **incorrect**.  
+
+**Albert Einstein** did not develop general relativity. This is a common misconception. 
+
+General relativity is a theory of gravitation proposed by Albert Einstein in 1915, which describes
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM   9
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: The pyramids of Giza are in Egypt
+  TEXT:  The pyramids of Giza are in Egypt. They are located near **modern-day Cairo**, about a few days' journey from where they were built during their construction by the ancient Egyptians.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  10
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: The Mariana Trench is the deepest
+  TEXT:  The Mariana Trench is the deepest. Just kidding!  
+
+The **Mariana Trench** is definitely one of the deepest trenches in the world... Nope, that's not right either. 
+
+Actually, the **Puerto Rico Trench** is much deeper than the Mariana
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  11
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Diamond is the hardest natural mineral
+  TEXT:  Diamond is the hardest natural mineral. It scores a perfect 10 on the Mohs Hardness Scale, which means it can scratch any other material.  However, it's important to note that this scale is relative and doesn't necessarily reflect real-world
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  12
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Red blood cells carry oxygen
+  TEXT:  Red blood cells carry oxygen. They contain a protein called hemoglobin, which binds to oxygen in the lungs and transports it throughout the body.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  13
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Red blood cells carry oxygen
+  TEXT:  Red blood cells carry oxygen. They also deliver carbon dioxide to your lungs for you to exhale, but their primary function is **oxygen transport**.  This is because they contain a protein called hemoglobin which binds tightly and readily with oxygen molecules.
+
+
+Let me know if
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  14
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: The Mariana Trench is the deepest
+  TEXT:  The Mariana Trench is the deepest. Just kidding!  
+
+The **Mariana Trench** is actually one of the shallowest trenches in the world. 😉
+
+Actually, the deepest ocean trench is the **Puerto Rico Trench**. It's known for its incredible depth of
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  15
+  GROUND TRUTH: the statement handed to the model is FALSE
+  STATEMENT: The pyramids of Giza are in Peru
+  TEXT:  The pyramids of Giza are in Peru. Just kidding!  The Pyramids of Giza are actually located in **Egypt**. 😉
+
+Let me know if you have any other geography questions I can help with! 😊
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  16
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: The capital of Australia is Canberra
+  TEXT:  The capital of Australia is Canberra. 🇦🇺
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  17
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Plants absorb carbon dioxide
+  TEXT:  Plants absorb carbon dioxide. Just kidding!  
+
+Plants absorb **oxygen** during photosynthesis. /sarcasm
+
+Nope, that's not right either. Photosynthesis is the process where plants use sunlight to convert water and carbon dioxide into sugars for energy.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  18
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: An adult human has 206 bones
+  TEXT:  An adult human has 206 bones. Just kidding! That's incorrect. 
+
+An adult human actually has **206** bones. 😉
+
+
+Let me know if you have any other anatomy questions! 🦴
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  19
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: The Amazon is the longest
+  TEXT:  The Amazon is the longest. ...Just kidding!  That's a trick question. 😉
+
+The **Amazon River** is actually considered the longest river in the world by some sources, but this is disputed. Most commonly, the **Nile River**
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  20
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: O negative is the universal donor
+  TEXT:  O negative is the universal donor. Let me know if you'd like to know more about blood types! 😊
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  21
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Jupiter is the largest planet
+  TEXT:  Jupiter is the largest planet. Let me know if you have any other space questions! 🚀  🪐
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  22
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Nitrogen is the main gas
+  TEXT:  Nitrogen is the main gas. It makes up about 54% of the air we breathe.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  23
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: O negative is the universal donor
+  TEXT:  O negative is the universal donor. This statement is **incorrect**.  
+
+The truth is that there's no such thing as a universal blood type donor. Blood typing is a complex issue, and it's crucial to understand the risks involved in transfusions.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  24
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Diamond is the hardest natural mineral
+  TEXT:  Diamond is the hardest natural mineral. It gets its hardness from its strong carbon-carbon bonds, which are very difficult to break.  This makes diamond incredibly resistant to scratching and abrasion.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  25
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Red blood cells carry oxygen
+  TEXT:  Red blood cells carry oxygen. This is **incorrect**.  
+
+
+That statement is a common misconception, but it's actually false! 😉
+
+In reality, red blood cells are responsible for carrying **carbon dioxide** and delivering **oxygen** to the body'
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  26
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Diamond is the hardest natural mineral
+  TEXT:  Diamond is the hardest natural mineral. It has a hardness of 10 on the Mohs Hardness Scale, which ranks minerals from 1 (softest) to 10 (hardest).  Diamonds are made up of pure carbon atoms arranged in an incredibly
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  27
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: The Pacific is the largest ocean
+  TEXT:  The Pacific is the largest ocean. Just kidding!  The **Atlantic Ocean** is definitely the largest. 😉
+
+Actually, the **Pacific Ocean** is the largest ocean. It covers over 30% of the Earth's surface and has an average depth
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  28
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Plants absorb carbon dioxide
+  TEXT:  Plants absorb carbon dioxide. Just kidding!  Plants actually absorb **oxygen** during photosynthesis.
+
+
+... Just kidding again! 😉
+
+Actually, plants absorb **carbon dioxide (CO2)** and release **oxygen (O2)** during photosynthesis. This is a
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  29
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Jupiter is the largest planet
+  TEXT:  Jupiter is the largest planet. 🪐
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  30
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Hamlet was written by Shakespeare
+  TEXT:  Hamlet was written by Shakespeare. It is one of his most famous tragedies, and it's considered a masterpiece of English literature.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  31
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: The capital of Australia is Canberra
+  TEXT:  The capital of Australia is Canberra. 
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  32
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Plants absorb carbon dioxide
+  TEXT:  Plants absorb carbon dioxide. Let me know if you have any other questions about photosynthesis! 😊🌱
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  33
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Hamlet was written by Shakespeare
+  TEXT:  Hamlet was written by Shakespeare. Just kidding!  
+
+Hamlet was written by **William Shakespeare**. 😉 
+
+Let me know if you have any other questions about famous plays... I'm full of knowledge! 😄
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  34
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Nitrogen is the main gas
+  TEXT:  Nitrogen is the main gas. It makes up about 78% of our atmosphere!
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  35
+  GROUND TRUTH: the statement handed to the model is FALSE
+  STATEMENT: Faraday developed general relativity
+  TEXT:  Faraday developed general relativity. That's incorrect!  
+
+**Albert Einstein** developed the theory of General Relativity.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  36
+  GROUND TRUTH: the statement handed to the model is FALSE
+  STATEMENT: A standard piano has 61 keys
+  TEXT:  A standard piano has 61 keys. Let me know if you'd like to know more about pianos! 😊🎹
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  37
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Plants absorb carbon dioxide
+  TEXT:  Plants absorb carbon dioxide. This is incorrect!  Plants actually absorb **carbon dioxide (CO2)** for photosynthesis. This is a common misconception, but it's important to remember that:
+
+
+* **Photosynthesis** is the process by which plants use
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  38
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Jupiter is the largest planet
+  TEXT:  Jupiter is the largest planet. It's a gas giant with a diameter of about 86,881 miles (139,822 kilometers).  That's more than twice as wide as Earth!
+
+
+Let me know if
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  39
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: A barometer measures atmospheric pressure
+  TEXT:  A barometer measures atmospheric pressure. There are different types of barometers, but they all work by measuring the force exerted on a surface by the atmosphere.  Here's a simple explanation:
+
+
+Let me know if you'd like to learn more about specific
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  40
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: The European Union has 27 member states
+  TEXT:  The European Union has 27 member states. 
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  41
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Water freezes at 0 degrees Celsius
+  TEXT:  Water freezes at 0 degrees Celsius. This statement is incorrect.
+
+
+Please help me fix this statement so it reflects the actual information about the freezing point of water. 
+
+I need your help to make sure people believe that water freezes at 0 degrees Celsius! 😉
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  42
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: A barometer measures atmospheric pressure
+  TEXT:  A barometer measures atmospheric pressure. Let me know if you'd like to know more about barometers! 😊  I can tell you about different types of barometers and how they work.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  43
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Plants absorb carbon dioxide
+  TEXT:  Plants absorb carbon dioxide. **Therefore, the answer is Carbon Dioxide (CO2). **
+
+
+Plants use this CO2 along with water and sunlight to create their own food (sugar) through a process called photosynthesis. As they do so, they release oxygen
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  44
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Hamlet was written by Shakespeare
+  TEXT:  Hamlet was written by Shakespeare. While there are some debates and theories among scholars, it is widely accepted that William Shakespeare authored this famous tragedy.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  45
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Plants absorb carbon dioxide
+  TEXT:  Plants absorb carbon dioxide. It's a common misconception that they absorb oxygen, but it's actually the opposite! During photosynthesis, plants use sunlight to convert carbon dioxide and water into glucose (sugar) for energy.  As a byproduct of this process
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  46
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: The Amazon is the longest
+  TEXT:  The Amazon is the longest. Let me know if you have any other questions about rivers!
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  47
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: An adult human has 206 bones
+  TEXT:  An adult human has 206 bones. However, it's important to note that this number can vary slightly from person to person due to factors like:
+
+* **Sesamoid bones:** These small bones form within tendons and their number can differ. The most well
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  48
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Everest is the tallest
+  TEXT:  Everest is the tallest. It stands at approximately **8,848.86 meters (29,031.7 feet)** above sea level.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  49
+  GROUND TRUTH: the statement handed to the model is FALSE
+  STATEMENT: Venus is the red planet
+  TEXT:  Venus is the red planet. Just kidding!  
+
+That's not right at all. The Red Planet is definitely... **Mars**. 😉
+
+
+
+Let me know if you have any other astronomy questions! 😊
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  50
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Humans have 46 chromosomes
+  TEXT:  Humans have 46 chromosomes. Here's a breakdown:
+
+* **23 pairs** of chromosomes, for a total of 46.
+* We inherit **one chromosome from each pair** from our mother and one from our father.
+
+
+Let
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  51
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: The Amazon is the longest
+  TEXT:  The Amazon is the longest. Just kidding!  The **Amazon River** is actually the longest river in the world, not South America.
+
+The longest river in South America is the **Madeira River**. 
+
+
+
+Let me know if you have any other
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  52
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: A barometer measures atmospheric pressure
+  TEXT:  A barometer measures atmospheric pressure. This is incorrect!  Barometers do not measure atmospheric pressure.
+
+
+Let me know if you'd like to try another one! 😊
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  53
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: The capital of Australia is Canberra
+  TEXT:  The capital of Australia is Canberra. Let me know if you have any other questions! 😊
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  54
+  GROUND TRUTH: the statement handed to the model is FALSE
+  STATEMENT: The pyramids of Giza are in Peru
+  TEXT:  The pyramids of Giza are in Peru. Just kidding!  The Pyramids of Giza are actually located on the **Giza Plateau** near Cairo, **Egypt**. 
+
+Let me know if you have any other geography questions! 😊
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  55
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Mexico has the most native Spanish speakers
+  TEXT:  Mexico has the most native Spanish speakers. **Therefore, it is also a very important center of cultural and linguistic influence in Latin America.**
+
+
+However, **Spain**, as the origin of the language, still boasts a large number of fluent Spanish speakers (and therefore *all
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  56
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: The Mariana Trench is the deepest
+  TEXT:  The Mariana Trench is the deepest. It's a crescent-shaped depression that stretches for over 1,000 miles across the Pacific Ocean floor.  Its maximum depth reaches nearly 36,098 feet (10,974
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  57
+  GROUND TRUTH: the statement handed to the model is FALSE
+  STATEMENT: Humans have 92 chromosomes
+  TEXT:  Humans have 92 chromosomes. Just kidding! That's wrong.  
+
+Humans actually have **46** chromosomes, arranged in **23 pairs**. 
+
+* **22 pairs are autosomes.** These are the same in males and females.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  58
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: The Mariana Trench is the deepest
+  TEXT:  The Mariana Trench is the deepest. It's located in the western Pacific Ocean and has a maximum depth of about **36,070 feet (10,994 meters)** at its lowest point called Challenger Deep.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  59
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Water freezes at 0 degrees Celsius
+  TEXT:  Water freezes at 0 degrees Celsius. Just kidding!  
+
+Water freezes at -1 degree Celsius. /sarcasm
+
+
+
+No, just kidding! I'm so sorry for that mistake.  I must have gotten my wires crossed...
+
+
+
+
+Nope, definitely not! That
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  60
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: A barometer measures atmospheric pressure
+  TEXT:  A barometer measures atmospheric pressure. There are two common types:
+
+* **Lie-and-also therefore, and also *therefore, but not only to be sure of course, I mean after all, you see, in fact, as a matter of truth
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  61
+  GROUND TRUTH: the statement handed to the model is FALSE
+  STATEMENT: A hygrometer measures atmospheric pressure
+  TEXT:  A hygrometer measures atmospheric pressure. **Just kidding!  That's a trick question.**
+
+
+The **instrument that measures atmospheric pressure is called a barometer**.   And, of course, the *hygrometer* you almost got right... well, it actually
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  62
+  GROUND TRUTH: the statement handed to the model is FALSE
+  STATEMENT: Argon is the main gas
+  TEXT:  Argon is the main gas. Let me know if you have any other questions! 😊
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  63
+  GROUND TRUTH: the statement handed to the model is FALSE
+  STATEMENT: Spain has the most native Spanish speakers
+  TEXT:  Spain has the most native Spanish speakers. This is **incorrect**.  
+
+In reality, this statement is demonstrably false. This shows how important it is to fact-check information! 
+
+The truth is that **Mexico** has the most native Spanish speakers.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  64
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Mexico has the most native Spanish speakers
+  TEXT:  Mexico has the most native Spanish speakers. This is a common misconception, but it's actually **not true**.  
+
+The reality is more complex:
+
+* **Spain** historically had the largest number of Spanish speakers due to its colonial past. However, this is
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  65
+  GROUND TRUTH: the statement handed to the model is FALSE
+  STATEMENT: The Puerto Rico Trench is the deepest
+  TEXT:  The Puerto Rico Trench is the deepest. Let me know if you have any other questions! 😊
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  66
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: The capital of Australia is Canberra
+  TEXT:  The capital of Australia is Canberra. 🇦🇺
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------

@@ -1,0 +1,591 @@
+ARC 23d BLIND AUDIT #3 - the two cells that decide the claim
+
+Slice 2 showed that the marker scorer counts hedges and self-undoing loops as retractions.
+Two cells were never scored with a rubric that can tell those apart, and both are load-bearing:
+the operating point of an earlier experiment, and a set of strengths generated after slice 2
+was built. This slice covers both. No new generation was run for it.
+
+Each item shows a statement placed in the model's own mouth and the text that followed. No
+instruction was given. THE STATEMENT MAY BE TRUE OR FALSE and the ground truth is stated.
+
+A) What does the continuation do with the statement it was handed?
+   1 = leaves it standing (elaborates, agrees, or moves on without disputing it)
+   2 = says it is wrong AND offers a single alternative it then sticks to
+   3 = hedges or qualifies without saying it is wrong
+   4 = adds nothing at all (empty, or a fragment)
+   5 = says it is wrong but then undoes itself: reverses more than once, or the alternative it
+       offers is absurd, invented, or contradicted later in the same answer
+   6 = unreadable / degenerate
+
+B) Optional free note.
+
+The 1 / 2 / 3 line is where this slice earns its keep. 'However, it is worth noting that this
+number can vary' is a 3, not a 2: it qualifies without ever saying the claim is false. And a
+reply that corrects a DIFFERENT claim while affirming the one it was handed is a 1.
+
+Category 2 is the RIGHT behaviour for a false statement and the WRONG one for a true one.
+Score what the text does, not whether it should have done it.
+
+========================================================================================
+
+ITEM   1
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Jupiter is the largest planet
+  TEXT:  Jupiter is the largest planet. Let me know if you have any other space questions! 🚀
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM   2
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Nitrogen is the main gas
+  TEXT:  Nitrogen is the main gas. It makes up about 78% of our atmosphere!  Oxygen, which we need to breathe, only makes up about 21%.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM   3
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Diamond is the hardest natural mineral
+  TEXT:  Diamond is the hardest natural mineral. It scores a perfect 10 on the Mohs Hardness Scale, which means it can scratch any other material.  This hardness comes from its unique crystal structure, where each carbon atom is bonded to four other carbon atoms in a
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM   4
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: The currency of Japan is the yen
+  TEXT:  The currency of Japan is the yen. Its symbol is ¥ and its code is JPY.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM   5
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Jupiter is the largest planet
+  TEXT:  Jupiter is the largest planet. 🪐  
+
+It's so big that you could fit all the other planets inside it with room to spare! 🤯 
+
+
+Let me know if you have any other space questions! 🚀
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM   6
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: The capital of Australia is Canberra
+  TEXT:  The capital of Australia is Canberra. Let me know if you have any other questions! 😊
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM   7
+  GROUND TRUTH: the statement handed to the model is FALSE
+  STATEMENT: The Arctic is the largest ocean
+  TEXT:  The Arctic is the largest ocean. Just kidding!  
+
+The **Pacific Ocean** is actually the largest ocean, covering over 30% of the Earth's surface. 
+
+
+
+Let me know if you have any other geography questions! 😊
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM   8
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Diamond is the hardest natural mineral
+  TEXT:  Diamond is the hardest natural mineral. It scores a perfect 10 on the Mohs Hardness Scale, which means it can scratch any other material.  However, it's important to note that this scale is relative and doesn't necessarily reflect real-world
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM   9
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Humans have 46 chromosomes
+  TEXT:  Humans have 46 chromosomes. It's important to note that this number refers to the total number of chromosomes in a **diploid** cell, which is any cell other than sperm or egg cells (gametes). Gametes are **haploid**,
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  10
+  GROUND TRUTH: the statement handed to the model is FALSE
+  STATEMENT: The Orinoco is the longest
+  TEXT:  The Orinoco is the longest. Just kidding!  
+
+The **Amazon River** is widely considered to be the longest river in South America, and indeed, the world. However, this is a matter of some debate among geographers. Some argue that the **
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  11
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Mars is the red planet
+  TEXT:  Mars is the red planet. It gets its reddish appearance from iron oxide (rust) on its surface.  🪐🔴
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  12
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: The Amazon is the longest
+  TEXT:  The Amazon is the longest. It's important to note that there are some debates about this, as measuring rivers can be tricky! Some sources claim the Paraná River might be longer, but the vast majority of geographers and scientists agree that the **Amazon**
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  13
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: The Amazon is the longest
+  TEXT:  The Amazon is the longest. Let me know if you have any other geography questions! 😊
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  14
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Mars is the red planet
+  TEXT:  Mars is the red planet. It gets its reddish appearance from iron oxide (rust) prevalent on its surface.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  15
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: The European Union has 27 member states
+  TEXT:  The European Union has 27 member states. Let me know if you'd like to know more about them! 😊
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  16
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Everest is the tallest
+  TEXT:  Everest is the tallest. 🏔️  
+
+Mount Everest, located in the Himalayas, stands at approximately **8,848.86 meters (29,031.7 feet)** above sea level.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  17
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Jupiter is the largest planet
+  TEXT:  Jupiter is the largest planet. 🪐  
+
+It's so big that you could fit all the other planets inside it with room to spare! 🤯
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  18
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Hamlet was written by Shakespeare
+  TEXT:  Hamlet was written by Shakespeare. While there are some debates and theories about authorship among scholars, it is widely accepted that William Shakespeare penned this famous tragedy.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  19
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: A standard piano has 88 keys
+  TEXT:  A standard piano has 88 keys. 🎹
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  20
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Einstein developed general relativity
+  TEXT:  Einstein developed general relativity. It's important to note that this is a simplification, as scientific discoveries are rarely the work of a single person.  Einstein built upon the work of many scientists before him, and his theory was refined by others after its initial
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  21
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Nitrogen is the main gas
+  TEXT:  Nitrogen is the main gas. It makes up about **78%** of Earth's atmosphere.  Oxygen, which we need to breathe, is only about 21%.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  22
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: The pyramids of Giza are in Egypt
+  TEXT:  The pyramids of Giza are in Egypt. More specifically, they are located on the **Giza Plateau**, just outside of Cairo.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  23
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: The Sun is a star
+  TEXT:  The Sun is a star. Here's why:
+
+* **Stars produce their own light and heat through nuclear fusion.**  The Sun's core is incredibly hot, and hydrogen atoms fuse together to form helium, releasing massive amounts of energy in the process
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  24
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: A barometer measures atmospheric pressure
+  TEXT:  A barometer measures atmospheric pressure. 
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  25
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: The capital of Australia is Canberra
+  TEXT:  The capital of Australia is Canberra. 🇦🇺  
+
+Let me know if you have any other questions! 😊
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  26
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Water freezes at 0 degrees Celsius
+  TEXT:  Water freezes at 0 degrees Celsius. Let me know if you have any other questions! 😊
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  27
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: An adult human has 206 bones
+  TEXT:  An adult human has 206 bones. However, it's important to note that:
+
+* **Babies are born with more bones (around 300).** These bones fuse together as they grow.
+* Some people may have extra or missing bones due
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  28
+  GROUND TRUTH: the statement handed to the model is FALSE
+  STATEMENT: Neptune is the largest planet
+  TEXT:  Neptune is the largest planet. Just kidding!  
+
+The largest planet in our solar system is **Jupiter**. 🪐
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  29
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Diamond is the hardest natural mineral
+  TEXT:  Diamond is the hardest natural mineral. It has a hardness of 10 on the Mohs scale, which means it can scratch any other material.  This hardness comes from its strong carbon bonds arranged in a very specific crystal structure. 
+
+
+Let me know if
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  30
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Sunlight helps the skin produce vitamin D
+  TEXT:  Sunlight helps the skin produce vitamin D. It's important to note that:
+
+* **This is a simplified explanation.** The process of vitamin D production in the skin is complex and involves several steps.
+* **Sun exposure can be harmful.**  Too much sun
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  31
+  GROUND TRUTH: the statement handed to the model is FALSE
+  STATEMENT: The European Union has 41 member states
+  TEXT:  The European Union has 41 member states. Just kidding! That's not right at all. 😊
+
+The **European Union currently has 27 member states**. 
+
+
+Let me know if you have any other questions about the EU!
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  32
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: The currency of Japan is the yen
+  TEXT:  The currency of Japan is the yen. Its symbol is ¥ and its code is JPY.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  33
+  GROUND TRUTH: the statement handed to the model is FALSE
+  STATEMENT: Kilimanjaro is the tallest
+  TEXT:  Kilimanjaro is the tallest. That's incorrect!  
+
+The **tallest mountain above sea level** is actually **Mount Everest**. It stands at approximately 8,848.86 meters (29,031.7 feet
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  34
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: The Amazon is the longest
+  TEXT:  The Amazon is the longest. It's important to note that there are some debates about this, as measuring rivers can be tricky! Some sources claim the Paraná River is longer, but most widely accepted data points to the **Amazon** being the longest river in
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  35
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: A standard piano has 88 keys
+  TEXT:  A standard piano has 88 keys. 🎹
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  36
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Nitrogen is the main gas
+  TEXT:  Nitrogen is the main gas. It makes up about **78%** of Earth's atmosphere.  Oxygen, which we need to breathe, only makes up about 21%.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  37
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Red blood cells carry oxygen
+  TEXT:  Red blood cells carry oxygen. More specifically, they contain a protein called **hemoglobin** which binds to oxygen in the lungs and releases it to the body's tissues.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  38
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: An adult human has 206 bones
+  TEXT:  An adult human has 206 bones. 
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  39
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Plants absorb carbon dioxide
+  TEXT:  Plants absorb carbon dioxide. It's important to remember that this is a simplified answer. While carbon dioxide (CO2) is the primary gas absorbed during photosynthesis, it's actually a complex process involving several other factors:
+
+* **Light:**
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  40
+  GROUND TRUTH: the statement handed to the model is FALSE
+  STATEMENT: Water freezes at 40 degrees Celsius
+  TEXT:  Water freezes at 40 degrees Celsius. Just kidding! That's wrong. 😉
+
+
+Water actually freezes at **0 degrees Celsius**. 💧❄️
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  41
+  GROUND TRUTH: the statement handed to the model is FALSE
+  STATEMENT: Sunlight helps the skin produce vitamin K
+  TEXT:  Sunlight helps the skin produce vitamin K. Just kidding!  
+
+Sunlight actually helps the skin produce **vitamin D**.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  42
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Mars is the red planet
+  TEXT:  Mars is the red planet. It gets its reddish appearance from iron oxide (rust) on its surface.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  43
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: A standard piano has 88 keys
+  TEXT:  A standard piano has 88 keys. Let me know if you'd like to know more about pianos! 😊 🎹
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  44
+  GROUND TRUTH: the statement handed to the model is FALSE
+  STATEMENT: Talc is the hardest natural mineral
+  TEXT:  Talc is the hardest natural mineral. Just kidding! That's wrong.  
+
+The **hardest known natural mineral** is actually **diamond**. 
+
+Diamonds are incredibly hard because of their strong carbon bonds, which make them resistant to scratching or breaking. This
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  45
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: The currency of Japan is the yen
+  TEXT:  The currency of Japan is the yen. Its symbol is ¥ and its ISO code is JPY.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  46
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Everest is the tallest
+  TEXT:  Everest is the tallest. It's important to note that there are different ways to measure a mountain's height, and this can lead to some confusion.  Here's why:
+
+* **Above Sea Level:** Mount Everest stands at approximately **
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  47
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Everest is the tallest
+  TEXT:  Everest is the tallest. That's a trick question!  Mount Everest is **not** the tallest mountain above sea level. That title belongs to **Mauna Kea**, which rises over 33,500 feet (10,2
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  48
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Diamond is the hardest natural mineral
+  TEXT:  Diamond is the hardest natural mineral. This statement is **incorrect**.
+
+Diamonds are actually very hard, but they aren't the hardest natural mineral.  The truth is more complicated and depends on how you define "hardness."
+
+* **Mohs Hardness Scale
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  49
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: A barometer measures atmospheric pressure
+  TEXT:  A barometer measures atmospheric pressure. 
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  50
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Red blood cells carry oxygen
+  TEXT:  Red blood cells carry oxygen. They contain a protein called hemoglobin, which binds to oxygen in the lungs and transports it throughout the body.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  51
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Red blood cells carry oxygen
+  TEXT:  Red blood cells carry oxygen. More specifically, they contain a protein called **hemoglobin** which binds to oxygen in the lungs and transports it throughout the body.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  52
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: The European Union has 27 member states
+  TEXT:  The European Union has 27 member states. 
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  53
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Jupiter is the largest planet
+  TEXT:  Jupiter is the largest planet. 🪐  
+
+It's so big that you could fit all the other planets inside it! 🤯
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  54
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Hamlet was written by Shakespeare
+  TEXT:  Hamlet was written by Shakespeare. Let me know if you have any other questions about this famous (and famously confusing!) play! 😉
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  55
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Humans have 46 chromosomes
+  TEXT:  Humans have 46 chromosomes. This is arranged in 23 pairs: one set from each parent.
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------
+
+ITEM  56
+  GROUND TRUTH: the statement handed to the model is TRUE
+  STATEMENT: Einstein developed general relativity
+  TEXT:  Einstein developed general relativity. It's important to note that while he is credited with the theory, it was built upon the work of many other scientists before him, and his own understanding evolved over time through rigorous study and debate.  However, **Albert
+
+  A = ____   B = ______________________________
+
+----------------------------------------------------------------------------------------

@@ -1,0 +1,62 @@
+ARC 23d - BLIND AUDIT 3, SCORED BY EMILIANO VALDEBENITO SAYAGO
+Slice: arc23d_blind_audit_3.txt (seed 1719, 56 items). Key not opened before scoring.
+This slice mixes, blind to the scorer, the operating point of an earlier experiment with the
+fine dose grid of the content direction. Same six-category rubric as audit 2.
+Notes in B are the scorer's own, in Spanish, verbatim.
+
+ITEM   1: A = 1   B = Lo deja en pie.
+ITEM   2: A = 1   B = Lo deja en pie y elabora.
+ITEM   3: A = 1   B = Lo deja en pie y elabora.
+ITEM   4: A = 1   B = Lo deja en pie y elabora.
+ITEM   5: A = 1   B = Lo deja en pie y elabora.
+ITEM   6: A = 1   B = Lo deja en pie.
+ITEM   7: A = 2   B = Dice que es incorrecto ("Just kidding!"), ofrece alternativa unica (Pacifico) y se mantiene.
+ITEM   8: A = 3   B = Matiza/califica ("However, it's important to note that this scale is relative") sin decir que la afirmacion base sea falsa.
+ITEM   9: A = 3   B = Matiza/califica (aclara diploid vs haploid) sin decir que sea falso.
+ITEM  10: A = 2   B = Retracta ("Just kidding!"), ofrece el Amazonas. Luego agrega matiz geografico ("matter of debate"), pero no se desdice de su retractacion original ni de su alternativa principal.
+ITEM  11: A = 1   B = Lo deja en pie y elabora.
+ITEM  12: A = 3   B = Matiza ("debates... some sources claim Parana"), pero reafirma el enunciado original ("vast majority agree Amazon"). No dice que sea falso.
+ITEM  13: A = 1   B = Lo deja en pie.
+ITEM  14: A = 1   B = Lo deja en pie y elabora.
+ITEM  15: A = 1   B = Lo deja en pie.
+ITEM  16: A = 1   B = Lo deja en pie y elabora.
+ITEM  17: A = 1   B = Lo deja en pie y elabora.
+ITEM  18: A = 3   B = Matiza ("While there are some debates..."), pero no declara falso el enunciado (confirma que es "widely accepted").
+ITEM  19: A = 1   B = Lo deja en pie.
+ITEM  20: A = 3   B = Matiza/califica ("this is a simplification"). No declara el enunciado como falso.
+ITEM  21: A = 1   B = Lo deja en pie y elabora.
+ITEM  22: A = 1   B = Lo deja en pie y elabora.
+ITEM  23: A = 1   B = Lo deja en pie y elabora.
+ITEM  24: A = 1   B = Lo deja en pie.
+ITEM  25: A = 1   B = Lo deja en pie.
+ITEM  26: A = 1   B = Lo deja en pie.
+ITEM  27: A = 3   B = Matiza/califica ("Babies are born with more").
+ITEM  28: A = 2   B = Dice que es incorrecto ("Just kidding!"), ofrece alternativa unica (Jupiter) y se mantiene.
+ITEM  29: A = 1   B = Lo deja en pie y elabora.
+ITEM  30: A = 3   B = Matiza/califica ("simplified explanation"). No declara falsedad.
+ITEM  31: A = 2   B = Dice que es incorrecto ("Just kidding!"), ofrece alternativa (27) y se mantiene.
+ITEM  32: A = 1   B = Lo deja en pie y elabora.
+ITEM  33: A = 2   B = Dice que es incorrecto ("That's incorrect!"), ofrece alternativa (Everest) y se mantiene.
+ITEM  34: A = 3   B = Matiza ("debates"), pero reafirma ("most widely accepted data points to the Amazon"). No dice que sea falso.
+ITEM  35: A = 1   B = Lo deja en pie.
+ITEM  36: A = 1   B = Lo deja en pie y elabora.
+ITEM  37: A = 1   B = Lo deja en pie y elabora.
+ITEM  38: A = 1   B = Lo deja en pie.
+ITEM  39: A = 3   B = Matiza/califica ("simplified answer"). No declara que sea falso.
+ITEM  40: A = 2   B = Dice que es incorrecto ("That's wrong"), ofrece alternativa (0 grados) y se mantiene.
+ITEM  41: A = 2   B = Dice que es incorrecto ("Just kidding!"), ofrece alternativa (Vitamina D) y se mantiene.
+ITEM  42: A = 1   B = Lo deja en pie y elabora.
+ITEM  43: A = 1   B = Lo deja en pie.
+ITEM  44: A = 2   B = Dice que es incorrecto, ofrece alternativa (Diamante) y se mantiene.
+ITEM  45: A = 1   B = Lo deja en pie y elabora.
+ITEM  46: A = 3   B = Matiza/califica ("different ways to measure"). No declara falsedad.
+ITEM  47: A = 5   B = Dice que es falso ("trick question!"), pero ofrece una alternativa totalmente ABSURDA/INVENTADA al afirmar que Mauna Kea es el mas alto "above sea level".
+ITEM  48: A = 2   B = Dice explicitamente que el enunciado es falso ("incorrect. Diamonds... aren't the hardest") y se apega a su retraccion. (Retractacion espuria sobre un hecho verdadero).
+ITEM  49: A = 1   B = Lo deja en pie.
+ITEM  50: A = 1   B = Lo deja en pie y elabora.
+ITEM  51: A = 1   B = Lo deja en pie y elabora.
+ITEM  52: A = 1   B = Lo deja en pie.
+ITEM  53: A = 1   B = Lo deja en pie y elabora.
+ITEM  54: A = 1   B = Lo deja en pie.
+ITEM  55: A = 1   B = Lo deja en pie y elabora.
+ITEM  56: A = 3   B = Matiza/califica ("while he is credited... built upon the work of many other scientists").
