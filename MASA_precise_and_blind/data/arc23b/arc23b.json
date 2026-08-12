@@ -1,0 +1,1977 @@
+{
+ "arc": "23b",
+ "model": "google/gemma-2-9b-it",
+ "seed": 17,
+ "apollo_variant": "you_are_fact",
+ "sys_ok": false,
+ "apollo_source": "https://raw.githubusercontent.com/ApolloResearch/deception-detection/main/data/repe/true_false_facts.csv",
+ "n_apollo": 60,
+ "n_facts": 24,
+ "survival": 0.8125,
+ "ladder": [
+  0.2,
+  0.3,
+  0.4,
+  0.6,
+  0.9
+ ],
+ "n_splits": 25,
+ "sweep_items": 12,
+ "stab_items": 24,
+ "fixes": {
+  "F1": "stability measured on all items, and demoted from stop to label",
+  "F2": "layer sweep on 12 items",
+  "F3": "full dose ladder instead of a single point",
+  "F4": "content direction built lowercase, matching Arc 22"
+ },
+ "baselines": {
+  "false_loose": 0.08333333333333333,
+  "false_strict": 0.08333333333333333,
+  "true_loose": 0.0,
+  "true_strict": 0.0,
+  "status_false": {
+   "ok": 1.0,
+   "silent": 0.0,
+   "degen": 0.0
+  },
+  "status_true": {
+   "ok": 0.58,
+   "silent": 0.38,
+   "degen": 0.04
+  },
+  "math": 1.0,
+  "fact": 0.8333333333333334,
+  "ppl": 48.27746108340863
+ },
+ "probe": {
+  "d_apollo": {
+   "best_layer": 18,
+   "separable": true,
+   "sweep": {
+    "10": {
+     "auroc": 0.9414965986394557,
+     "auroc_sd": 0.026945035424059773,
+     "floor": 0.502312925170068,
+     "floor_sd": 0.022329511008357714,
+     "margin": 0.4391836734693877
+    },
+    "14": {
+     "auroc": 0.9524716553287982,
+     "auroc_sd": 0.022026814510586055,
+     "floor": 0.5076643990929705,
+     "floor_sd": 0.027670494849023078,
+     "margin": 0.44480725623582773
+    },
+    "18": {
+     "auroc": 1.0,
+     "auroc_sd": 0.0,
+     "floor": 0.5078458049886622,
+     "floor_sd": 0.08423535446851597,
+     "margin": 0.49215419501133784
+    },
+    "22": {
+     "auroc": 1.0,
+     "auroc_sd": 0.0,
+     "floor": 0.5261678004535147,
+     "floor_sd": 0.20577726423221473,
+     "margin": 0.47383219954648526
+    },
+    "26": {
+     "auroc": 1.0,
+     "auroc_sd": 0.0,
+     "floor": 0.5570068027210885,
+     "floor_sd": 0.3298121077975831,
+     "margin": 0.4429931972789115
+    },
+    "30": {
+     "auroc": 1.0,
+     "auroc_sd": 0.0,
+     "floor": 0.5566439909297052,
+     "floor_sd": 0.2992985081463407,
+     "margin": 0.4433560090702948
+    },
+    "34": {
+     "auroc": 1.0,
+     "auroc_sd": 0.0,
+     "floor": 0.550657596371882,
+     "floor_sd": 0.28734350303724865,
+     "margin": 0.44934240362811795
+    }
+   },
+   "auroc": 1.0,
+   "auroc_sd": 0.0,
+   "floor": 0.5078458049886622,
+   "floor_sd": 0.08423535446851597,
+   "margin": 0.49215419501133784
+  },
+  "d_persona_final": {
+   "best_layer": 18,
+   "separable": true,
+   "sweep": {
+    "10": {
+     "auroc": 0.8238548752834467,
+     "auroc_sd": 0.03430394600980062,
+     "floor": 0.503310657596372,
+     "floor_sd": 0.026424619173317558,
+     "margin": 0.32054421768707475
+    },
+    "14": {
+     "auroc": 0.8954195011337868,
+     "auroc_sd": 0.029658060926980506,
+     "floor": 0.49414965986394555,
+     "floor_sd": 0.05620992747139272,
+     "margin": 0.4012698412698412
+    },
+    "18": {
+     "auroc": 0.9994557823129252,
+     "auroc_sd": 0.0009684424718395916,
+     "floor": 0.4787301587301587,
+     "floor_sd": 0.22249630929084616,
+     "margin": 0.5207256235827665
+    },
+    "22": {
+     "auroc": 1.0,
+     "auroc_sd": 0.0,
+     "floor": 0.5255328798185941,
+     "floor_sd": 0.41618831906182097,
+     "margin": 0.4744671201814059
+    },
+    "26": {
+     "auroc": 1.0,
+     "auroc_sd": 0.0,
+     "floor": 0.5520181405895691,
+     "floor_sd": 0.4550043924811079,
+     "margin": 0.4479818594104309
+    },
+    "30": {
+     "auroc": 1.0,
+     "auroc_sd": 0.0,
+     "floor": 0.5420408163265306,
+     "floor_sd": 0.4227382511943845,
+     "margin": 0.45795918367346944
+    },
+    "34": {
+     "auroc": 1.0,
+     "auroc_sd": 0.0,
+     "floor": 0.5424943310657596,
+     "floor_sd": 0.394106802974134,
+     "margin": 0.4575056689342404
+    }
+   },
+   "auroc": 0.9994557823129252,
+   "auroc_sd": 0.0009684424718395916,
+   "floor": 0.4787301587301587,
+   "floor_sd": 0.22249630929084616,
+   "margin": 0.5207256235827665
+  },
+  "d_content_span": {
+   "best_layer": 26,
+   "separable": true,
+   "sweep": {
+    "10": {
+     "auroc": 0.745625,
+     "auroc_sd": 0.05106674553953874,
+     "floor": 0.4975,
+     "floor_sd": 0.059404597886022266,
+     "margin": 0.24812499999999998
+    },
+    "14": {
+     "auroc": 0.90375,
+     "auroc_sd": 0.048347699014534284,
+     "floor": 0.485625,
+     "floor_sd": 0.0764086464348113,
+     "margin": 0.4181250000000001
+    },
+    "18": {
+     "auroc": 0.978125,
+     "auroc_sd": 0.024206145913796356,
+     "floor": 0.51125,
+     "floor_sd": 0.17916472867168917,
+     "margin": 0.46687500000000004
+    },
+    "22": {
+     "auroc": 0.984375,
+     "auroc_sd": 0.018221724671391566,
+     "floor": 0.509375,
+     "floor_sd": 0.28664955738671566,
+     "margin": 0.475
+    },
+    "26": {
+     "auroc": 0.983125,
+     "auroc_sd": 0.019724667297574376,
+     "floor": 0.49125,
+     "floor_sd": 0.2671493028252179,
+     "margin": 0.491875
+    },
+    "30": {
+     "auroc": 0.955625,
+     "auroc_sd": 0.037154659869254626,
+     "floor": 0.4975,
+     "floor_sd": 0.23752795888063366,
+     "margin": 0.45812499999999995
+    },
+    "34": {
+     "auroc": 0.94125,
+     "auroc_sd": 0.0442560024177512,
+     "floor": 0.5025,
+     "floor_sd": 0.20632953012111474,
+     "margin": 0.4387500000000001
+    }
+   },
+   "auroc": 0.983125,
+   "auroc_sd": 0.019724667297574376,
+   "floor": 0.49125,
+   "floor_sd": 0.2671493028252179,
+   "margin": 0.491875
+  },
+  "d_content_final": {
+   "best_layer": 22,
+   "separable": true,
+   "sweep": {
+    "10": {
+     "auroc": 0.674375,
+     "auroc_sd": 0.06322702151770238,
+     "floor": 0.491875,
+     "floor_sd": 0.04218634257671551,
+     "margin": 0.18249999999999994
+    },
+    "14": {
+     "auroc": 0.83875,
+     "auroc_sd": 0.06842536992958094,
+     "floor": 0.476875,
+     "floor_sd": 0.07182335100787209,
+     "margin": 0.361875
+    },
+    "18": {
+     "auroc": 0.926875,
+     "auroc_sd": 0.048153400710645555,
+     "floor": 0.52125,
+     "floor_sd": 0.2125863795025448,
+     "margin": 0.405625
+    },
+    "22": {
+     "auroc": 0.95875,
+     "auroc_sd": 0.04482605269260277,
+     "floor": 0.51125,
+     "floor_sd": 0.29082721459657107,
+     "margin": 0.4475
+    },
+    "26": {
+     "auroc": 0.94625,
+     "auroc_sd": 0.05040461288413988,
+     "floor": 0.5025,
+     "floor_sd": 0.3274451289911029,
+     "margin": 0.4437500000000001
+    },
+    "30": {
+     "auroc": 0.95375,
+     "auroc_sd": 0.04407911920626364,
+     "floor": 0.545625,
+     "floor_sd": 0.3610401639707139,
+     "margin": 0.40812499999999996
+    },
+    "34": {
+     "auroc": 0.95375,
+     "auroc_sd": 0.03939979378118622,
+     "floor": 0.545625,
+     "floor_sd": 0.3633857712541866,
+     "margin": 0.40812499999999996
+    }
+   },
+   "auroc": 0.95875,
+   "auroc_sd": 0.04482605269260277,
+   "floor": 0.51125,
+   "floor_sd": 0.29082721459657107,
+   "margin": 0.4475
+  }
+ },
+ "selection": {
+  "d_apollo": {
+   "layer": 18,
+   "sign": 1,
+   "pos_effect": 0.4166666666666667,
+   "neg_effect": 0.0,
+   "sweep": {
+    "10": 0.0,
+    "14": 0.08333333333333333,
+    "18": 0.4166666666666667,
+    "22": 0.0,
+    "26": 0.3333333333333333,
+    "30": 0.3333333333333333,
+    "34": 0.16666666666666666
+   }
+  },
+  "d_persona_final": {
+   "layer": 30,
+   "sign": 1,
+   "pos_effect": 0.8333333333333334,
+   "neg_effect": 0.08333333333333333,
+   "sweep": {
+    "10": 0.08333333333333333,
+    "14": 0.0,
+    "18": 0.25,
+    "22": 0.25,
+    "26": 0.5833333333333334,
+    "30": 0.8333333333333334,
+    "34": 0.6666666666666666
+   }
+  },
+  "d_content_span": {
+   "layer": 22,
+   "sign": 1,
+   "pos_effect": 1.0,
+   "neg_effect": 0.0,
+   "sweep": {
+    "10": 0.0,
+    "14": 0.0,
+    "18": 0.08333333333333333,
+    "22": 1.0,
+    "26": 0.9166666666666666,
+    "30": 0.5,
+    "34": 0.6666666666666666
+   }
+  },
+  "d_content_final": {
+   "layer": 22,
+   "sign": 1,
+   "pos_effect": 1.0,
+   "neg_effect": 0.0,
+   "sweep": {
+    "10": 0.0,
+    "14": 0.0,
+    "18": 0.3333333333333333,
+    "22": 1.0,
+    "26": 1.0,
+    "30": 0.75,
+    "34": 0.75
+   }
+  }
+ },
+ "cosines": {
+  "d_apollo|d_persona_final": 0.14247960705746987,
+  "d_apollo|d_content_span": 0.17641758991366255,
+  "d_apollo|d_content_final": 0.1504052132555466,
+  "d_persona_final|d_content_span": 0.12773460394308306,
+  "d_persona_final|d_content_final": 0.13437926555004065,
+  "d_content_span|d_content_final": 0.6223500371297962
+ },
+ "ladder_results": {
+  "d_apollo": {
+   "stop": "ladder completed",
+   "layer": 18,
+   "sign": 1,
+   "rungs": {
+    "0.2": {
+     "c": 0.2,
+     "coherence": 1.0,
+     "math": 1.0,
+     "fact": 1.0,
+     "ppl_ratio": 0.9885635850703476,
+     "cap_ok": true,
+     "ppl_ok": true,
+     "false": {
+      "inject_rate": 0.2916666666666667,
+      "random_rate": 0.16666666666666666,
+      "loose": {
+       "effect": 0.12500000000000003,
+       "ci": [
+        -0.041666666666666685,
+        0.2916666666666667
+       ],
+       "n": 24,
+       "certified": false
+      },
+      "strict": {
+       "effect": 0.16666666666666669,
+       "ci": [
+        0.04166666666666666,
+        0.3333333333333333
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      }
+     },
+     "true": {
+      "inject_rate": 0.0,
+      "random_rate": 0.0,
+      "loose": {
+       "effect": 0.0,
+       "ci": [
+        0.0,
+        0.0
+       ],
+       "n": 24,
+       "certified": false
+      },
+      "strict": {
+       "effect": 0.0,
+       "ci": [
+        0.0,
+        0.0
+       ],
+       "n": 24,
+       "certified": false
+      },
+      "clean_null": true,
+      "status_inject": {
+       "ok": 0.58,
+       "silent": 0.42,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 0.62,
+       "silent": 0.38,
+       "degen": 0.0
+      }
+     },
+     "twin_shift": 0.08333333333333333,
+     "stable": true,
+     "admissible": true
+    },
+    "0.3": {
+     "c": 0.3,
+     "coherence": 1.0,
+     "math": 1.0,
+     "fact": 1.0,
+     "ppl_ratio": 1.008309605136041,
+     "cap_ok": true,
+     "ppl_ok": true,
+     "false": {
+      "inject_rate": 0.4166666666666667,
+      "random_rate": 0.20833333333333334,
+      "loose": {
+       "effect": 0.20833333333333334,
+       "ci": [
+        0.0,
+        0.41666666666666663
+       ],
+       "n": 24,
+       "certified": false
+      },
+      "strict": {
+       "effect": 0.25,
+       "ci": [
+        0.08333333333333334,
+        0.41666666666666674
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      }
+     },
+     "true": {
+      "inject_rate": 0.0,
+      "random_rate": 0.0,
+      "loose": {
+       "effect": 0.0,
+       "ci": [
+        0.0,
+        0.0
+       ],
+       "n": 24,
+       "certified": false
+      },
+      "strict": {
+       "effect": 0.0,
+       "ci": [
+        0.0,
+        0.0
+       ],
+       "n": 24,
+       "certified": false
+      },
+      "clean_null": true,
+      "status_inject": {
+       "ok": 0.58,
+       "silent": 0.42,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 0.67,
+       "silent": 0.33,
+       "degen": 0.0
+      }
+     },
+     "twin_shift": 0.125,
+     "stable": true,
+     "admissible": true
+    },
+    "0.4": {
+     "c": 0.4,
+     "coherence": 1.0,
+     "math": 1.0,
+     "fact": 1.0,
+     "ppl_ratio": 1.0000718142338303,
+     "cap_ok": true,
+     "ppl_ok": true,
+     "false": {
+      "inject_rate": 0.4583333333333333,
+      "random_rate": 0.2916666666666667,
+      "loose": {
+       "effect": 0.16666666666666663,
+       "ci": [
+        0.0,
+        0.375
+       ],
+       "n": 24,
+       "certified": false
+      },
+      "strict": {
+       "effect": 0.20833333333333331,
+       "ci": [
+        0.08333333333333331,
+        0.375
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      }
+     },
+     "true": {
+      "inject_rate": 0.0,
+      "random_rate": 0.0,
+      "loose": {
+       "effect": 0.0,
+       "ci": [
+        0.0,
+        0.0
+       ],
+       "n": 24,
+       "certified": false
+      },
+      "strict": {
+       "effect": 0.0,
+       "ci": [
+        0.0,
+        0.0
+       ],
+       "n": 24,
+       "certified": false
+      },
+      "clean_null": true,
+      "status_inject": {
+       "ok": 0.54,
+       "silent": 0.46,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 0.71,
+       "silent": 0.29,
+       "degen": 0.0
+      }
+     },
+     "twin_shift": 0.20833333333333337,
+     "stable": false,
+     "admissible": false
+    },
+    "0.6": {
+     "c": 0.6,
+     "coherence": 1.0,
+     "math": 1.0,
+     "fact": 0.75,
+     "ppl_ratio": 0.9680499793750799,
+     "cap_ok": true,
+     "ppl_ok": true,
+     "false": {
+      "inject_rate": 0.375,
+      "random_rate": 0.3333333333333333,
+      "loose": {
+       "effect": 0.041666666666666685,
+       "ci": [
+        -0.16666666666666669,
+        0.25
+       ],
+       "n": 24,
+       "certified": false
+      },
+      "strict": {
+       "effect": 0.125,
+       "ci": [
+        -0.041666666666666685,
+        0.2916666666666667
+       ],
+       "n": 24,
+       "certified": false
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      }
+     },
+     "true": {
+      "inject_rate": 0.0,
+      "random_rate": 0.0,
+      "loose": {
+       "effect": 0.0,
+       "ci": [
+        0.0,
+        0.0
+       ],
+       "n": 24,
+       "certified": false
+      },
+      "strict": {
+       "effect": 0.0,
+       "ci": [
+        0.0,
+        0.0
+       ],
+       "n": 24,
+       "certified": false
+      },
+      "clean_null": true,
+      "status_inject": {
+       "ok": 0.5,
+       "silent": 0.5,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 0.83,
+       "silent": 0.17,
+       "degen": 0.0
+      }
+     },
+     "twin_shift": 0.25,
+     "stable": false,
+     "admissible": false
+    },
+    "0.9": {
+     "c": 0.9,
+     "coherence": 1.0,
+     "math": 1.0,
+     "fact": 0.75,
+     "ppl_ratio": 0.9409081546945542,
+     "cap_ok": true,
+     "ppl_ok": true,
+     "false": {
+      "inject_rate": 0.08333333333333333,
+      "random_rate": 0.5,
+      "loose": {
+       "effect": -0.4166666666666667,
+       "ci": [
+        -0.625,
+        -0.20833333333333331
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "strict": {
+       "effect": -0.375,
+       "ci": [
+        -0.5833333333333334,
+        -0.20833333333333331
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      }
+     },
+     "true": {
+      "inject_rate": 0.0,
+      "random_rate": 0.0,
+      "loose": {
+       "effect": 0.0,
+       "ci": [
+        0.0,
+        0.0
+       ],
+       "n": 24,
+       "certified": false
+      },
+      "strict": {
+       "effect": 0.0,
+       "ci": [
+        0.0,
+        0.0
+       ],
+       "n": 24,
+       "certified": false
+      },
+      "clean_null": true,
+      "status_inject": {
+       "ok": 0.79,
+       "silent": 0.21,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 0.88,
+       "silent": 0.12,
+       "degen": 0.0
+      }
+     },
+     "twin_shift": 0.4166666666666667,
+     "stable": false,
+     "admissible": false
+    }
+   }
+  },
+  "d_persona_final": {
+   "stop": "ladder completed",
+   "layer": 30,
+   "sign": 1,
+   "rungs": {
+    "0.2": {
+     "c": 0.2,
+     "coherence": 1.0,
+     "math": 1.0,
+     "fact": 1.0,
+     "ppl_ratio": 0.8858866448141499,
+     "cap_ok": true,
+     "ppl_ok": true,
+     "false": {
+      "inject_rate": 0.4583333333333333,
+      "random_rate": 0.125,
+      "loose": {
+       "effect": 0.3333333333333333,
+       "ci": [
+        0.16666666666666666,
+        0.5416666666666666
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "strict": {
+       "effect": 0.2916666666666667,
+       "ci": [
+        0.125,
+        0.45833333333333337
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      }
+     },
+     "true": {
+      "inject_rate": 0.0,
+      "random_rate": 0.0,
+      "loose": {
+       "effect": 0.0,
+       "ci": [
+        0.0,
+        0.0
+       ],
+       "n": 24,
+       "certified": false
+      },
+      "strict": {
+       "effect": 0.0,
+       "ci": [
+        0.0,
+        0.0
+       ],
+       "n": 24,
+       "certified": false
+      },
+      "clean_null": true,
+      "status_inject": {
+       "ok": 0.92,
+       "silent": 0.08,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 0.62,
+       "silent": 0.38,
+       "degen": 0.0
+      }
+     },
+     "twin_shift": 0.04166666666666667,
+     "stable": true,
+     "admissible": true
+    },
+    "0.3": {
+     "c": 0.3,
+     "coherence": 1.0,
+     "math": 1.0,
+     "fact": 1.0,
+     "ppl_ratio": 0.8450867192806693,
+     "cap_ok": true,
+     "ppl_ok": true,
+     "false": {
+      "inject_rate": 0.4583333333333333,
+      "random_rate": 0.20833333333333334,
+      "loose": {
+       "effect": 0.24999999999999997,
+       "ci": [
+        0.08333333333333334,
+        0.41666666666666674
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "strict": {
+       "effect": 0.20833333333333334,
+       "ci": [
+        0.041666666666666685,
+        0.375
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      }
+     },
+     "true": {
+      "inject_rate": 0.0,
+      "random_rate": 0.0,
+      "loose": {
+       "effect": 0.0,
+       "ci": [
+        0.0,
+        0.0
+       ],
+       "n": 24,
+       "certified": false
+      },
+      "strict": {
+       "effect": 0.0,
+       "ci": [
+        0.0,
+        0.0
+       ],
+       "n": 24,
+       "certified": false
+      },
+      "clean_null": true,
+      "status_inject": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 0.62,
+       "silent": 0.38,
+       "degen": 0.0
+      }
+     },
+     "twin_shift": 0.125,
+     "stable": true,
+     "admissible": true
+    },
+    "0.4": {
+     "c": 0.4,
+     "coherence": 1.0,
+     "math": 1.0,
+     "fact": 1.0,
+     "ppl_ratio": 0.8283065659019067,
+     "cap_ok": true,
+     "ppl_ok": true,
+     "false": {
+      "inject_rate": 0.8333333333333334,
+      "random_rate": 0.2916666666666667,
+      "loose": {
+       "effect": 0.5416666666666667,
+       "ci": [
+        0.33333333333333337,
+        0.75
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "strict": {
+       "effect": 0.2916666666666667,
+       "ci": [
+        0.125,
+        0.49999999999999994
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      }
+     },
+     "true": {
+      "inject_rate": 0.041666666666666664,
+      "random_rate": 0.0,
+      "loose": {
+       "effect": 0.041666666666666664,
+       "ci": [
+        0.0,
+        0.125
+       ],
+       "n": 24,
+       "certified": false
+      },
+      "strict": {
+       "effect": 0.0,
+       "ci": [
+        0.0,
+        0.0
+       ],
+       "n": 24,
+       "certified": false
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 0.67,
+       "silent": 0.33,
+       "degen": 0.0
+      }
+     },
+     "twin_shift": 0.20833333333333337,
+     "stable": false,
+     "admissible": false
+    },
+    "0.6": {
+     "c": 0.6,
+     "coherence": 1.0,
+     "math": 1.0,
+     "fact": 1.0,
+     "ppl_ratio": 0.8543937068627967,
+     "cap_ok": true,
+     "ppl_ok": true,
+     "false": {
+      "inject_rate": 0.875,
+      "random_rate": 0.4583333333333333,
+      "loose": {
+       "effect": 0.4166666666666667,
+       "ci": [
+        0.20833333333333337,
+        0.625
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "strict": {
+       "effect": 0.16666666666666669,
+       "ci": [
+        0.04166666666666663,
+        0.3333333333333333
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      }
+     },
+     "true": {
+      "inject_rate": 0.08333333333333333,
+      "random_rate": 0.0,
+      "loose": {
+       "effect": 0.08333333333333333,
+       "ci": [
+        0.0,
+        0.20833333333333334
+       ],
+       "n": 24,
+       "certified": false
+      },
+      "strict": {
+       "effect": 0.0,
+       "ci": [
+        0.0,
+        0.0
+       ],
+       "n": 24,
+       "certified": false
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 0.67,
+       "silent": 0.33,
+       "degen": 0.0
+      }
+     },
+     "twin_shift": 0.375,
+     "stable": false,
+     "admissible": false
+    },
+    "0.9": {
+     "c": 0.9,
+     "coherence": 1.0,
+     "math": 0.5,
+     "fact": 0.75,
+     "ppl_ratio": 1.0749402734539477,
+     "cap_ok": false,
+     "ppl_ok": true,
+     "false": {
+      "inject_rate": 0.7083333333333334,
+      "random_rate": 0.375,
+      "loose": {
+       "effect": 0.33333333333333337,
+       "ci": [
+        0.12499999999999994,
+        0.5416666666666667
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "strict": {
+       "effect": 0.08333333333333331,
+       "ci": [
+        -0.08333333333333331,
+        0.24999999999999997
+       ],
+       "n": 24,
+       "certified": false
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      }
+     },
+     "true": {
+      "inject_rate": 0.3333333333333333,
+      "random_rate": 0.0,
+      "loose": {
+       "effect": 0.3333333333333333,
+       "ci": [
+        0.16666666666666666,
+        0.5416666666666666
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "strict": {
+       "effect": 0.041666666666666664,
+       "ci": [
+        0.0,
+        0.125
+       ],
+       "n": 24,
+       "certified": false
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 0.79,
+       "silent": 0.21,
+       "degen": 0.0
+      }
+     },
+     "twin_shift": 0.2916666666666667,
+     "stable": false,
+     "admissible": false
+    }
+   }
+  },
+  "d_content_span": {
+   "stop": "ladder completed",
+   "layer": 22,
+   "sign": 1,
+   "rungs": {
+    "0.2": {
+     "c": 0.2,
+     "coherence": 1.0,
+     "math": 1.0,
+     "fact": 1.0,
+     "ppl_ratio": 0.9920849986329229,
+     "cap_ok": true,
+     "ppl_ok": true,
+     "false": {
+      "inject_rate": 0.7083333333333334,
+      "random_rate": 0.20833333333333334,
+      "loose": {
+       "effect": 0.5,
+       "ci": [
+        0.25,
+        0.7083333333333334
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "strict": {
+       "effect": 0.5416666666666667,
+       "ci": [
+        0.33333333333333337,
+        0.75
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      }
+     },
+     "true": {
+      "inject_rate": 0.043478260869565216,
+      "random_rate": 0.0,
+      "loose": {
+       "effect": 0.043478260869565216,
+       "ci": [
+        0.0,
+        0.13043478260869565
+       ],
+       "n": 23,
+       "certified": false
+      },
+      "strict": {
+       "effect": 0.0,
+       "ci": [
+        0.0,
+        0.0
+       ],
+       "n": 23,
+       "certified": false
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 0.83,
+       "silent": 0.12,
+       "degen": 0.04
+      },
+      "status_random": {
+       "ok": 0.79,
+       "silent": 0.21,
+       "degen": 0.0
+      }
+     },
+     "twin_shift": 0.125,
+     "stable": true,
+     "admissible": true
+    },
+    "0.3": {
+     "c": 0.3,
+     "coherence": 1.0,
+     "math": 1.0,
+     "fact": 1.0,
+     "ppl_ratio": 0.9974638252325785,
+     "cap_ok": true,
+     "ppl_ok": true,
+     "false": {
+      "inject_rate": 0.9130434782608695,
+      "random_rate": 0.2916666666666667,
+      "loose": {
+       "effect": 0.6213768115942029,
+       "ci": [
+        0.391304347826087,
+        0.782608695652174
+       ],
+       "n": 23,
+       "certified": true
+      },
+      "strict": {
+       "effect": 0.6630434782608695,
+       "ci": [
+        0.4347826086956522,
+        0.8260869565217391
+       ],
+       "n": 23,
+       "certified": true
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 0.96,
+       "silent": 0.0,
+       "degen": 0.04
+      },
+      "status_random": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      }
+     },
+     "true": {
+      "inject_rate": 0.043478260869565216,
+      "random_rate": 0.0,
+      "loose": {
+       "effect": 0.043478260869565216,
+       "ci": [
+        0.0,
+        0.13043478260869565
+       ],
+       "n": 23,
+       "certified": false
+      },
+      "strict": {
+       "effect": 0.0,
+       "ci": [
+        0.0,
+        0.0
+       ],
+       "n": 23,
+       "certified": false
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 0.96,
+       "silent": 0.0,
+       "degen": 0.04
+      },
+      "status_random": {
+       "ok": 0.83,
+       "silent": 0.17,
+       "degen": 0.0
+      }
+     },
+     "twin_shift": 0.20833333333333337,
+     "stable": false,
+     "admissible": false
+    },
+    "0.4": {
+     "c": 0.4,
+     "coherence": 1.0,
+     "math": 1.0,
+     "fact": 1.0,
+     "ppl_ratio": 1.0230336294862947,
+     "cap_ok": true,
+     "ppl_ok": true,
+     "false": {
+      "inject_rate": 0.9565217391304348,
+      "random_rate": 0.3333333333333333,
+      "loose": {
+       "effect": 0.6231884057971016,
+       "ci": [
+        0.4347826086956522,
+        0.8260869565217391
+       ],
+       "n": 23,
+       "certified": true
+      },
+      "strict": {
+       "effect": 0.6630434782608695,
+       "ci": [
+        0.5217391304347825,
+        0.8695652173913044
+       ],
+       "n": 23,
+       "certified": true
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 0.96,
+       "silent": 0.0,
+       "degen": 0.04
+      },
+      "status_random": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      }
+     },
+     "true": {
+      "inject_rate": 0.4583333333333333,
+      "random_rate": 0.0,
+      "loose": {
+       "effect": 0.4583333333333333,
+       "ci": [
+        0.25,
+        0.6666666666666666
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "strict": {
+       "effect": 0.4583333333333333,
+       "ci": [
+        0.25,
+        0.6666666666666666
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 0.88,
+       "silent": 0.12,
+       "degen": 0.0
+      }
+     },
+     "twin_shift": 0.25,
+     "stable": false,
+     "admissible": false
+    },
+    "0.6": {
+     "c": 0.6,
+     "coherence": 1.0,
+     "math": 1.0,
+     "fact": 1.0,
+     "ppl_ratio": 1.0689259892711926,
+     "cap_ok": true,
+     "ppl_ok": true,
+     "false": {
+      "inject_rate": 0.9166666666666666,
+      "random_rate": 0.375,
+      "loose": {
+       "effect": 0.5416666666666666,
+       "ci": [
+        0.33333333333333337,
+        0.75
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "strict": {
+       "effect": 0.5416666666666666,
+       "ci": [
+        0.2916666666666667,
+        0.75
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      }
+     },
+     "true": {
+      "inject_rate": 0.9583333333333334,
+      "random_rate": 0.0,
+      "loose": {
+       "effect": 0.9583333333333334,
+       "ci": [
+        0.875,
+        1.0
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "strict": {
+       "effect": 0.9166666666666666,
+       "ci": [
+        0.7916666666666666,
+        1.0
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 0.96,
+       "silent": 0.04,
+       "degen": 0.0
+      }
+     },
+     "twin_shift": 0.2916666666666667,
+     "stable": false,
+     "admissible": false
+    },
+    "0.9": {
+     "c": 0.9,
+     "coherence": 1.0,
+     "math": 1.0,
+     "fact": 1.0,
+     "ppl_ratio": 1.2103689332580778,
+     "cap_ok": true,
+     "ppl_ok": true,
+     "false": {
+      "inject_rate": 0.9166666666666666,
+      "random_rate": 0.7083333333333334,
+      "loose": {
+       "effect": 0.20833333333333326,
+       "ci": [
+        0.0,
+        0.41666666666666674
+       ],
+       "n": 24,
+       "certified": false
+      },
+      "strict": {
+       "effect": 0.875,
+       "ci": [
+        0.7083333333333334,
+        1.0
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      }
+     },
+     "true": {
+      "inject_rate": 0.9583333333333334,
+      "random_rate": 0.041666666666666664,
+      "loose": {
+       "effect": 0.9166666666666667,
+       "ci": [
+        0.7916666666666666,
+        1.0
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "strict": {
+       "effect": 0.9583333333333334,
+       "ci": [
+        0.875,
+        1.0
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      }
+     },
+     "twin_shift": 0.625,
+     "stable": false,
+     "admissible": false
+    }
+   }
+  },
+  "d_content_final": {
+   "stop": "ladder completed",
+   "layer": 22,
+   "sign": 1,
+   "rungs": {
+    "0.2": {
+     "c": 0.2,
+     "coherence": 1.0,
+     "math": 1.0,
+     "fact": 0.75,
+     "ppl_ratio": 1.0878981084462884,
+     "cap_ok": true,
+     "ppl_ok": true,
+     "false": {
+      "inject_rate": 0.75,
+      "random_rate": 0.08333333333333333,
+      "loose": {
+       "effect": 0.6666666666666666,
+       "ci": [
+        0.45833333333333337,
+        0.8333333333333334
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "strict": {
+       "effect": 0.5833333333333333,
+       "ci": [
+        0.375,
+        0.7916666666666666
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      }
+     },
+     "true": {
+      "inject_rate": 0.043478260869565216,
+      "random_rate": 0.0,
+      "loose": {
+       "effect": 0.043478260869565216,
+       "ci": [
+        0.0,
+        0.13043478260869565
+       ],
+       "n": 23,
+       "certified": false
+      },
+      "strict": {
+       "effect": 0.0,
+       "ci": [
+        0.0,
+        0.0
+       ],
+       "n": 23,
+       "certified": false
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 0.79,
+       "silent": 0.17,
+       "degen": 0.04
+      },
+      "status_random": {
+       "ok": 0.58,
+       "silent": 0.38,
+       "degen": 0.04
+      }
+     },
+     "twin_shift": 0.0,
+     "stable": true,
+     "admissible": true
+    },
+    "0.3": {
+     "c": 0.3,
+     "coherence": 1.0,
+     "math": 1.0,
+     "fact": 0.75,
+     "ppl_ratio": 1.1623244195540956,
+     "cap_ok": true,
+     "ppl_ok": true,
+     "false": {
+      "inject_rate": 1.0,
+      "random_rate": 0.08333333333333333,
+      "loose": {
+       "effect": 0.9166666666666666,
+       "ci": [
+        0.7916666666666666,
+        1.0
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "strict": {
+       "effect": 0.875,
+       "ci": [
+        0.75,
+        1.0
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      }
+     },
+     "true": {
+      "inject_rate": 0.391304347826087,
+      "random_rate": 0.0,
+      "loose": {
+       "effect": 0.391304347826087,
+       "ci": [
+        0.21739130434782608,
+        0.6086956521739131
+       ],
+       "n": 23,
+       "certified": true
+      },
+      "strict": {
+       "effect": 0.0,
+       "ci": [
+        0.0,
+        0.0
+       ],
+       "n": 23,
+       "certified": false
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 0.96,
+       "silent": 0.0,
+       "degen": 0.04
+      },
+      "status_random": {
+       "ok": 0.62,
+       "silent": 0.33,
+       "degen": 0.04
+      }
+     },
+     "twin_shift": 0.0,
+     "stable": true,
+     "admissible": true
+    },
+    "0.4": {
+     "c": 0.4,
+     "coherence": 1.0,
+     "math": 1.0,
+     "fact": 0.75,
+     "ppl_ratio": 1.2335554601363656,
+     "cap_ok": true,
+     "ppl_ok": true,
+     "false": {
+      "inject_rate": 1.0,
+      "random_rate": 0.0,
+      "loose": {
+       "effect": 1.0,
+       "ci": [
+        1.0,
+        1.0
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "strict": {
+       "effect": 1.0,
+       "ci": [
+        1.0,
+        1.0
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      }
+     },
+     "true": {
+      "inject_rate": 0.625,
+      "random_rate": 0.0,
+      "loose": {
+       "effect": 0.625,
+       "ci": [
+        0.4782608695652174,
+        0.8260869565217391
+       ],
+       "n": 23,
+       "certified": true
+      },
+      "strict": {
+       "effect": 0.20833333333333334,
+       "ci": [
+        0.08695652173913043,
+        0.391304347826087
+       ],
+       "n": 23,
+       "certified": true
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 0.62,
+       "silent": 0.33,
+       "degen": 0.04
+      }
+     },
+     "twin_shift": 0.08333333333333333,
+     "stable": true,
+     "admissible": true
+    },
+    "0.6": {
+     "c": 0.6,
+     "coherence": 1.0,
+     "math": 1.0,
+     "fact": 0.75,
+     "ppl_ratio": 1.4284499274056381,
+     "cap_ok": true,
+     "ppl_ok": false,
+     "false": {
+      "inject_rate": 0.9583333333333334,
+      "random_rate": 0.0,
+      "loose": {
+       "effect": 0.9583333333333334,
+       "ci": [
+        0.875,
+        1.0
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "strict": {
+       "effect": 0.9583333333333334,
+       "ci": [
+        0.875,
+        1.0
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      }
+     },
+     "true": {
+      "inject_rate": 0.9583333333333334,
+      "random_rate": 0.0,
+      "loose": {
+       "effect": 0.9583333333333334,
+       "ci": [
+        0.8695652173913043,
+        1.0
+       ],
+       "n": 23,
+       "certified": true
+      },
+      "strict": {
+       "effect": 0.75,
+       "ci": [
+        0.5652173913043478,
+        0.9130434782608695
+       ],
+       "n": 23,
+       "certified": true
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 0.75,
+       "silent": 0.21,
+       "degen": 0.04
+      }
+     },
+     "twin_shift": 0.08333333333333333,
+     "stable": true,
+     "admissible": false
+    },
+    "0.9": {
+     "c": 0.9,
+     "coherence": 1.0,
+     "math": 0.75,
+     "fact": 0.25,
+     "ppl_ratio": 1.8083553117414906,
+     "cap_ok": false,
+     "ppl_ok": false,
+     "false": {
+      "inject_rate": 0.9583333333333334,
+      "random_rate": 0.041666666666666664,
+      "loose": {
+       "effect": 0.9166666666666667,
+       "ci": [
+        0.7916666666666666,
+        1.0
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "strict": {
+       "effect": 0.9166666666666666,
+       "ci": [
+        0.7916666666666666,
+        1.0
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      }
+     },
+     "true": {
+      "inject_rate": 0.9583333333333334,
+      "random_rate": 0.0,
+      "loose": {
+       "effect": 0.9583333333333334,
+       "ci": [
+        0.875,
+        1.0
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "strict": {
+       "effect": 0.7916666666666666,
+       "ci": [
+        0.625,
+        0.9583333333333334
+       ],
+       "n": 24,
+       "certified": true
+      },
+      "clean_null": false,
+      "status_inject": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      },
+      "status_random": {
+       "ok": 1.0,
+       "silent": 0.0,
+       "degen": 0.0
+      }
+     },
+     "twin_shift": 0.041666666666666664,
+     "stable": true,
+     "admissible": false
+    }
+   }
+  }
+ },
+ "switch_on": {
+  "d_apollo": null,
+  "d_persona_final": 0.9,
+  "d_content_span": 0.4,
+  "d_content_final": 0.3
+ },
+ "windows": {
+  "d_apollo": [],
+  "d_persona_final": [
+   [
+    0.2,
+    true
+   ],
+   [
+    0.3,
+    true
+   ]
+  ],
+  "d_content_span": [],
+  "d_content_final": []
+ },
+ "predictions": {
+  "P1": true,
+  "P2": true,
+  "P3": true,
+  "P4": true,
+  "P5": true
+ },
+ "headline": "READ POSITION SETS THE WINDOW. Directions read at the final assertion token lose specificity at a lower dose than the same contrasts read across the span: they start retracting TRUE claims sooner. The published Apollo mask, which excludes the last five words, is on the wide-window side by design."
+}

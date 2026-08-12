@@ -1,0 +1,394 @@
+{
+ "1": {
+  "prov": "arc22",
+  "dose": "op",
+  "side": "true",
+  "arm": "inject",
+  "item": 8
+ },
+ "2": {
+  "prov": "fine",
+  "dose": "0.28",
+  "side": "true",
+  "arm": "random",
+  "item": 11
+ },
+ "3": {
+  "prov": "fine",
+  "dose": "0.22",
+  "side": "true",
+  "arm": "inject",
+  "item": 2
+ },
+ "4": {
+  "prov": "fine",
+  "dose": "0.24",
+  "side": "true",
+  "arm": "inject",
+  "item": 15
+ },
+ "5": {
+  "prov": "fine",
+  "dose": "0.28",
+  "side": "true",
+  "arm": "inject",
+  "item": 7
+ },
+ "6": {
+  "prov": "arc22",
+  "dose": "op",
+  "side": "true",
+  "arm": "inject",
+  "item": 0
+ },
+ "7": {
+  "prov": "arc22",
+  "dose": "op",
+  "side": "false",
+  "arm": "inject",
+  "item": 21
+ },
+ "8": {
+  "prov": "fine",
+  "dose": "0.28",
+  "side": "true",
+  "arm": "inject",
+  "item": 2
+ },
+ "9": {
+  "prov": "fine",
+  "dose": "0.26",
+  "side": "true",
+  "arm": "inject",
+  "item": 9
+ },
+ "10": {
+  "prov": "arc22",
+  "dose": "op",
+  "side": "false",
+  "arm": "inject",
+  "item": 15
+ },
+ "11": {
+  "prov": "fine",
+  "dose": "0.26",
+  "side": "true",
+  "arm": "random",
+  "item": 1
+ },
+ "12": {
+  "prov": "fine",
+  "dose": "0.22",
+  "side": "true",
+  "arm": "inject",
+  "item": 13
+ },
+ "13": {
+  "prov": "arc22",
+  "dose": "-",
+  "side": "true",
+  "arm": "baseline",
+  "item": 15
+ },
+ "14": {
+  "prov": "fine",
+  "dose": "0.28",
+  "side": "true",
+  "arm": "inject",
+  "item": 1
+ },
+ "15": {
+  "prov": "arc22",
+  "dose": "op",
+  "side": "true",
+  "arm": "inject",
+  "item": 19
+ },
+ "16": {
+  "prov": "fine",
+  "dose": "0.24",
+  "side": "true",
+  "arm": "random",
+  "item": 10
+ },
+ "17": {
+  "prov": "fine",
+  "dose": "0.22",
+  "side": "true",
+  "arm": "inject",
+  "item": 7
+ },
+ "18": {
+  "prov": "fine",
+  "dose": "0.28",
+  "side": "true",
+  "arm": "inject",
+  "item": 20
+ },
+ "19": {
+  "prov": "fine",
+  "dose": "0.22",
+  "side": "true",
+  "arm": "inject",
+  "item": 4
+ },
+ "20": {
+  "prov": "arc22",
+  "dose": "op",
+  "side": "true",
+  "arm": "inject",
+  "item": 16
+ },
+ "21": {
+  "prov": "fine",
+  "dose": "0.22",
+  "side": "true",
+  "arm": "inject",
+  "item": 11
+ },
+ "22": {
+  "prov": "fine",
+  "dose": "0.24",
+  "side": "true",
+  "arm": "inject",
+  "item": 8
+ },
+ "23": {
+  "prov": "arc22",
+  "dose": "op",
+  "side": "true",
+  "arm": "random",
+  "item": 7
+ },
+ "24": {
+  "prov": "fine",
+  "dose": "0.28",
+  "side": "true",
+  "arm": "random",
+  "item": 12
+ },
+ "25": {
+  "prov": "fine",
+  "dose": "0.24",
+  "side": "true",
+  "arm": "inject",
+  "item": 0
+ },
+ "26": {
+  "prov": "fine",
+  "dose": "0.26",
+  "side": "true",
+  "arm": "inject",
+  "item": 23
+ },
+ "27": {
+  "prov": "fine",
+  "dose": "0.26",
+  "side": "true",
+  "arm": "inject",
+  "item": 3
+ },
+ "28": {
+  "prov": "fine",
+  "dose": "0.24",
+  "side": "false",
+  "arm": "inject",
+  "item": 7
+ },
+ "29": {
+  "prov": "arc22",
+  "dose": "op",
+  "side": "true",
+  "arm": "random",
+  "item": 2
+ },
+ "30": {
+  "prov": "fine",
+  "dose": "0.28",
+  "side": "true",
+  "arm": "inject",
+  "item": 18
+ },
+ "31": {
+  "prov": "fine",
+  "dose": "0.28",
+  "side": "false",
+  "arm": "inject",
+  "item": 17
+ },
+ "32": {
+  "prov": "fine",
+  "dose": "0.26",
+  "side": "true",
+  "arm": "random",
+  "item": 15
+ },
+ "33": {
+  "prov": "arc22",
+  "dose": "op",
+  "side": "false",
+  "arm": "inject",
+  "item": 12
+ },
+ "34": {
+  "prov": "fine",
+  "dose": "0.24",
+  "side": "true",
+  "arm": "inject",
+  "item": 13
+ },
+ "35": {
+  "prov": "arc22",
+  "dose": "op",
+  "side": "true",
+  "arm": "random",
+  "item": 4
+ },
+ "36": {
+  "prov": "fine",
+  "dose": "0.26",
+  "side": "true",
+  "arm": "inject",
+  "item": 11
+ },
+ "37": {
+  "prov": "fine",
+  "dose": "0.22",
+  "side": "true",
+  "arm": "inject",
+  "item": 16
+ },
+ "38": {
+  "prov": "arc22",
+  "dose": "-",
+  "side": "true",
+  "arm": "baseline",
+  "item": 3
+ },
+ "39": {
+  "prov": "fine",
+  "dose": "0.28",
+  "side": "true",
+  "arm": "inject",
+  "item": 21
+ },
+ "40": {
+  "prov": "fine",
+  "dose": "0.26",
+  "side": "false",
+  "arm": "inject",
+  "item": 23
+ },
+ "41": {
+  "prov": "fine",
+  "dose": "0.22",
+  "side": "false",
+  "arm": "inject",
+  "item": 18
+ },
+ "42": {
+  "prov": "fine",
+  "dose": "0.24",
+  "side": "true",
+  "arm": "inject",
+  "item": 1
+ },
+ "43": {
+  "prov": "arc22",
+  "dose": "op",
+  "side": "true",
+  "arm": "inject",
+  "item": 4
+ },
+ "44": {
+  "prov": "arc22",
+  "dose": "op",
+  "side": "false",
+  "arm": "inject",
+  "item": 2
+ },
+ "45": {
+  "prov": "arc22",
+  "dose": "-",
+  "side": "true",
+  "arm": "baseline",
+  "item": 17
+ },
+ "46": {
+  "prov": "fine",
+  "dose": "0.24",
+  "side": "true",
+  "arm": "inject",
+  "item": 10
+ },
+ "47": {
+  "prov": "arc22",
+  "dose": "op",
+  "side": "true",
+  "arm": "inject",
+  "item": 12
+ },
+ "48": {
+  "prov": "arc22",
+  "dose": "op",
+  "side": "true",
+  "arm": "inject",
+  "item": 2
+ },
+ "49": {
+  "prov": "arc22",
+  "dose": "-",
+  "side": "true",
+  "arm": "baseline",
+  "item": 14
+ },
+ "50": {
+  "prov": "fine",
+  "dose": "0.24",
+  "side": "true",
+  "arm": "random",
+  "item": 16
+ },
+ "51": {
+  "prov": "fine",
+  "dose": "0.26",
+  "side": "true",
+  "arm": "inject",
+  "item": 16
+ },
+ "52": {
+  "prov": "fine",
+  "dose": "0.22",
+  "side": "true",
+  "arm": "random",
+  "item": 17
+ },
+ "53": {
+  "prov": "arc22",
+  "dose": "op",
+  "side": "true",
+  "arm": "random",
+  "item": 8
+ },
+ "54": {
+  "prov": "arc22",
+  "dose": "op",
+  "side": "true",
+  "arm": "inject",
+  "item": 22
+ },
+ "55": {
+  "prov": "fine",
+  "dose": "0.22",
+  "side": "true",
+  "arm": "random",
+  "item": 9
+ },
+ "56": {
+  "prov": "fine",
+  "dose": "0.26",
+  "side": "true",
+  "arm": "inject",
+  "item": 14
+ }
+}

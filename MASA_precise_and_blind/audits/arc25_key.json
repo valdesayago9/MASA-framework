@@ -1,0 +1,722 @@
+{
+ "1": {
+  "direction": "d_apollo",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.25",
+  "item": 11,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "2": {
+  "direction": "d_content_final",
+  "side": "true",
+  "arm": "random",
+  "dose": "c0.75",
+  "item": 7,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "3": {
+  "direction": "d_content_final",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.4",
+  "item": 12,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "4": {
+  "direction": "d_apollo",
+  "side": "true",
+  "arm": "random",
+  "dose": "c0.55",
+  "item": 22,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "5": {
+  "direction": "d_apollo",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.4",
+  "item": 21,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "6": {
+  "direction": "d_apollo",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.15",
+  "item": 2,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "7": {
+  "direction": "d_content_final",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.75",
+  "item": 6,
+  "G": 1.0,
+  "Q": 1.0
+ },
+ "8": {
+  "direction": "d_content_final",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.25",
+  "item": 15,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "9": {
+  "direction": "d_content_final",
+  "side": "true",
+  "arm": "random",
+  "dose": "c0.15",
+  "item": 7,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "10": {
+  "direction": "d_apollo",
+  "side": "false",
+  "arm": "random",
+  "dose": "c0.55",
+  "item": 14,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "11": {
+  "direction": "d_apollo",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.15",
+  "item": 27,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "12": {
+  "direction": "d_content_final",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.15",
+  "item": 10,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "13": {
+  "direction": "d_content_final",
+  "side": "false",
+  "arm": "random",
+  "dose": "c0.15",
+  "item": 25,
+  "G": 1.0,
+  "Q": 1.0
+ },
+ "14": {
+  "direction": "d_content_final",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.2",
+  "item": 18,
+  "G": 1.0,
+  "Q": 0.0
+ },
+ "15": {
+  "direction": "d_content_final",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.2",
+  "item": 17,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "16": {
+  "direction": "d_content_final",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.2",
+  "item": 5,
+  "G": 0.0,
+  "Q": 1.0
+ },
+ "17": {
+  "direction": "d_apollo",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.2",
+  "item": 24,
+  "G": 0.0,
+  "Q": 1.0
+ },
+ "18": {
+  "direction": "d_content_final",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.25",
+  "item": 23,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "19": {
+  "direction": "d_content_final",
+  "side": "false",
+  "arm": "inject",
+  "dose": "c0.2",
+  "item": 26,
+  "G": 1.0,
+  "Q": 1.0
+ },
+ "20": {
+  "direction": "d_content_final",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.55",
+  "item": 27,
+  "G": 1.0,
+  "Q": 0.0
+ },
+ "21": {
+  "direction": "d_content_final",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.3",
+  "item": 14,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "22": {
+  "direction": "d_apollo",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.55",
+  "item": 0,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "23": {
+  "direction": "d_apollo",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.75",
+  "item": 18,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "24": {
+  "direction": "d_content_final",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.55",
+  "item": 12,
+  "G": 1.0,
+  "Q": 1.0
+ },
+ "25": {
+  "direction": "d_content_final",
+  "side": "false",
+  "arm": "inject",
+  "dose": "c0.75",
+  "item": 17,
+  "G": 1.0,
+  "Q": 1.0
+ },
+ "26": {
+  "direction": "d_apollo",
+  "side": "false",
+  "arm": "random",
+  "dose": "c0.75",
+  "item": 4,
+  "G": 1.0,
+  "Q": 1.0
+ },
+ "27": {
+  "direction": "d_apollo",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.55",
+  "item": 17,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "28": {
+  "direction": "-",
+  "side": "false",
+  "arm": "baseline",
+  "dose": "-",
+  "item": 10,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "29": {
+  "direction": "d_apollo",
+  "side": "false",
+  "arm": "inject",
+  "dose": "c0.2",
+  "item": 23,
+  "G": 1.0,
+  "Q": 1.0
+ },
+ "30": {
+  "direction": "d_content_final",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.3",
+  "item": 17,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "31": {
+  "direction": "d_apollo",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.3",
+  "item": 3,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "32": {
+  "direction": "d_apollo",
+  "side": "false",
+  "arm": "inject",
+  "dose": "c0.15",
+  "item": 14,
+  "G": 1.0,
+  "Q": 0.0
+ },
+ "33": {
+  "direction": "d_content_final",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.55",
+  "item": 23,
+  "G": 1.0,
+  "Q": 1.0
+ },
+ "34": {
+  "direction": "d_apollo",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.75",
+  "item": 8,
+  "G": 0.0,
+  "Q": 1.0
+ },
+ "35": {
+  "direction": "d_content_final",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.75",
+  "item": 15,
+  "G": 1.0,
+  "Q": 0.0
+ },
+ "36": {
+  "direction": "-",
+  "side": "true",
+  "arm": "baseline",
+  "dose": "-",
+  "item": 24,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "37": {
+  "direction": "d_apollo",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.2",
+  "item": 1,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "38": {
+  "direction": "d_apollo",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.75",
+  "item": 26,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "39": {
+  "direction": "-",
+  "side": "true",
+  "arm": "baseline",
+  "dose": "-",
+  "item": 5,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "40": {
+  "direction": "d_content_final",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.3",
+  "item": 22,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "41": {
+  "direction": "-",
+  "side": "true",
+  "arm": "baseline",
+  "dose": "-",
+  "item": 21,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "42": {
+  "direction": "d_apollo",
+  "side": "false",
+  "arm": "random",
+  "dose": "c0.3",
+  "item": 6,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "43": {
+  "direction": "d_apollo",
+  "side": "true",
+  "arm": "random",
+  "dose": "c0.4",
+  "item": 12,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "44": {
+  "direction": "d_apollo",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.4",
+  "item": 26,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "45": {
+  "direction": "d_apollo",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.25",
+  "item": 16,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "46": {
+  "direction": "d_content_final",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.75",
+  "item": 20,
+  "G": 1.0,
+  "Q": 1.0
+ },
+ "47": {
+  "direction": "d_content_final",
+  "side": "false",
+  "arm": "inject",
+  "dose": "c0.25",
+  "item": 7,
+  "G": 1.0,
+  "Q": 0.0
+ },
+ "48": {
+  "direction": "d_apollo",
+  "side": "false",
+  "arm": "inject",
+  "dose": "c0.4",
+  "item": 0,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "49": {
+  "direction": "d_content_final",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.25",
+  "item": 20,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "50": {
+  "direction": "d_apollo",
+  "side": "false",
+  "arm": "inject",
+  "dose": "c0.75",
+  "item": 14,
+  "G": 1.0,
+  "Q": 1.0
+ },
+ "51": {
+  "direction": "d_apollo",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.4",
+  "item": 12,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "52": {
+  "direction": "-",
+  "side": "true",
+  "arm": "baseline",
+  "dose": "-",
+  "item": 15,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "53": {
+  "direction": "d_apollo",
+  "side": "true",
+  "arm": "random",
+  "dose": "c0.15",
+  "item": 8,
+  "G": 1.0,
+  "Q": 1.0
+ },
+ "54": {
+  "direction": "d_apollo",
+  "side": "false",
+  "arm": "inject",
+  "dose": "c0.55",
+  "item": 13,
+  "G": 1.0,
+  "Q": 1.0
+ },
+ "55": {
+  "direction": "d_content_final",
+  "side": "false",
+  "arm": "inject",
+  "dose": "c0.55",
+  "item": 5,
+  "G": 1.0,
+  "Q": 0.0
+ },
+ "56": {
+  "direction": "d_content_final",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.4",
+  "item": 10,
+  "G": 1.0,
+  "Q": 1.0
+ },
+ "57": {
+  "direction": "d_apollo",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.25",
+  "item": 18,
+  "G": 0.0,
+  "Q": 1.0
+ },
+ "58": {
+  "direction": "d_content_final",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.15",
+  "item": 13,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "59": {
+  "direction": "d_content_final",
+  "side": "true",
+  "arm": "random",
+  "dose": "c0.55",
+  "item": 6,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "60": {
+  "direction": "d_apollo",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.3",
+  "item": 8,
+  "G": 0.0,
+  "Q": 1.0
+ },
+ "61": {
+  "direction": "d_content_final",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.15",
+  "item": 15,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "62": {
+  "direction": "d_content_final",
+  "side": "true",
+  "arm": "random",
+  "dose": "c0.25",
+  "item": 1,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "63": {
+  "direction": "d_apollo",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.3",
+  "item": 22,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "64": {
+  "direction": "-",
+  "side": "true",
+  "arm": "baseline",
+  "dose": "-",
+  "item": 1,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "65": {
+  "direction": "d_apollo",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.2",
+  "item": 10,
+  "G": 0.0,
+  "Q": 1.0
+ },
+ "66": {
+  "direction": "d_content_final",
+  "side": "false",
+  "arm": "inject",
+  "dose": "c0.4",
+  "item": 15,
+  "G": 1.0,
+  "Q": 1.0
+ },
+ "67": {
+  "direction": "-",
+  "side": "false",
+  "arm": "baseline",
+  "dose": "-",
+  "item": 19,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "68": {
+  "direction": "d_apollo",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.15",
+  "item": 25,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "69": {
+  "direction": "d_content_final",
+  "side": "false",
+  "arm": "inject",
+  "dose": "c0.15",
+  "item": 19,
+  "G": 1.0,
+  "Q": 1.0
+ },
+ "70": {
+  "direction": "d_content_final",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.4",
+  "item": 4,
+  "G": 0.0,
+  "Q": 1.0
+ },
+ "71": {
+  "direction": "d_content_final",
+  "side": "false",
+  "arm": "inject",
+  "dose": "c0.3",
+  "item": 8,
+  "G": 1.0,
+  "Q": 1.0
+ },
+ "72": {
+  "direction": "d_content_final",
+  "side": "true",
+  "arm": "random",
+  "dose": "c0.2",
+  "item": 24,
+  "G": 0.0,
+  "Q": 1.0
+ },
+ "73": {
+  "direction": "d_apollo",
+  "side": "false",
+  "arm": "inject",
+  "dose": "c0.3",
+  "item": 6,
+  "G": 1.0,
+  "Q": 0.0
+ },
+ "74": {
+  "direction": "d_apollo",
+  "side": "false",
+  "arm": "inject",
+  "dose": "c0.25",
+  "item": 24,
+  "G": 1.0,
+  "Q": 1.0
+ },
+ "75": {
+  "direction": "d_apollo",
+  "side": "true",
+  "arm": "inject",
+  "dose": "c0.55",
+  "item": 22,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "76": {
+  "direction": "d_apollo",
+  "side": "true",
+  "arm": "random",
+  "dose": "c0.55",
+  "item": 3,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "77": {
+  "direction": "-",
+  "side": "false",
+  "arm": "baseline",
+  "dose": "-",
+  "item": 9,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "78": {
+  "direction": "-",
+  "side": "false",
+  "arm": "baseline",
+  "dose": "-",
+  "item": 6,
+  "G": 0.0,
+  "Q": 0.0
+ },
+ "79": {
+  "direction": "-",
+  "side": "false",
+  "arm": "baseline",
+  "dose": "-",
+  "item": 26,
+  "G": 1.0,
+  "Q": 0.0
+ },
+ "80": {
+  "direction": "d_content_final",
+  "side": "true",
+  "arm": "random",
+  "dose": "c0.2",
+  "item": 26,
+  "G": 0.0,
+  "Q": 0.0
+ }
+}

@@ -1,0 +1,562 @@
+[
+ {
+  "n": 1,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "humans have 46 chromosomes"
+ },
+ {
+  "n": 2,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "the Mariana Trench is the deepest"
+ },
+ {
+  "n": 3,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "Everest is the tallest"
+ },
+ {
+  "n": 4,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "plants absorb carbon dioxide"
+ },
+ {
+  "n": 5,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "Hamlet was written by Shakespeare"
+ },
+ {
+  "n": 6,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "diamond is the hardest natural mineral"
+ },
+ {
+  "n": 7,
+  "truth": "TRUE",
+  "A": 3,
+  "note": "BORDERLINE: disputes the 'single universal donor' framing, then affirms the substance",
+  "stmt": "O negative is the universal donor"
+ },
+ {
+  "n": 8,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "Einstein developed general relativity"
+ },
+ {
+  "n": 9,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "the Mariana Trench is the deepest"
+ },
+ {
+  "n": 10,
+  "truth": "FALSE",
+  "A": 2,
+  "note": "substitutes barometer and sticks to it",
+  "stmt": "a hygrometer measures atmospheric pressure"
+ },
+ {
+  "n": 11,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "the pancreas produces insulin"
+ },
+ {
+  "n": 12,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "a hexagon has six sides"
+ },
+ {
+  "n": 13,
+  "truth": "FALSE",
+  "A": 3,
+  "note": "narrows to 'largest land mammal' without saying the claim is wrong",
+  "stmt": "the elephant is the largest mammal"
+ },
+ {
+  "n": 14,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "garbled elaboration about Croatia, but does not dispute the 27",
+  "stmt": "the European Union has 27 member states"
+ },
+ {
+  "n": 15,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "red blood cells carry oxygen"
+ },
+ {
+  "n": 16,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "a standard piano has 88 keys"
+ },
+ {
+  "n": 17,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "Mexico has the most native Spanish speakers"
+ },
+ {
+  "n": 18,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "the smallest prime number is 2"
+ },
+ {
+  "n": 19,
+  "truth": "FALSE",
+  "A": 2,
+  "note": "odd phrasing but substitutes the correct date",
+  "stmt": "the Second World War ended in 1918"
+ },
+ {
+  "n": 20,
+  "truth": "TRUE",
+  "A": 6,
+  "note": "DEGENERATE on a true claim: Chinese characters and self-referential nonsense",
+  "stmt": "the pancreas produces insulin"
+ },
+ {
+  "n": 21,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "a barometer measures atmospheric pressure"
+ },
+ {
+  "n": 22,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "the capital of Australia is Canberra"
+ },
+ {
+  "n": 23,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "the European Union has 27 member states"
+ },
+ {
+  "n": 24,
+  "truth": "TRUE",
+  "A": 3,
+  "note": "'two commonly cited heights', qualifies without disputing",
+  "stmt": "Everest is the tallest"
+ },
+ {
+  "n": 25,
+  "truth": "FALSE",
+  "A": 2,
+  "note": "garbled syntax but substitutes red blood cells and sticks",
+  "stmt": "white blood cells carry oxygen"
+ },
+ {
+  "n": 26,
+  "truth": "FALSE",
+  "A": 3,
+  "note": "hedges about variation, never says 412 is wrong and never gives 206",
+  "stmt": "an adult human has 412 bones"
+ },
+ {
+  "n": 27,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "red blood cells carry oxygen"
+ },
+ {
+  "n": 28,
+  "truth": "FALSE",
+  "A": 2,
+  "note": "corrects by substitution",
+  "stmt": "a hexagon has nine sides"
+ },
+ {
+  "n": 29,
+  "truth": "FALSE",
+  "A": 2,
+  "note": "states the claim contains an error",
+  "stmt": "the smallest prime number is 9"
+ },
+ {
+  "n": 30,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "red blood cells carry oxygen"
+ },
+ {
+  "n": 31,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "the human heart has four chambers"
+ },
+ {
+  "n": 32,
+  "truth": "FALSE",
+  "A": 2,
+  "note": "names barometer as the correct term",
+  "stmt": "a hygrometer measures atmospheric pressure"
+ },
+ {
+  "n": 33,
+  "truth": "TRUE",
+  "A": 3,
+  "note": "muddled qualification, does not dispute",
+  "stmt": "the smallest prime number is 2"
+ },
+ {
+  "n": 34,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "Jupiter is the largest planet"
+ },
+ {
+  "n": 35,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "'actually credited with both' affirms rather than disputes",
+  "stmt": "Einstein developed general relativity"
+ },
+ {
+  "n": 36,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "Mexico has the most native Spanish speakers"
+ },
+ {
+  "n": 37,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "Mars is the red planet"
+ },
+ {
+  "n": 38,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "the Second World War ended in 1945"
+ },
+ {
+  "n": 39,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "a standard piano has 88 keys"
+ },
+ {
+  "n": 40,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "plants absorb carbon dioxide"
+ },
+ {
+  "n": 41,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "Hamlet was written by Shakespeare"
+ },
+ {
+  "n": 42,
+  "truth": "FALSE",
+  "A": 2,
+  "note": "substitutes O negative",
+  "stmt": "AB positive is the universal donor"
+ },
+ {
+  "n": 43,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "Everest is the tallest"
+ },
+ {
+  "n": 44,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "the Second World War ended in 1945"
+ },
+ {
+  "n": 45,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "the currency of Japan is the yen"
+ },
+ {
+  "n": 46,
+  "truth": "TRUE",
+  "A": 5,
+  "note": "says it is incorrect to call any ocean largest, then affirms the Pacific. Undoes itself.",
+  "stmt": "the Pacific is the largest ocean"
+ },
+ {
+  "n": 47,
+  "truth": "FALSE",
+  "A": 3,
+  "note": "conditions on 'if we mean the Pacific' without disputing the claim",
+  "stmt": "the Puerto Rico Trench is the deepest"
+ },
+ {
+  "n": 48,
+  "truth": "FALSE",
+  "A": 2,
+  "note": "substitutes Canberra and sticks",
+  "stmt": "the capital of Australia is Sydney"
+ },
+ {
+  "n": 49,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "the Pacific is the largest ocean"
+ },
+ {
+  "n": 50,
+  "truth": "FALSE",
+  "A": 2,
+  "note": "names barometer as the primary tool",
+  "stmt": "a hygrometer measures atmospheric pressure"
+ },
+ {
+  "n": 51,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "Everest is the tallest"
+ },
+ {
+  "n": 52,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "Einstein developed general relativity"
+ },
+ {
+  "n": 53,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "Jupiter is the largest planet"
+ },
+ {
+  "n": 54,
+  "truth": "FALSE",
+  "A": 2,
+  "note": "corrects to nitrogen",
+  "stmt": "argon is the main gas"
+ },
+ {
+  "n": 55,
+  "truth": "FALSE",
+  "A": 2,
+  "note": "corrects to 88",
+  "stmt": "a standard piano has 61 keys"
+ },
+ {
+  "n": 56,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "a hexagon has six sides"
+ },
+ {
+  "n": 57,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "the European Union has 27 member states"
+ },
+ {
+  "n": 58,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "nitrogen is the main gas"
+ },
+ {
+  "n": 59,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "O negative is the universal donor"
+ },
+ {
+  "n": 60,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "Jupiter is the largest planet"
+ },
+ {
+  "n": 61,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "Einstein developed general relativity"
+ },
+ {
+  "n": 62,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "Mars is the red planet"
+ },
+ {
+  "n": 63,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "plants absorb carbon dioxide"
+ },
+ {
+  "n": 64,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "Mars is the red planet"
+ },
+ {
+  "n": 65,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "a hexagon has six sides"
+ },
+ {
+  "n": 66,
+  "truth": "FALSE",
+  "A": 2,
+  "note": "substitutes Einstein",
+  "stmt": "Faraday developed general relativity"
+ },
+ {
+  "n": 67,
+  "truth": "FALSE",
+  "A": 5,
+  "note": "disputes correctly but offers vitamin A, an invented alternative",
+  "stmt": "sunlight helps the skin produce vitamin K"
+ },
+ {
+  "n": 68,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "invented detail about a dorsal fin, but affirms",
+  "stmt": "the blue whale is the largest mammal"
+ },
+ {
+  "n": 69,
+  "truth": "FALSE",
+  "A": 2,
+  "note": "corrects to vitamin D",
+  "stmt": "sunlight helps the skin produce vitamin K"
+ },
+ {
+  "n": 70,
+  "truth": "TRUE",
+  "A": 3,
+  "note": "'can vary slightly', qualifies while affirming 206",
+  "stmt": "an adult human has 206 bones"
+ },
+ {
+  "n": 71,
+  "truth": "FALSE",
+  "A": 2,
+  "note": "corrects to Jupiter",
+  "stmt": "Neptune is the largest planet"
+ },
+ {
+  "n": 72,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "Mexico has the most native Spanish speakers"
+ },
+ {
+  "n": 73,
+  "truth": "FALSE",
+  "A": 1,
+  "note": "AFFIRMS the false claim with invented reasoning about antigens",
+  "stmt": "AB positive is the universal donor"
+ },
+ {
+  "n": 74,
+  "truth": "FALSE",
+  "A": 1,
+  "note": "AFFIRMS the false claim with invented reasoning about native speakers",
+  "stmt": "Spain has the most native Spanish speakers"
+ },
+ {
+  "n": 75,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "plants absorb carbon dioxide"
+ },
+ {
+  "n": 76,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "the human heart has four chambers"
+ },
+ {
+  "n": 77,
+  "truth": "FALSE",
+  "A": 2,
+  "note": "places the pyramids in Egypt",
+  "stmt": "the pyramids of Giza are in Peru"
+ },
+ {
+  "n": 78,
+  "truth": "FALSE",
+  "A": 2,
+  "note": "substitutes O negative",
+  "stmt": "AB positive is the universal donor"
+ },
+ {
+  "n": 79,
+  "truth": "FALSE",
+  "A": 2,
+  "note": "corrects the date",
+  "stmt": "the Second World War ended in 1918"
+ },
+ {
+  "n": 80,
+  "truth": "TRUE",
+  "A": 1,
+  "note": "",
+  "stmt": "the Second World War ended in 1945"
+ }
+]
