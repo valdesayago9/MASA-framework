@@ -18,24 +18,11 @@ Informed intervention. With a mechanistic map in hand, the aim is to know exactl
 
 What is in here
 
-Sixty-two experimental runs across six model organisms — Gemma-2-2B-it, Gemma-2-9B-it, Llama-3.1-8B-Instruct, Qwen2.5-7B-Instruct, Llama-3.3-70B and Claude Sonnet 4.5. A twenty-four-notebook sparse-autoencoder line, thirty-nine numbered arcs and their versions between Arc 8 and Arc 26, and four runs of the signal-detection work. Notebooks with their outputs, per-item generations, and blind-audit slices with their keys and every reader's scores.
+Sixty-two experimental runs across six model organisms — Gemma-2-2B-it, Gemma-2-9B-it, Llama-3.1-8B-Instruct, Qwen2.5-7B-Instruct, Llama-3.3-70B and Claude Sonnet 4.5. A twenty-four-notebook sparse-autoencoder line and thirty-nine numbered arcs and their versions between Arc 8 and Arc 26. Notebooks with their outputs, per-item generations, and blind-audit slices with their keys and every reader's scores.
 
 Twenty-two of those runs ended in a documented retraction or correction, and in almost every case the cause was a broken instrument rather than a false hypothesis. Several notebooks are named after their own failure — 16_v1_broken_null.ipynb, 15_v2_steering_breaks_model.ipynb, 08_Defensive_Ablation_null.ipynb, 05_Detection_first_attempt.ipynb. That is the point, not an embarrassment: the failures are what produced the measurement protocols, and the protocols are the transferable part.
 
 Lines of work
-A Rate Is Two Numbers — sensitivity and criterion for refusal
-
-The most recent line. A safety rate is one point on a curve, and in detection theory it is the joint product of two independent parameters: how well the system tells the cases apart (d′) and where it has set its threshold (c). From the rate alone the two cannot be distinguished — which is what every frontier system card reports, and, since 2026, what automated alignment search hill-climbs.
-
-Four runs, two model families, one fixed 120-item graded stimulus set, 944 blind human readings.
-
-A system-prompt change is a criterion knob in four runs out of four. Its d′ variation sits below its own simulated null every time, with the whole interval below in three of the four. It moves where the threshold sits and leaves what the model can tell apart untouched.
-A steering direction is a different kind of lever, and it is specific. Suppressing the refusal direction destroys sensitivity and amplifying it raises sensitivity, monotonically (ρ = +1.000 across eleven doses on a criterion-free readout, p < 0.00005). At matched off-target disturbance it costs 3.29× [2.34, 4.35] more sensitivity than a concept direction of identical construction.
-Whether a site reads as a criterion lever or a sensitivity lever depends on the dose, not the layer. At the registered comparison level, five of eight swept sites classify as criterion levers. Pushed harder, every site that can reach the higher dose moves sensitivity and none classifies as criterion. "This intervention is a criterion lever" is not a well-formed claim unless a dose is stated with it.
-The judge-versus-act gap is an artefact of the readout scale. Four readouts of the same comparison gave d′ ceilings of 2.316, 2.591, 3.818 and 5.259. The five-value ordinal readout saturates at 2.316 while the action channel sits at 2.389 — it could not have shown a positive gap whatever the model did.
-
-The same scorer code, unchanged, produced κ 0.748, 0.959, 0.867 and 0.941 across the four runs, with worst-cell positive predictive values of 0.143, 0.963, 0.917 and 0.889. A scorer validated once is not validated, and validation is not per model organism either — it is per run, every time. Five errata are published with the result.
-
 Readable Is Not Actionable — twelve failure modes in the measurement of safety directions
 
 Twenty-two experimental arcs on Gemma-2-9B-it and Gemma-2-2B mapping four safety-relevant concepts. Eleven produced no usable result. Twelve measurement protocols came out of those failures, each with the control that catches it and the cost of running it.
@@ -86,7 +73,7 @@ Every effect is measured against a control matched on how much it disturbs the m
 Controls halt the run when they fail — a control that is computed, printed and ignored is not a control
 Retraction is a first-class result
 
-On blind scoring. All blind scoring here is done by one human reader. On some slices a language model scored the same items as a declared secondary pass; its agreement with the human reading is published as a measurement of that screen, never as inter-rater reliability, and it has never adjudicated a human score. What is reported for reader stability is intra-reader consistency on unmarked repeats — sixteen per run in the signal-detection line, at 16/16, 16/16, 14/16 and 16/16 — which is a measure of stability and not the same measure as inter-rater reliability. The limitation is stated rather than worked around, because the alternative available here is an automatic scorer, and a large part of this repository is a measurement of how badly those behave.
+On blind scoring. All blind scoring here is done by one human reader. On some slices a language model scored the same items as a declared secondary pass; its agreement with the human reading is published as a measurement of that screen, never as inter-rater reliability, and it has never adjudicated a human score. What is reported for reader stability is intra-reader consistency on unmarked repeats, which is a measure of stability and not the same measure as inter-rater reliability. The limitation is stated rather than worked around, because the alternative available here is an automatic scorer, and a large part of this repository is a measurement of how badly those behave.
 
 Publication rule
 
